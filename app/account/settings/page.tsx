@@ -1,8 +1,16 @@
 'use client';
 
+import dynamic from 'next/dynamic';
 import { useEffect, useMemo, useState } from 'react';
-import { HomeLocationMap } from '@/components/home-location-map';
 import { useLocale } from '@/lib/client-i18n';
+
+const HomeLocationMap = dynamic(
+  () =>
+    import('@/components/home-location-map').then(
+      (module) => module.HomeLocationMap
+    ),
+  { ssr: false }
+);
 
 const PREGNANCY_WEEK_STORAGE_KEY = 'weekOfPregnancy';
 const HOME_LOCATION_STORAGE_KEY = 'homeLocation';

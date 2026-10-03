@@ -21,7 +21,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
 
   const accountTabs = [
     { href: '/account/settings', label: t.tabs.settings, icon: '⚙️' },
-    { href: '/account/favorites', label: t.tabs.favorites, icon: '♥' },
+    { href: '/account/favorite-places', label: t.tabs.favorites, icon: '♥' },
   ];
 
   useEffect(() => {

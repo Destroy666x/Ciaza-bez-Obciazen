@@ -347,14 +347,6 @@ export function ServiceMap({ locations }: { locations: ServiceLocation[] }) {
   }, []);
 
   useEffect(() => {
-    setStoredFavoriteLocationIds(favoriteIds);
-  }, [favoriteIds]);
-
-  useEffect(() => {
-    setStoredFavoriteLocationIds(favoriteIds);
-  }, [favoriteIds]);
-
-  useEffect(() => {
     void requestLocation();
   }, [requestLocation]);
 
@@ -423,11 +415,15 @@ export function ServiceMap({ locations }: { locations: ServiceLocation[] }) {
   };
 
   const toggleFavorite = (locationId: string) => {
-    setFavoriteIds((current) =>
-      current.includes(locationId)
+    setFavoriteIds((current) => {
+      const next = current.includes(locationId)
         ? current.filter((entry) => entry !== locationId)
-        : [...current, locationId]
-    );
+        : [...current, locationId];
+
+      setStoredFavoriteLocationIds(next);
+
+      return next;
+    });
   };
 
   return (
@@ -607,7 +603,6 @@ export function ServiceMap({ locations }: { locations: ServiceLocation[] }) {
 
           {categoryOrder.map((type) => {
             const categoryItems = locations.filter((place) => place.type === type);
-            const items = visibleLocations.filter((place) => place.type === type);
             const isOpen = openType === type;
             const label = categoryLabels[type] ?? type;
 
