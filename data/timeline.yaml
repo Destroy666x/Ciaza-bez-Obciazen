@@ -1,0 +1,29 @@
+milestones:
+  - week: 8
+    title: Wizyta kontrolna i rozpoznanie ciąży
+    summary: Potwierdzenie ciążowego planu i ustalenie pierwszych terminów badań.
+    article: zdrowie/jak-zaplanowac-badania
+  - week: 12
+    title: Ocena pierwszego trymestru
+    summary: Badania laboratoryjne i wczesna ocena rozwoju płodu.
+    article: zdrowie/jak-zaplanowac-badania
+  - week: 20
+    title: Badanie ultrasonograficzne i plan opieki
+    summary: Istotny moment oceny rozwoju oraz rozmowa o planie porodu.
+    article: zdrowie/jak-zaplanowac-badania
+  - week: 28
+    title: Trzeci trymestr i przygotowanie do porodu
+    summary: Ocena zdrowia, plan porodu oraz rozmowa o opiece po urodzeniu.
+    article: zdrowie/jak-zaplanowac-badania
+  - week: 32
+    title: Wsparcie psychiczne i proste przygotowania
+    summary: Redukcja stresu, plan wsparcia i organizacja codzienności.
+    article: zdrowie/zdrowie-psychiczne
+  - week: 36
+    title: Zbliża się poród
+    summary: Ostatnie konsultacje i wygodny plan transportu i opieki.
+    article: prawo/zwolnienie-od-pracy
+  - week: 40
+    title: Termin porodu i pierwsze dni po porodzie
+    summary: Pewne wsparcie, plan opieki i przygotowanie do nowego etapu.
+    article: praca/plan-powrotu-do-pracy

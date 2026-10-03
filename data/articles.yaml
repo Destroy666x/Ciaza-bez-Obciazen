@@ -1,0 +1,284 @@
+articles:
+  - slug: zdrowie/zdrowie-psychiczne
+    category: zdrowie/zdrowie-psychiczne
+    title:
+      en: Mental wellbeing during pregnancy
+      pl: Zdrowie psychiczne w ciąży
+    summary:
+      en: How to spot overload, when to ask for support, and what helps in everyday life.
+      pl: Jak rozpoznać przeciążenie, kiedy szukać pomocy i co pomaga na co dzień.
+    tags:
+      en: [health, psychology, support]
+      pl: [zdrowie, psychologia, wsparcie]
+    links:
+      - label:
+          en: Pregnancy psychology guidance — gov.pl
+          pl: Poradnia psychologiczna w ciąży — gov.pl
+        url: https://www.gov.pl/web/zdrowie
+      - label:
+          en: Useful information about mental health
+          pl: Ważne informacje o zdrowiu psychologicznym
+        url: https://www.rynekzdrowia.pl/
+    content:
+      en:
+        - "Many women feel more sensitive, tired, or worried during pregnancy. This is not a sign of weakness; it is a sign that your body and mind need steadiness."
+        - "Common signs that are worth noting include exhaustion, rising anxiety, irritability, sleep disruption, feeling overwhelmed, or mood swings."
+        - "A regular daily rhythm, support from a partner, conversations with a clinician or psychologist, and reliable sources of information all help. If these symptoms continue, contact your clinic or mental health specialist."
+        - "If you feel unable to control your emotions or fear for your safety or your baby's safety, contact your midwife, doctor, or an urgent support line immediately."
+      pl:
+        - "W ciąży wiele kobiet doświadcza większej wrażliwości, zmęczenia i niepokoju. To nie jest oznaka słabości, tylko sygnał, że organizm i psychika potrzebują stabilizacji."
+        - "Najczęstsze objawy, które warto zgłosić, to przewlekłe zmęczenie, narastający niepokój, drażliwość, trudności ze snem, poczucie przytłoczenia czy wahania nastroju."
+        - "Dobrze działa regularny rytm dnia, wsparcie partnera, rozmowy z lekarzem lub psychologiem oraz korzystanie z bezpiecznych źródeł informacji. W razie takich objawów warto skontaktować się z przychodnią lub specjalistą od zdrowia psychicznego."
+        - "Jeżeli czujesz, że traciłaś kontrolę nad emocjami albo obawiasz się o bezpieczeństwo siebie lub dziecka, natychmiast skontaktuj się z położną, lekarzem lub numerem pomocy."
+
+  - slug: zdrowie/jak-zaplanowac-badania
+    category: zdrowie/jak-zaplanowac-badania
+    title:
+      en: How to plan check-ups and prenatal visits
+      pl: Jak zaplanować badania i wizyty kontrolne
+    summary:
+      en: When to schedule appointments and what tests are recommended during each trimester.
+      pl: Kiedy i jakie badania są obowiązkowe w poszczególnych trymestrach ciąży.
+    tags:
+      en: [screening, check-ups, pregnancy plan]
+      pl: [badania, kontrola, ciążowy plan]
+    links:
+      - label:
+          en: Prenatal appointments calendar
+          pl: Kalendarz wizyt prenatalnych
+        url: https://www.gov.pl/web/zdrowie
+      - label:
+          en: Pregnancy care and follow-up overview
+          pl: Jak wygląda opieka okołoporodowa
+        url: https://www.mp.pl/
+    content:
+      en:
+        - "Your first appointment should happen as soon as possible after confirming the pregnancy. Your doctor or midwife will assess your health, calculate the due date, and plan your tests."
+        - "In the first trimester, blood tests, blood pressure checks, and a medical history review are commonly done. In the second trimester, ultrasound scans and monitoring of fetal development are usually scheduled."
+        - "In the third trimester, key checks include blood pressure monitoring, birth planning, and ensuring your care team has a clear plan for delivery."
+        - "The best approach is to keep a simple calendar of appointments and write down questions in advance so nothing important is missed."
+      pl:
+        - "Pierwsza wizyta powinna odbyć się tak szybko, jak to możliwe po potwierdzeniu ciąży. Lekarz lub położna oceniją przebieg, obliczą termin porodu i zaplanują badania."
+        - "W pierwszym trymestrze często wykonuje się badania laboratoryjne, ocenę ciśnienia i wywiad. W drugim trymestrze zwykle przewidziane są badania ultrasonograficzne oraz kontrole rozwoju płodu."
+        - "W trzecim trymestrze kluczowe są monitorowanie ciśnienia, kształtowanie planu porodu i sprawdzanie przygotowania do porodu w placówce."
+        - "Najważniejsze jest prowadzenie kalendarza wizyt i zapisywanie pytań, aby nie pominąć żadnej istotnej kwestii."
+
+  - slug: zdrowie/porod
+    category: zdrowie/porod
+    title:
+      en: Birth and what to expect during labor
+      pl: Poród i to, czego można się spodziewać podczas porodu
+    summary:
+      en: What helps during labor, how to prepare, and how to communicate with the care team.
+      pl: Jak przygotować się do porodu i jak zadbać o komunikację z personelem medycznym.
+    tags:
+      en: [birth, labor, preparation]
+      pl: [poród, przygotowanie, opieka]
+    links:
+      - label:
+          en: Birth preparation guidance
+          pl: Poradnik przygotowania do porodu
+        url: https://www.gov.pl/web/zdrowie
+      - label:
+          en: Maternity ward and delivery support
+          pl: Opieka nad kobietą w porodzie
+        url: https://www.mp.pl/
+    content:
+      en:
+        - "A birth plan can be useful, but it is also important to stay flexible if your healthcare team suggests a different course of action. The main goal is safety and support for you and your baby."
+        - "It helps to have a clear idea of who will accompany you, what pain-relief options you prefer, and what practical items you want ready at the hospital."
+        - "During labor, you may feel a range of emotions: fear, strength, exhaustion, and relief. All of that can be part of the process."
+        - "If you notice significant bleeding, severe pain, very little movement from the baby, or a sudden increase in symptoms, contact your medical team or go to the maternity ward urgently."
+      pl:
+        - "Plan porodu może być przydatny, ale równie ważna jest elastyczność, jeśli zespół medyczny zaleci inny kierunek postępowania. Najważniejsze są bezpieczeństwo i wsparcie dla Ciebie oraz dziecka."
+        - "Warto wcześniej ustalić, kto będzie przy Tobie, jakie metody łagodzenia bólu są dla Ciebie preferowane i co warto mieć przygotowane w szpitalu."
+        - "W trakcie porodu możesz przeżywać różne emocje: strach, siłę, zmęczenie i ulgę. To normalne i część procesu."
+        - "Jeśli pojawi się silne krwawienie, bardzo duży ból, bardzo mało ruchów dziecka lub nagły wzrost objawów, skontaktuj się z personelem medycznym lub udaj się natychmiast do szpitala."
+
+  - slug: zdrowie/leki-i-suplementy
+    category: zdrowie/leki-i-suplementy
+    title:
+      en: Medicines, supplements, and everyday choices during pregnancy
+      pl: Leki, suplementy i codzienne wybory w ciąży
+    summary:
+      en: How to think about treatment, supplements, and safe decision-making with your clinician.
+      pl: Jak podejmować decyzje o lekach, suplementach i codziennych wyborach z lekarzem lub położną.
+    tags:
+      en: [medications, supplements, safety]
+      pl: [leki, suplementy, bezpieczeństwo]
+    links:
+      - label:
+          en: Safe medication information for pregnancy
+          pl: Informacje o bezpiecznym stosowaniu leków w ciąży
+        url: https://www.gov.pl/web/zdrowie
+      - label:
+          en: Prenatal supplement guidance
+          pl: Porady odnośnie suplementacji w ciąży
+        url: https://www.mp.pl/
+    content:
+      en:
+        - "Some <b>supplements</b> are recommended during pregnancy, but the exact choice should be adapted to your situation and the guidance of your clinician."
+        - "Before taking any medicine, including over-the-counter products, ask whether it is safe in your trimester and whether it can interact with your current treatment."
+        - "It is worth keeping a list of medicines, vitamins, and supplements you use so that every care visit is well informed."
+        - "If you are unsure, don't stop or start treatment without checking with a doctor or midwife."
+      pl:
+        - "Niektóre <b>suplementy</b> są zalecane w ciąży, ale ich dobór powinien być dostosowany do Twojej sytuacji i zaleceń lekarza lub położnej."
+        - "Zanim zaczniesz brać dowolny lek, również bez recepty, sprawdź, czy jest bezpieczny w danym trymestrze i czy nie koliduje z innym leczeniem."
+        - "Warto prowadzić listę leków, witamin i suplementów, aby każda wizyta kontrolna była dobrze udokumentowana."
+        - "Jeśli masz wątpliwości, nie przerywaj ani nie rozpoczynaj leczenia bez konsultacji z lekarzem lub położną."
+
+  - slug: prawo/ulga-800-plus
+    category: prawo/ulga-800-plus
+    title:
+      en: How to apply for Family 800 Plus and other childcare benefits
+      pl: Jak wystąpić o 800 Plus i inne świadczenia
+    summary:
+      en: When and how to apply for family allowances and child-related support.
+      pl: Kiedy i jak ubiegać się o świadczenia dla dziecka i dodatki rodzinne.
+    tags:
+      en: [rights, benefits, family support]
+      pl: [prawo, świadczenia, 800 plus]
+    links:
+      - label:
+          en: Family benefits information
+          pl: 800 Plus w ZUS i gov.pl
+        url: https://www.gov.pl/web/rodzina
+      - label:
+          en: Family allowance and support overview
+          pl: Informacja o świadczeniach rodzinnych
+        url: https://www.zus.pl/
+    content:
+      en:
+        - "Family benefits are often based on income, the number of children, and your family situation. In practice, the application is usually submitted through the local office or online portal."
+        - "If you are pregnant or have a newborn, it is worth checking your entitlements early, because support may be available once the relevant rules are met."
+        - "You may also qualify for additional support when healthcare, childcare, rehabilitation, or other essential costs arise."
+        - "Keep copies of documents, note the dates of submitting applications, and ask for written confirmation whenever possible to keep track of the case clearly."
+      pl:
+        - "Świadczenia rodzinne są przyznawane na podstawie dochodów, liczby dzieci i sytuacji rodzinnej. W praktyce wniosek składa się w urzędzie gminy lub miasta, a niekiedy w systemie online."
+        - "W przypadku ciąży i urodzenia dziecka warto sprawdzić status świadczeń, która jest dostępna od chwili powstania prawa do zasiłku lub dodatku."
+        - "Dodatkowo można składać wnioski o pomoc w sytuacjach szczególnych, gdy pojawiają się koszty opieki, leczenia czy rehabilitacji."
+        - "Warto zachować kopie dokumentów, daty złożenia wniosków i przyjmować informacje pisemne, aby bezpiecznie monitorować status sprawy."
+
+  - slug: prawo/zwolnienie-od-pracy
+    category: prawo/zwolnienie-od-pracy
+    title:
+      en: Pregnancy leave and workplace rights
+      pl: Prawo do zwolnienia i urlopów w ciąży
+    summary:
+      en: What pregnancy protections cover and how to use different leave options.
+      pl: Co obejmuje ochrona pracownicy w ciąży i kiedy korzystać z różnych form urlopu.
+    tags:
+      en: [work rights, leave, protection]
+      pl: [prawo pracy, urlop, ochrona]
+    links:
+      - label:
+          en: Legal information on employee protection
+          pl: Ustawy i informacje o ochronie pracowniczej
+        url: https://isap.sejm.gov.pl/
+      - label:
+          en: Pregnancy and employment advice
+          pl: Porady pracownicze w zakresie ciąży
+        url: https://www.mpips.gov.pl/
+    content:
+      en:
+        - "Pregnant employees are entitled to protection from dismissal and to use the leave and support options available under employment law."
+        - "It is useful to understand appointment scheduling, time off during pregnancy, and arrangements for returning to work after childbirth."
+        - "Check the deadlines for notifying your employer, the periods of maternity leave, and the possibility of taking leave earlier if needed."
+        - "If you are unsure about your rights, speak with a worker advisor or your local support centre before making decisions."
+      pl:
+        - "Pracownica w ciąży ma prawo do ochrony przed zwolnieniem i do korzystania z przysługujących jej przepisów dotyczących urlopów."
+        - "W praktyce istotne są kwestie związane z badaniami lekarskimi, zwolnieniami od pracy w trakcie ciąży oraz planowaniem powrotu do pracy po porodzie."
+        - "Warto znać termin zgłoszenia do pracodawcy, terminy urlopu macierzyńskiego i możliwości wcześniejszego korzystania z urlopu."
+        - "Jeżeli masz wątpliwości co do swoich praw, skonsultuj sprawę z doradcą pracowniczym albo z lokalnym punktem pomocy."
+
+  - slug: finanse/benefity-dla-rodzin
+    category: finanse/benefity-dla-rodzin
+    title:
+      en: Benefits and aid for families with a baby
+      pl: Benefity i pomoc dla rodzin z dzieckiem
+    summary:
+      en: How to check available support, grants, and family assistance when circumstances are challenging.
+      pl: Jak sprawdzić dostępne świadczenia, zasiłki i wsparcie dla rodzin w trudnej sytuacji.
+    tags:
+      en: [finances, benefits, support]
+      pl: [finanse, zasiłki, wsparcie]
+    links:
+      - label:
+          en: Family benefits rules
+          pl: Zasady świadczeń rodzinnych
+        url: https://www.gov.pl/web/rodzina
+      - label:
+          en: Support and aid overview
+          pl: Informacja o zasiłkach i pomocach
+        url: https://www.gov.pl/web/rodzina
+    content:
+      en:
+        - "During pregnancy and after the baby is born, it is worth checking for financial help, food supplements, and care benefits if your situation requires extra support."
+        - "Many families are eligible for grants or local programmes. It is also worth checking what support is available in your local area."
+        - "If the situation is difficult, speak with a welfare advisor or local support centre. Gathering documents and income information in one place makes applications easier."
+      pl:
+        - "W okresie ciąży i po narodzinach dziecka warto sprawdzić dostępność zasiłków, dodatków do żywności i świadczeń opiekuńczych, jeśliTwoja sytuacja wymaga pomocy."
+        - "Wiele rodzin ma prawo do pomocy finansowej lub możliwości skorzystania z programów lokalnych. Warto sprawdzić także dostępne zakłady w rejonie zamieszkania."
+        - "Jeżeli sytuacja jest trudna, skontaktuj się z osobą doradczą w urzędzie lub lokalnym centrum pomocy. Warto zorganizować dokumenty i wyniki dochodów do wniosku."
+
+  - slug: praca/plan-powrotu-do-pracy
+    category: praca/plan-powrotu-do-pracy
+    title:
+      en: A return-to-work plan after childbirth
+      pl: Plan powrotu do pracy po porodzie
+    summary:
+      en: How to prepare for returning to work while protecting your wellbeing and childcare situation.
+      pl: Jak przygotować się do powrotu do pracy i jak zadbać o pracę, opiekę i rytm dnia.
+    tags:
+      en: [return to work, parenting, planning]
+      pl: [powrót do pracy, rodzicielstwo, planowanie]
+    links:
+      - label:
+          en: Leave and childcare information
+          pl: Informacja o urlopach i opiece
+        url: https://www.gov.pl/web/rodzina
+      - label:
+          en: Parenting and employment advice
+          pl: Porady rodzicielskie i pracownicze
+        url: https://www.mpips.gov.pl/
+    content:
+      en:
+        - "It helps to plan a return to work in the late stages of pregnancy so you are not overloaded and your childcare arrangements are in place."
+        - "Consider different scenarios: grandparents, a nursery, a nanny, part-time work, or a flexible schedule."
+        - "It is useful to set priorities before maternity leave ends so the transition feels steadier and less stressful."
+      pl:
+        - "Dobrze zaplanować powrót do pracy na etapie późnej ciąży, aby nie przeciążyć organizmu i zapewnić odpowiednią opiekę nad dzieckiem."
+        - "Rozważ różne scenariusze: opiekę dziadków, żłobek, nianię, część etatu czy elastyczny grafika."
+        - "Pomocne jest ustalenie rezerw i priorytetów, zanim minie okres urlopu macierzyńskiego."
+
+  - slug: faq
+    category: faq
+    title:
+      en: Key answers about pregnancy and practical support
+      pl: Najważniejsze odpowiedzi na pytania o ciążę i wsparcie
+    summary:
+      en: Short, practical answers to common questions about pregnancy and support.
+      pl: Krótkie, praktyczne odpowiedzi na najczęściej zadawane kwestie.
+    tags:
+      en: [faq, quick guidance, safety]
+      pl: [faq, szybkie informacje, bezpieczeństwo]
+    links:
+      - label:
+          en: Health information for pregnant women
+          pl: Wersje informacji i pomocy dla kobiet w ciąży
+        url: https://www.gov.pl/web/zdrowie
+      - label:
+          en: Family guidance and support
+          pl: Wsparcie i porady dla rodzin
+        url: https://www.gov.pl/web/rodzina
+    content:
+      en:
+        - "Does everyone need psychological support in pregnancy? Many women feel stress, anger, anxiety, or exhaustion, and those emotions are common and not a sign of failure."
+        - "Should you apply for benefits early? Yes, if you are unsure, gather the documents and ask for help from your local office."
+        - "Are tests always required? Many are recommended or necessary for safety, but your care team can explain what is needed in your situation."
+        - "Should you speak with your employer about leave early? Yes, agreeing on details before birth makes the schedule clearer and easier to manage."
+      pl:
+        - "Czy w każdej ciąży można potrzebować pomocy psychologicznej? Tak, złość, lęk i zmęczenie są częste i nie są oznaką problemu."
+        - "Czy warto od razu składać wnioski o świadczenia? Tak, jeśli masz niepewność, sprawdź dostępne dokumenty i skorzystaj z pomocy w urzędzie."
+        - "Czy badania są obowiązkowe? Wiele z nich jest zalecanych i czasem niezbędnych dla bezpieczeństwa matki i dziecka."
+        - "Czy pracownica w ciąży powinna konsultować plan urlopu z pracodawcą? Tak, warto ustalić szczegóły wcześniej, aby mieć przewidywalny harmonogram."

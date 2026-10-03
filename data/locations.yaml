@@ -1,0 +1,434 @@
+locations:
+  - id: warszawa-hospital-1
+    name: Szpital Maternite Plus
+    type: hospital
+    city: Warszawa
+    region: Mazowieckie
+    address: ul. Miodowa 13, Warszawa
+    rating: 4.8
+    lat: 52.2323
+    lng: 21.0096
+    phone: +48 22 510 20 40
+    website: https://www.gov.pl/web/zdrowie
+    description: Placówka z kompleksową opieką prenatalną i poradnią położniczą.
+    opening_hours: &a1
+      monday: 08:00-18:00
+      tuesday: 08:00-18:00
+      wednesday: 08:00-18:00
+      thursday: 08:00-18:00
+      friday: 08:00-18:00
+      saturday: 09:00-13:00
+      sunday: closed
+  - id: krakow-gyneco-1
+    name: Poradnia Ginekologiczna Karmel
+    type: gynecologist
+    city: Kraków
+    region: Małopolskie
+    address: ul. Podgórska 18, Kraków
+    rating: 4.9
+    lat: 50.0619
+    lng: 19.9374
+    phone: +48 12 441 78 90
+    website: https://www.mp.pl
+    description: Ginekolog prowadzący opiekę w ciąży i diagnostykę prenatalną.
+    opening_hours: &a2
+      monday: 09:00-18:00
+      tuesday: 09:00-18:00
+      wednesday: 09:00-18:00
+      thursday: 09:00-18:00
+      friday: 09:00-17:00
+      saturday: 10:00-14:00
+      sunday: closed
+  - id: wroclaw-birth-1
+    name: Akademia Rodzenia Wrocław
+    type: birthing_class
+    city: Wrocław
+    region: Dolnośląskie
+    address: ul. Słowiańska 44, Wrocław
+    rating: 4.7
+    lat: 51.1079
+    lng: 17.0385
+    phone: +48 71 350 12 11
+    website: https://www.gov.pl/web/rodzina
+    description: Kursy przygotowania do porodu i umiejętności opieki nad niemowlęciem.
+    opening_hours: &a3
+      monday: 10:00-18:00
+      tuesday: 10:00-18:00
+      wednesday: 10:00-18:00
+      thursday: 10:00-18:00
+      friday: 10:00-17:00
+      saturday: 11:00-15:00
+      sunday: closed
+  - id: gdansk-diet-1
+    name: Dietetyk Ciążowy Gdańsk
+    type: dietitian
+    city: Gdańsk
+    region: Pomorskie
+    address: ul. Długa 7, Gdańsk
+    rating: 4.6
+    lat: 54.352
+    lng: 18.6466
+    phone: +48 58 770 09 11
+    website: https://www.poradnia.pl/
+    description: Indywidualne planowanie diety w ciąży i po porodzie.
+    opening_hours: &a4
+      monday: 09:00-17:00
+      tuesday: 09:00-17:00
+      wednesday: 09:00-17:00
+      thursday: 09:00-17:00
+      friday: 09:00-16:00
+      saturday: closed
+      sunday: closed
+  - id: poznan-psych-1
+    name: Poradnia Rozwojowa Plus
+    type: psychologist
+    city: Poznań
+    region: Wielkopolskie
+    address: ul. Świętego Marcina 68, Poznań
+    rating: 4.8
+    lat: 52.4094
+    lng: 16.935
+    phone: +48 61 444 54 80
+    website: https://www.mp.pl
+    description: Wsparcie psychologiczne i ocena stresu, lęków i emocji związanych z ciążą.
+    opening_hours: &a5
+      monday: 09:00-19:00
+      tuesday: 09:00-19:00
+      wednesday: 09:00-19:00
+      thursday: 09:00-19:00
+      friday: 09:00-17:00
+      saturday: closed
+      sunday: closed
+  - id: lublin-physio-1
+    name: Physio Mama Lublin
+    type: physiotherapist
+    city: Lublin
+    region: Lubelskie
+    address: ul. Krakowska 8, Lublin
+    rating: 4.7
+    lat: 51.2465
+    lng: 22.5684
+    phone: +48 81 444 21 80
+    website: https://www.mp.pl
+    description: Ćwiczenia, korekta postawy i wsparcie fizyczne w ciąży.
+    opening_hours: &a6
+      monday: 08:00-18:00
+      tuesday: 08:00-18:00
+      wednesday: 08:00-18:00
+      thursday: 08:00-18:00
+      friday: 08:00-16:00
+      saturday: 10:00-14:00
+      sunday: closed
+  - id: bialystok-mops-1
+    name: MOPS Białystok
+    type: mops
+    city: Białystok
+    region: Podlaskie
+    address: ul. Piastowska 3, Białystok
+    rating: 4.5
+    lat: 53.1325
+    lng: 23.1688
+    phone: +48 85 743 30 10
+    website: https://www.gov.pl/web/rodzina
+    description: Wsparcie i informacje o pomocy społecznej oraz opiece nad dziećmi.
+    opening_hours: &a7
+      monday: 09:00-17:00
+      tuesday: 09:00-17:00
+      wednesday: 09:00-17:00
+      thursday: 09:00-17:00
+      friday: 09:00-15:00
+      saturday: closed
+      sunday: closed
+  - id: lodz-store-1
+    name: Baby Bliss Łódź
+    type: store
+    city: Łódź
+    region: Łódzkie
+    address: ul. Piotrkowska 99, Łódź
+    rating: 4.6
+    lat: 51.777
+    lng: 19.457
+    phone: +48 42 630 10 45
+    website: https://www.babyclub.pl
+    description: Sklep z akcesoriami, wyprawką i potrzebnymi produktami dla mam i niemowląt.
+    opening_hours: &a8
+      monday: 10:00-18:00
+      tuesday: 10:00-18:00
+      wednesday: 10:00-18:00
+      thursday: 10:00-18:00
+      friday: 10:00-18:00
+      saturday: 10:00-15:00
+      sunday: closed
+  - id: katowice-hospital-2
+    name: Przyjazna Matka Katowice
+    type: hospital
+    city: Katowice
+    region: Śląskie
+    address: ul. Kościuszki 25, Katowice
+    rating: 4.7
+    lat: 50.2649
+    lng: 19.0238
+    phone: +48 32 751 22 15
+    website: https://www.gov.pl/web/zdrowie
+    description: Klinika położniczo-ginekologiczna z opieką nad Ciążą wysokiego ryzyka.
+    opening_hours: *a1
+  - id: szczecin-gyneco-2
+    name: Ginekologia Dla Ciebie Szczecin
+    type: gynecologist
+    city: Szczecin
+    region: Zachodniopomorskie
+    address: ul. Wojska Polskiego 9, Szczecin
+    rating: 4.8
+    lat: 53.4285
+    lng: 14.5528
+    phone: +48 91 882 60 70
+    website: https://www.mp.pl
+    description: Wysokiej jakości opieka prenatalna i planowanie porodu.
+    opening_hours: *a2
+  - id: torun-birth-2
+    name: Mama i Dziecko Toruń
+    type: birthing_class
+    city: Toruń
+    region: Kujawsko-pomorskie
+    address: ul. Lubicka 11, Toruń
+    rating: 4.7
+    lat: 53.0138
+    lng: 18.5981
+    phone: +48 56 451 43 12
+    website: https://www.gov.pl/web/rodzina
+    description: Zajęcia z przygotowania do porodu i pierwszych miesięcy z dzieckiem.
+    opening_hours: *a3
+  - id: rzeszow-diet-2
+    name: Żywieniowa Pielęgnacja Rzeszów
+    type: dietitian
+    city: Rzeszów
+    region: Podkarpackie
+    address: ul. 3 Maja 24, Rzeszów
+    rating: 4.6
+    lat: 50.0412
+    lng: 21.9991
+    phone: +48 17 502 44 60
+    website: https://www.poradnia.pl/
+    description: Dieta i suplementacja na każdym etapie ciąży.
+    opening_hours: *a4
+  - id: opole-psych-2
+    name: Czas na Spokój Opole
+    type: psychologist
+    city: Opole
+    region: Opolskie
+    address: ul. Piastowska 19, Opole
+    rating: 4.8
+    lat: 50.6751
+    lng: 17.9213
+    phone: +48 77 500 22 70
+    website: https://www.mp.pl
+    description: Relief dla matek z lękiem, stresem i wyczerpaniem psychologicznym.
+    opening_hours: *a5
+  - id: bielsko-physio-2
+    name: Krok do Relaksu Bielsko-Biała
+    type: physiotherapist
+    city: Bielsko-Biała
+    region: Śląskie
+    address: ul. 11 Listopada 10, Bielsko-Biała
+    rating: 4.7
+    lat: 49.8224
+    lng: 19.044
+    phone: +48 33 456 42 21
+    website: https://www.mp.pl
+    description: Fizjoterapia dla kobiet w ciąży i po porodzie.
+    opening_hours: *a6
+  - id: gdynia-mops-2
+    name: MOPS Gdynia
+    type: mops
+    city: Gdynia
+    region: Pomorskie
+    address: ul. Portowa 55, Gdynia
+    rating: 4.5
+    lat: 54.5207
+    lng: 18.5319
+    phone: +48 58 660 30 20
+    website: https://www.gov.pl/web/rodzina
+    description: Centrum pomocy, informacji i wsparcia rodzinom z małymi dziećmi.
+    opening_hours: *a7
+  - id: kielce-store-2
+    name: Mama i Ja Kielce
+    type: store
+    city: Kielce
+    region: Świętokrzyskie
+    address: ul. Warszawska 5, Kielce
+    rating: 4.6
+    lat: 50.8661
+    lng: 20.6286
+    phone: +48 41 333 87 00
+    website: https://www.babyclub.pl
+    description: Rodzinna wyprawka i akcesoria do domu dla nowej mamy.
+    opening_hours: *a8
+  - id: zielona-hospital-3
+    name: Piękna Ciąża Zielona Góra
+    type: hospital
+    city: Zielona Góra
+    region: Lubuskie
+    address: ul. Nowa 2, Zielona Góra
+    rating: 4.6
+    lat: 51.9384
+    lng: 15.505
+    phone: +48 68 451 55 01
+    website: https://www.gov.pl/web/zdrowie
+    description: Poradnie prenatalne i opieka położnicza z naciskiem na komfort pacjentek.
+    opening_hours: *a1
+  - id: olsztyn-gyneco-3
+    name: Klinika Matka Olsztyn
+    type: gynecologist
+    city: Olsztyn
+    region: Warmińsko-mazurskie
+    address: ul. Krótka 30, Olsztyn
+    rating: 4.7
+    lat: 53.7737
+    lng: 20.476
+    phone: +48 89 543 12 60
+    website: https://www.mp.pl
+    description: Ginekologia i opieka prenatalna z indywidualnym planem leczenia.
+    opening_hours: *a2
+  - id: koszalin-birth-3
+    name: Rozwój i Rodzenie Koszalin
+    type: birthing_class
+    city: Koszalin
+    region: Zachodniopomorskie
+    address: ul. Rybacka 8, Koszalin
+    rating: 4.5
+    lat: 54.1943
+    lng: 16.1727
+    phone: +48 94 665 22 78
+    website: https://www.gov.pl/web/rodzina
+    description: Zajęcia z przygotowania do porodu i pierwszych dni po urodzeniu.
+    opening_hours: *a3
+  - id: tarnow-diet-3
+    name: Tylko dla Mamy Tarnów
+    type: dietitian
+    city: Tarnów
+    region: Małopolskie
+    address: ul. Kwiatowa 12, Tarnów
+    rating: 4.6
+    lat: 50.0124
+    lng: 20.9882
+    phone: +48 14 688 90 02
+    website: https://www.poradnia.pl/
+    description: Rozpoznawanie potrzeb żywieniowych w ciąży i podczas karmienia.
+    opening_hours: *a4
+  - id: zabrze-psych-3
+    name: Zdrowie i Spokój Zabrze
+    type: psychologist
+    city: Zabrze
+    region: Śląskie
+    address: ul. Ulica dluga 10, Zabrze
+    rating: 4.8
+    lat: 50.324
+    lng: 18.785
+    phone: +48 32 330 67 09
+    website: https://www.mp.pl
+    description: Wsparcie dla mam z objawami lęku i przepracowywania trudnych doświadczeń.
+    opening_hours: *a5
+  - id: nowy-sacz-physio-3
+    name: Otwórz Swoje Ciało Nowy Sącz
+    type: physiotherapist
+    city: Nowy Sącz
+    region: Małopolskie
+    address: ul. Długa 3, Nowy Sącz
+    rating: 4.7
+    lat: 49.6211
+    lng: 20.6976
+    phone: +48 18 444 10 90
+    website: https://www.mp.pl
+    description: Ćwiczenia i rehabilitacja dla zdrowia grzbietu i stawów w ciąży.
+    opening_hours: *a6
+  - id: walbrzych-mops-3
+    name: MOPS Wałbrzych
+    type: mops
+    city: Wałbrzych
+    region: Dolnośląskie
+    address: ul. Krótka 4, Wałbrzych
+    rating: 4.5
+    lat: 50.7716
+    lng: 16.284
+    phone: +48 74 807 83 03
+    website: https://www.gov.pl/web/rodzina
+    description: Informacja o dodatkach, rodzinach i potrzebach socjalnych.
+    opening_hours: *a7
+  - id: gliwice-store-3
+    name: Malutka Radość Gliwice
+    type: store
+    city: Gliwice
+    region: Śląskie
+    address: ul. Węgierska 18, Gliwice
+    rating: 4.6
+    lat: 50.2945
+    lng: 18.6711
+    phone: +48 32 277 11 88
+    website: https://www.babyclub.pl
+    description: Sklep z wyprawką, dodatkami i przyborami do pierwszych miesięcy rodziny.
+    opening_hours: *a8
+  - id: plock-hospital-4
+    name: Poradnia dla Mam Płock
+    type: hospital
+    city: Płock
+    region: Mazowieckie
+    address: ul. Słoneczna 15, Płock
+    rating: 4.6
+    lat: 52.5494
+    lng: 19.706
+    phone: +48 24 262 77 30
+    website: https://www.gov.pl/web/zdrowie
+    description: Kompleksowa opieka prenatalna na terenie miasta i okolic.
+    opening_hours: *a1
+  - id: elblag-gyneco-4
+    name: Ginekolog Elbląg
+    type: gynecologist
+    city: Elbląg
+    region: Warmińsko-mazurskie
+    address: ul. Łąkowa 6, Elbląg
+    rating: 4.7
+    lat: 54.1561
+    lng: 19.4042
+    phone: +48 55 234 40 80
+    website: https://www.mp.pl
+    description: Opieka nad ciążą, kontrola badań i planowanie porodu.
+    opening_hours: *a2
+  - id: czestochowa-birth-4
+    name: Mamo, Wiemy Częstochowa
+    type: birthing_class
+    city: Częstochowa
+    region: Śląskie
+    address: ul. Żeromskiego 21, Częstochowa
+    rating: 4.5
+    lat: 50.812
+    lng: 19.1205
+    phone: +48 34 320 70 06
+    website: https://www.gov.pl/web/rodzina
+    description: Kursy z przygotowania do porodu i pierwszych tygodni po urodzeniu.
+    opening_hours: *a3
+  - id: sandomierz-diet-4
+    name: Smak i Energia Sandomierz
+    type: dietitian
+    city: Sandomierz
+    region: Świętokrzyskie
+    address: ul. Sandomierska 27, Sandomierz
+    rating: 4.6
+    lat: 50.6822
+    lng: 21.7483
+    phone: +48 15 666 88 12
+    website: https://www.poradnia.pl/
+    description: Plan żywienia i edukacja zdrowotna dla kobiet w ciąży.
+    opening_hours: *a4
+  - id: jastrzebie-psych-4
+    name: Wspólna Droga Jastrzębie-Zdrój
+    type: psychologist
+    city: Jastrzębie-Zdrój
+    region: Śląskie
+    address: ul. Parkowa 9, Jastrzębie-Zdrój
+    rating: 4.7
+    lat: 49.9539
+    lng: 18.5871
+    phone: +48 32 444 23 10
+    website: https://www.mp.pl
+    description: Psychoedukacja, wsparcie psychologiczne i terapia stresu związana z ciążą.
+    opening_hours: *a5

@@ -1,0 +1,139 @@
+categories:
+  - slug: zdrowie
+    title:
+      en: Health
+      pl: Zdrowie
+    description:
+      en: Guidance on prenatal care, tests, symptoms, and emotional wellbeing during pregnancy.
+      pl: Informacje o prenatalnej opiece, badaniach, objawach i zdrowiu psychicznym.
+    kind:
+      en: Health
+      pl: Zdrowie
+  - slug: zdrowie/zdrowie-psychiczne
+    parent: zdrowie
+    title:
+      en: Mental health
+      pl: Zdrowie psychiczne
+    description:
+      en: Stress, exhaustion, anxiety, and everyday support during pregnancy.
+      pl: Stres, zmęczenie, lęk i codzienne wsparcie w ciąży.
+    kind:
+      en: Health
+      pl: Zdrowie
+  - slug: zdrowie/jak-zaplanowac-badania
+    parent: zdrowie
+    title:
+      en: Pregnancy stages
+      pl: Etapy ciąży
+    description:
+      en: Planning visits, check-ups, and medical care through each stage of pregnancy.
+      pl: Planowanie wizyt, badań i opieki medycznej na każdym etapie ciąży.
+    kind:
+      en: Health
+      pl: Zdrowie
+  - slug: zdrowie/porod
+    parent: zdrowie
+    title:
+      en: Birth
+      pl: Poród
+    description:
+      en: Birth preparation, labor expectations, and key questions before delivery.
+      pl: Przygotowanie do porodu, oczekiwania i najważniejsze pytania przed porodem.
+    kind:
+      en: Health
+      pl: Zdrowie
+  - slug: zdrowie/leki-i-suplementy
+    parent: zdrowie
+    title:
+      en: Medications & supplements
+      pl: Leki i suplementy
+    description:
+      en: Safe medication choices, supplements, and everyday decisions during pregnancy.
+      pl: Bezpieczne decyzje o lekach, suplementach i codziennych wyborach w ciąży.
+    kind:
+      en: Health
+      pl: Zdrowie
+  - slug: prawo
+    title:
+      en: Rights
+      pl: Prawo
+    description:
+      en: Regulations, entitlements, maternity leave, and support available to pregnant women and parents.
+      pl: Zasady i procedury dotyczące ciąży, porodu, opieki i świadczeń.
+    kind:
+      en: Law
+      pl: Prawo
+  - slug: prawo/ulga-800-plus
+    parent: prawo
+    title:
+      en: Family rights
+      pl: Prawo do świadczeń
+    description:
+      en: Benefits, allowances, and support available to families during pregnancy and early parenthood.
+      pl: Świadczenia i wsparcie dla rodzin w okresie ciąży i wczesnego rodzicielstwa.
+    kind:
+      en: Law
+      pl: Prawo
+  - slug: prawo/zwolnienie-od-pracy
+    parent: prawo
+    title:
+      en: Work and leave
+      pl: Urlopy i praca
+    description:
+      en: Pregnancy leave, employee rights, and options for balancing work and care.
+      pl: Urlopy, prawa pracownicze i planowanie pracy w okresie ciąży.
+    kind:
+      en: Law
+      pl: Prawo
+  - slug: finanse
+    title:
+      en: Finances
+      pl: Finanse
+    description:
+      en: Benefits, allowances, family support and practical budgeting during pregnancy and the first months.
+      pl: Świadczenia, ulgi i wsparcie materialne dla rodzin.
+    kind:
+      en: Finances
+      pl: Finanse
+  - slug: finanse/benefity-dla-rodzin
+    parent: finanse
+    title:
+      en: Benefits and aid
+      pl: Świadczenia i pomoc
+    description:
+      en: Financial help, grants, and practical support when your situation is difficult.
+      pl: Pomoc finansowa, dodatki i praktyczne wsparcie w trudnej sytuacji.
+    kind:
+      en: Finances
+      pl: Finanse
+  - slug: praca
+    title:
+      en: Work
+      pl: Praca
+    description:
+      en: Leave, workplace rights, planning, and returning to work after childbirth.
+      pl: Urlopy, badania, prawa pracownicze i planowanie powrotu do pracy.
+    kind:
+      en: Work
+      pl: Praca
+  - slug: praca/plan-powrotu-do-pracy
+    parent: praca
+    title:
+      en: Birth and return to work
+      pl: Poród i powrót do pracy
+    description:
+      en: Preparing for childbirth and building a calmer return-to-work plan.
+      pl: Przygotowanie do porodu i spokojniejszy plan powrotu do pracy.
+    kind:
+      en: Work
+      pl: Praca
+  - slug: faq
+    title:
+      en: FAQ
+      pl: FAQ
+    description:
+      en: Short, practical answers to common pregnancy and support questions.
+      pl: Najważniejsze odpowiedzi na najczęstsze pytania.
+    kind:
+      en: FAQ
+      pl: FAQ
