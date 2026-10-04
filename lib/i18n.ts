@@ -47,11 +47,16 @@ export const translations = {
   en: {
     appName: 'Pregnancy Without Burden',
     supportEveryWeek: 'Support for every week',
+    languageSwitcher: {
+      switchToPolish: 'Switch to Polish language',
+      switchToEnglish: 'Switch to English language',
+    },
     tabs: {
       knowledge: 'Knowledge base',
       map: 'Map',
       timeline: 'Timeline',
       contact: 'Contact',
+      account: 'Account',
       settings: 'Settings',
       favorites: 'Favorite places',
     },
@@ -120,8 +125,10 @@ export const translations = {
       permissionDenied: 'Permission to use your location was denied.',
       categories: {
         hospital: 'Hospitals and clinics',
+        pharmacy: 'Pharmacies',
         gynecologist: 'Gynecologists',
-        birthing_class: 'Parenting classes',
+        birthing_class: 'Birthing classes',
+        parenting_course: 'Parenting courses',
         dietitian: 'Dietitians',
         psychologist: 'Psychologists and psychiatrists',
         physiotherapist: 'Physiotherapists',
@@ -217,11 +224,16 @@ export const translations = {
   pl: {
     appName: 'Ciąża bez Obciążeń',
     supportEveryWeek: 'Wsparcie na każdy tydzień',
+    languageSwitcher: {
+      switchToPolish: 'Przełącz na język polski',
+      switchToEnglish: 'Przełącz na język angielski',
+    },
     tabs: {
       knowledge: 'Centrum wiedzy',
       map: 'Mapa',
       timeline: 'Oś czasu',
       contact: 'Kontakt',
+      account: 'Konto',
       settings: 'Ustawienia',
       favorites: 'Ulubione miejsca',
     },
@@ -290,8 +302,10 @@ export const translations = {
       permissionDenied: 'Odmówiono dostępu do Twojej lokalizacji.',
       categories: {
         hospital: 'Szpitale i kliniki',
+        pharmacy: 'Apteki',
         gynecologist: 'Ginekologowie',
-        birthing_class: 'Zajęcia rodzicielskie',
+        birthing_class: 'Szkoły rodzenia',
+        parenting_course: 'Kursy rodzicielskie',
         dietitian: 'Dietetycy',
         psychologist: 'Psychologowie i psychiatrzy',
         physiotherapist: 'Fizjoterapeuci',

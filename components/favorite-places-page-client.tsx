@@ -14,14 +14,16 @@ type FavoritePlacesPageClientProps = {
 };
 
 const categoryColors: Record<string, string> = {
-  hospital: '#f59e0b',
+  hospital: '#F00',
+  pharmacy: '#DDD',
   gynecologist: '#8b5cf6',
   birthing_class: '#10b981',
+  parenting_course: '#14b8a6',
   dietitian: '#f97316',
   psychologist: '#ec4899',
-  physiotherapist: '#14b8a6',
+  physiotherapist: '#00008b',
   mops: '#3b82f6',
-  store: '#eab308',
+  store: '#7e7e7e',
 };
 
 export function FavoritePlacesPageClient({

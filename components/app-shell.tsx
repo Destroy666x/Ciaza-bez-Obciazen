@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import { useLocale } from '@/lib/client-i18n';
+import { PL, GB } from 'country-flag-icons/react/3x2';
 import * as DropdownMenu from '@radix-ui/react-dropdown-menu';
 
 export function AppShell({ children }: { children: React.ReactNode }) {
@@ -78,7 +79,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
                   }`}
                 >
                   <span>👤</span>
-                  <span>Account</span>
+                  <span>{t.tabs.account}</span>
                   <span className="text-xs">▼</span>
                 </button>
               </DropdownMenu.Trigger>
@@ -121,9 +122,18 @@ export function AppShell({ children }: { children: React.ReactNode }) {
             <button
               type="button"
               onClick={() => setLocale(locale === 'en' ? 'pl' : 'en')}
-              className="hidden rounded-full border border-[var(--line)] bg-[var(--panel)] px-3 py-2 text-sm font-medium md:inline-flex"
+              className="hidden h-10 w-10 items-center justify-center rounded-full border border-[var(--line)] bg-[var(--panel)] p-2 md:inline-flex"
+              aria-label={
+                locale === 'en'
+                  ? t.languageSwitcher.switchToPolish
+                  : t.languageSwitcher.switchToEnglish
+              }
             >
-              {locale === 'en' ? 'PL' : 'EN'}
+              {locale === 'en' ? (
+                <PL title="Polski" className="h-full w-full rounded-sm" />
+              ) : (
+                <GB title="English" className="h-full w-full rounded-sm" />
+              )}
             </button>
             <Link href="/account/login" className="hidden rounded-full border border-[var(--line)] bg-[var(--panel)] px-3 py-2 text-sm font-medium md:inline-flex">
               {t.actions.login}

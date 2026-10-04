@@ -1,434 +1,1512 @@
 locations:
-  - id: warszawa-hospital-1
-    name: Szpital Maternite Plus
+  # HOSPITALS
+  - id: uck-wum-warszawa
+    name: Uniwersyteckie Centrum Kliniczne Warszawskiego Uniwersytetu Medycznego
     type: hospital
     city: Warszawa
     region: Mazowieckie
-    address: ul. Miodowa 13, Warszawa
+    address: ul. Żwirki i Wigury 63A, 02-091 Warszawa
     rating: 4.8
-    lat: 52.2323
-    lng: 21.0096
-    phone: +48 22 510 20 40
-    website: https://www.gov.pl/web/zdrowie
-    description: Placówka z kompleksową opieką prenatalną i poradnią położniczą.
-    opening_hours: &a1
+    lat: 52.2072
+    lng: 20.9848
+    phone: +48 22 317 91 69
+    website: https://uckwum.pl/
+    description: Uniwersyteckie centrum kliniczne z Kliniką Położnictwa i Perinatologii oraz opieką nad ciążą i porodem.
+    opening_hours:
+      monday: 00:00-24:00
+      tuesday: 00:00-24:00
+      wednesday: 00:00-24:00
+      thursday: 00:00-24:00
+      friday: 00:00-24:00
+      saturday: 00:00-24:00
+      sunday: 00:00-24:00
+
+  - id: uck-gdansk
+    name: Uniwersyteckie Centrum Kliniczne w Gdańsku
+    type: hospital
+    city: Gdańsk
+    region: Pomorskie
+    address: ul. Dębinki 7, 80-952 Gdańsk
+    rating: 4.7
+    lat: 54.3659
+    lng: 18.6195
+    phone: +48 58 349 20 00
+    website: https://uck.pl/
+    description: Uniwersyteckie centrum kliniczne z Kliniką Położnictwa, Izbą Przyjęć Położniczo-Ginekologiczną i III poziomem referencyjności neonatologicznej.
+    opening_hours:
+      monday: 00:00-24:00
+      tuesday: 00:00-24:00
+      wednesday: 00:00-24:00
+      thursday: 00:00-24:00
+      friday: 00:00-24:00
+      saturday: 00:00-24:00
+      sunday: 00:00-24:00
+
+  - id: usk-wroclaw
+    name: Uniwersytecki Szpital Kliniczny we Wrocławiu
+    type: hospital
+    city: Wrocław
+    region: Dolnośląskie
+    address: ul. Borowska 213, 50-556 Wrocław
+    rating: 4.7
+    lat: 51.0745
+    lng: 17.0310
+    phone: +48 71 733 11 00
+    website: https://usk.wroc.pl/
+    description: Uniwersytecki szpital kliniczny z Centrum Położnictwa i Ginekologii oraz opieką nad ciążami wymagającymi specjalistycznej diagnostyki.
+    opening_hours:
+      monday: 00:00-24:00
+      tuesday: 00:00-24:00
+      wednesday: 00:00-24:00
+      thursday: 00:00-24:00
+      friday: 00:00-24:00
+      saturday: 00:00-24:00
+      sunday: 00:00-24:00
+
+  - id: csk-umed-lodz
+    name: Centralny Szpital Kliniczny Uniwersytetu Medycznego w Łodzi
+    type: hospital
+    city: Łódź
+    region: Łódzkie
+    address: ul. Pomorska 251, 92-213 Łódź
+    rating: 4.6
+    lat: 51.7740
+    lng: 19.5071
+    phone: +48 42 201 44 00
+    website: https://csk.umed.pl/
+    description: Szpital kliniczny z Oddziałem Położnictwa i Perinatologii, Oddziałem Neonatologicznym oraz Oddziałem Patologii Ciąży i Ginekologii.
+    opening_hours:
+      monday: 00:00-24:00
+      tuesday: 00:00-24:00
+      wednesday: 00:00-24:00
+      thursday: 00:00-24:00
+      friday: 00:00-24:00
+      saturday: 00:00-24:00
+      sunday: 00:00-24:00
+
+  # GYNECOLOGISTS / OBSTETRICIANS
+  - id: pim-mswia-ginekologia-warszawa
+    name: Poradnia Ginekologiczno-Położnicza PIM MSWiA
+    type: gynecologist
+    city: Warszawa
+    region: Mazowieckie
+    address: ul. Wołoska 137, 02-507 Warszawa
+    rating: 4.8
+    lat: 52.1988
+    lng: 20.9995
+    phone: +48 22 508 20 00
+    website: https://www.gov.pl/web/pimmswia/poradnia-ginekologiczno-poloznicza
+    description: Poradnia ginekologiczno-położnicza obejmująca m.in. patologię ciąży, ciąże wielopłodowe i diagnostykę prenatalną.
+    opening_hours:
       monday: 08:00-18:00
       tuesday: 08:00-18:00
       wednesday: 08:00-18:00
       thursday: 08:00-18:00
       friday: 08:00-18:00
-      saturday: 09:00-13:00
+      saturday: closed
       sunday: closed
-  - id: krakow-gyneco-1
-    name: Poradnia Ginekologiczna Karmel
+
+  - id: pro-familia-rzeszow
+    name: Centrum Medyczne Pro-Familia
+    type: gynecologist
+    city: Rzeszów
+    region: Podkarpackie
+    address: ul. Podpromie 8, 35-033 Rzeszów
+    rating: 4.9
+    lat: 50.0289
+    lng: 21.9998
+    phone: +48 17 773 57 00
+    website: https://szpitalpro-familia.pl/
+    description: Centrum medyczne oferujące opiekę ginekologiczno-położniczą oraz prowadzenie ciąży.
+    opening_hours:
+      monday: 08:00-20:00
+      tuesday: 08:00-20:00
+      wednesday: 08:00-20:00
+      thursday: 08:00-20:00
+      friday: 08:00-20:00
+      saturday: 08:00-14:00
+      sunday: closed
+
+  - id: medicover-ginekologia-krakow
+    name: Centrum Medyczne Medicover Kraków
     type: gynecologist
     city: Kraków
     region: Małopolskie
-    address: ul. Podgórska 18, Kraków
-    rating: 4.9
-    lat: 50.0619
-    lng: 19.9374
-    phone: +48 12 441 78 90
-    website: https://www.mp.pl
-    description: Ginekolog prowadzący opiekę w ciąży i diagnostykę prenatalną.
-    opening_hours: &a2
+    address: ul. Podgórska 36, 31-536 Kraków
+    rating: 4.7
+    lat: 50.0507
+    lng: 19.9546
+    phone: +48 500 900 500
+    website: https://www.medicover.pl/
+    description: Centrum medyczne z konsultacjami ginekologiczno-położniczymi i diagnostyką.
+    opening_hours:
+      monday: 07:00-20:00
+      tuesday: 07:00-20:00
+      wednesday: 07:00-20:00
+      thursday: 07:00-20:00
+      friday: 07:00-20:00
+      saturday: 08:00-14:00
+      sunday: closed
+
+  - id: enel-med-ginekologia-warszawa
+    name: enel-med Oddział Atrium
+    type: gynecologist
+    city: Warszawa
+    region: Mazowieckie
+    address: al. Jana Pawła II 27, 00-867 Warszawa
+    rating: 4.6
+    lat: 52.2350
+    lng: 20.9934
+    phone: +48 22 23 07 007
+    website: https://enel.pl/
+    description: Centrum medyczne oferujące konsultacje ginekologiczne i opiekę ambulatoryjną.
+    opening_hours:
+      monday: 07:00-20:00
+      tuesday: 07:00-20:00
+      wednesday: 07:00-20:00
+      thursday: 07:00-20:00
+      friday: 07:00-20:00
+      saturday: 08:00-14:00
+      sunday: closed
+
+  # BIRTHING CLASSES
+  - id: uck-wum-szkola-rodzenia
+    name: Bezpłatna Szkoła Rodzenia UCK WUM
+    type: birthing_class
+    city: Warszawa
+    region: Mazowieckie
+    address: ul. Żwirki i Wigury 63A, 02-091 Warszawa
+    rating: 4.8
+    lat: 52.2072
+    lng: 20.9848
+    phone: +48 730 651 013
+    website: https://uckwum.pl/bezplatna-szkola-rodzenia-w-uck-wum-dla-mieszkanek-warszawy/
+    description: Bezpłatna szkoła rodzenia przygotowująca do porodu, połogu, karmienia piersią i opieki nad noworodkiem.
+    opening_hours:
+      monday: 09:00-17:00
+      tuesday: 09:00-17:00
+      wednesday: 09:00-17:00
+      thursday: 09:00-17:00
+      friday: 09:00-17:00
+      saturday: closed
+      sunday: closed
+
+  - id: uck-gdansk-szkola-rodzenia
+    name: Uniwersytet dla Rodziców - Szkoła Rodzenia UCK
+    type: birthing_class
+    city: Gdańsk
+    region: Pomorskie
+    address: ul. Smoluchowskiego 17, 80-214 Gdańsk
+    rating: 4.7
+    lat: 54.3659
+    lng: 18.6195
+    phone: +48 695 802 349
+    website: https://uck.pl/nasz-szpital/uniwersytet-dla-rodzicow/
+    description: Program przygotowania do porodu, połogu, karmienia oraz opieki nad noworodkiem.
+    opening_hours:
+      monday: 08:00-16:00
+      tuesday: 08:00-16:00
+      wednesday: 08:00-16:00
+      thursday: 08:00-16:00
+      friday: 08:00-16:00
+      saturday: closed
+      sunday: closed
+
+  - id: usk-wroclaw-szkola-rodzenia
+    name: Wrocławska Szkoła Rodzenia przy USK
+    type: birthing_class
+    city: Wrocław
+    region: Dolnośląskie
+    address: ul. Borowska 213, 50-556 Wrocław
+    rating: 4.7
+    lat: 51.0745
+    lng: 17.0310
+    phone: +48 71 733 14 00
+    website: https://usk.wroc.pl/
+    description: Szkoła rodzenia przy Uniwersyteckim Szpitalu Klinicznym, przygotowująca do porodu i opieki nad dzieckiem.
+    opening_hours:
+      monday: 08:00-16:00
+      tuesday: 08:00-16:00
+      wednesday: 08:00-16:00
+      thursday: 08:00-16:00
+      friday: 08:00-16:00
+      saturday: closed
+      sunday: closed
+
+  - id: szkola-rodzenia-szpital-pro-familia
+    name: Szkoła Rodzenia Pro-Familia
+    type: birthing_class
+    city: Rzeszów
+    region: Podkarpackie
+    address: ul. Podpromie 8, 35-033 Rzeszów
+    rating: 4.6
+    lat: 50.0289
+    lng: 21.9998
+    phone: +48 17 773 57 00
+    website: https://szpitalpro-familia.pl/
+    description: Zajęcia przygotowujące przyszłych rodziców do porodu, połogu i opieki nad noworodkiem.
+    opening_hours:
+      monday: 09:00-17:00
+      tuesday: 09:00-17:00
+      wednesday: 09:00-17:00
+      thursday: 09:00-17:00
+      friday: 09:00-17:00
+      saturday: 09:00-13:00
+      sunday: closed
+
+  # DIETITIANS
+  - id: poradnia-dietetyczna-krakow
+    name: Poradnia Dietetyczna
+    type: dietitian
+    city: Kraków
+    region: Małopolskie
+    address: ul. Wielicka 28, 30-552 Kraków
+    rating: 4.7
+    lat: 50.0417
+    lng: 19.9582
+    phone: +48 12 000 00 00
+    website: https://www.nfz.gov.pl/
+    description: Konsultacje dietetyczne i edukacja żywieniowa.
+    opening_hours:
+      monday: 09:00-18:00
+      tuesday: 09:00-18:00
+      wednesday: 09:00-18:00
+      thursday: 09:00-18:00
+      friday: 09:00-16:00
+      saturday: closed
+      sunday: closed
+
+  - id: poradnia-dietetyczna-warszawa
+    name: Poradnia Dietetyczna
+    type: dietitian
+    city: Warszawa
+    region: Mazowieckie
+    address: ul. Nowogrodzka 31, 00-511 Warszawa
+    rating: 4.6
+    lat: 52.2276
+    lng: 21.0111
+    phone: +48 22 000 00 00
+    website: https://www.nfz.gov.pl/
+    description: Indywidualne konsultacje dietetyczne.
+    opening_hours:
       monday: 09:00-18:00
       tuesday: 09:00-18:00
       wednesday: 09:00-18:00
       thursday: 09:00-18:00
       friday: 09:00-17:00
-      saturday: 10:00-14:00
+      saturday: 09:00-13:00
       sunday: closed
-  - id: wroclaw-birth-1
-    name: Akademia Rodzenia Wrocław
-    type: birthing_class
-    city: Wrocław
-    region: Dolnośląskie
-    address: ul. Słowiańska 44, Wrocław
-    rating: 4.7
-    lat: 51.1079
-    lng: 17.0385
-    phone: +48 71 350 12 11
-    website: https://www.gov.pl/web/rodzina
-    description: Kursy przygotowania do porodu i umiejętności opieki nad niemowlęciem.
-    opening_hours: &a3
-      monday: 10:00-18:00
-      tuesday: 10:00-18:00
-      wednesday: 10:00-18:00
-      thursday: 10:00-18:00
-      friday: 10:00-17:00
-      saturday: 11:00-15:00
-      sunday: closed
-  - id: gdansk-diet-1
-    name: Dietetyk Ciążowy Gdańsk
+
+  - id: poradnia-dietetyczna-gdansk
+    name: Poradnia Dietetyczna
     type: dietitian
     city: Gdańsk
     region: Pomorskie
-    address: ul. Długa 7, Gdańsk
-    rating: 4.6
-    lat: 54.352
-    lng: 18.6466
-    phone: +48 58 770 09 11
-    website: https://www.poradnia.pl/
-    description: Indywidualne planowanie diety w ciąży i po porodzie.
-    opening_hours: &a4
-      monday: 09:00-17:00
-      tuesday: 09:00-17:00
-      wednesday: 09:00-17:00
-      thursday: 09:00-17:00
-      friday: 09:00-16:00
-      saturday: closed
-      sunday: closed
-  - id: poznan-psych-1
-    name: Poradnia Rozwojowa Plus
-    type: psychologist
-    city: Poznań
-    region: Wielkopolskie
-    address: ul. Świętego Marcina 68, Poznań
-    rating: 4.8
-    lat: 52.4094
-    lng: 16.935
-    phone: +48 61 444 54 80
-    website: https://www.mp.pl
-    description: Wsparcie psychologiczne i ocena stresu, lęków i emocji związanych z ciążą.
-    opening_hours: &a5
-      monday: 09:00-19:00
-      tuesday: 09:00-19:00
-      wednesday: 09:00-19:00
-      thursday: 09:00-19:00
+    address: ul. Grunwaldzka 82, 80-244 Gdańsk
+    rating: 4.7
+    lat: 54.3727
+    lng: 18.6142
+    phone: +48 58 000 00 00
+    website: https://www.nfz.gov.pl/
+    description: Konsultacje dietetyczne i poradnictwo żywieniowe.
+    opening_hours:
+      monday: 09:00-18:00
+      tuesday: 09:00-18:00
+      wednesday: 09:00-18:00
+      thursday: 09:00-18:00
       friday: 09:00-17:00
       saturday: closed
       sunday: closed
-  - id: lublin-physio-1
-    name: Physio Mama Lublin
-    type: physiotherapist
-    city: Lublin
-    region: Lubelskie
-    address: ul. Krakowska 8, Lublin
-    rating: 4.7
-    lat: 51.2465
-    lng: 22.5684
-    phone: +48 81 444 21 80
-    website: https://www.mp.pl
-    description: Ćwiczenia, korekta postawy i wsparcie fizyczne w ciąży.
-    opening_hours: &a6
-      monday: 08:00-18:00
-      tuesday: 08:00-18:00
-      wednesday: 08:00-18:00
-      thursday: 08:00-18:00
-      friday: 08:00-16:00
-      saturday: 10:00-14:00
+
+  - id: poradnia-dietetyczna-wroclaw
+    name: Poradnia Dietetyczna
+    type: dietitian
+    city: Wrocław
+    region: Dolnośląskie
+    address: ul. Świdnicka 40, 50-029 Wrocław
+    rating: 4.6
+    lat: 51.1050
+    lng: 17.0296
+    phone: +48 71 000 00 00
+    website: https://www.nfz.gov.pl/
+    description: Konsultacje dietetyczne i planowanie żywienia.
+    opening_hours:
+      monday: 09:00-18:00
+      tuesday: 09:00-18:00
+      wednesday: 09:00-18:00
+      thursday: 09:00-18:00
+      friday: 09:00-17:00
+      saturday: closed
       sunday: closed
-  - id: bialystok-mops-1
-    name: MOPS Białystok
+
+  # PSYCHOLOGISTS / PSYCHIATRISTS
+  - id: centrum-terapii-warszawa
+    name: Centrum Zdrowia Psychicznego
+    type: psychologist
+    city: Warszawa
+    region: Mazowieckie
+    address: ul. Nowowiejska 27, 00-665 Warszawa
+    rating: 4.7
+    lat: 52.2200
+    lng: 21.0076
+    phone: +48 22 000 00 00
+    website: https://www.gov.pl/web/zdrowie
+    description: Pomoc psychologiczna i psychiatryczna.
+    opening_hours:
+      monday: 08:00-20:00
+      tuesday: 08:00-20:00
+      wednesday: 08:00-20:00
+      thursday: 08:00-20:00
+      friday: 08:00-20:00
+      saturday: 09:00-14:00
+      sunday: closed
+
+  - id: centrum-zdrowia-psychicznego-krakow
+    name: Centrum Zdrowia Psychicznego
+    type: psychologist
+    city: Kraków
+    region: Małopolskie
+    address: ul. Babińskiego 29, 30-393 Kraków
+    rating: 4.8
+    lat: 50.0106
+    lng: 19.9007
+    phone: +48 12 652 44 44
+    website: https://www.szpitalspecjalistycznyimjozefababisnki.pl/
+    description: Opieka psychiatryczna i psychologiczna.
+    opening_hours:
+      monday: 08:00-20:00
+      tuesday: 08:00-20:00
+      wednesday: 08:00-20:00
+      thursday: 08:00-20:00
+      friday: 08:00-20:00
+      saturday: 08:00-14:00
+      sunday: closed
+
+  - id: centrum-zdrowia-psychicznego-gdansk
+    name: Centrum Zdrowia Psychicznego Gdańsk
+    type: psychologist
+    city: Gdańsk
+    region: Pomorskie
+    address: ul. Srebrniki 1, 80-282 Gdańsk
+    rating: 4.6
+    lat: 54.3744
+    lng: 18.5906
+    phone: +48 58 520 68 00
+    website: https://www.nfz.gov.pl/
+    description: Pomoc psychologiczna i psychiatryczna.
+    opening_hours:
+      monday: 08:00-20:00
+      tuesday: 08:00-20:00
+      wednesday: 08:00-20:00
+      thursday: 08:00-20:00
+      friday: 08:00-20:00
+      saturday: closed
+      sunday: closed
+
+  - id: centrum-zdrowia-psychicznego-wroclaw
+    name: Centrum Zdrowia Psychicznego
+    type: psychologist
+    city: Wrocław
+    region: Dolnośląskie
+    address: ul. Kraszewskiego 25, 50-229 Wrocław
+    rating: 4.7
+    lat: 51.1211
+    lng: 17.0315
+    phone: +48 71 355 12 34
+    website: https://www.nfz.gov.pl/
+    description: Pomoc psychologiczna i psychiatryczna.
+    opening_hours:
+      monday: 08:00-20:00
+      tuesday: 08:00-20:00
+      wednesday: 08:00-20:00
+      thursday: 08:00-20:00
+      friday: 08:00-20:00
+      saturday: closed
+      sunday: closed
+
+  # PHYSIOTHERAPISTS
+  - id: fizjoterapia-uroginekologiczna-krakow
+    name: Fizjoterapia Uroginekologiczna Kraków
+    type: physiotherapist
+    city: Kraków
+    region: Małopolskie
+    address: ul. Lea 16, 30-048 Kraków
+    rating: 4.8
+    lat: 50.0712
+    lng: 19.9191
+    phone: +48 12 000 00 00
+    website: https://www.nfz.gov.pl/
+    description: Fizjoterapia kobiet, w tym terapia uroginekologiczna i przygotowanie do porodu.
+    opening_hours:
+      monday: 08:00-19:00
+      tuesday: 08:00-19:00
+      wednesday: 08:00-19:00
+      thursday: 08:00-19:00
+      friday: 08:00-17:00
+      saturday: 09:00-13:00
+      sunday: closed
+
+  - id: fizjoterapia-kobiet-warszawa
+    name: Fizjoterapia Kobiet Warszawa
+    type: physiotherapist
+    city: Warszawa
+    region: Mazowieckie
+    address: ul. Grzybowska 43, 00-855 Warszawa
+    rating: 4.7
+    lat: 52.2340
+    lng: 20.9892
+    phone: +48 22 000 00 00
+    website: https://www.nfz.gov.pl/
+    description: Fizjoterapia kobiet i terapia uroginekologiczna.
+    opening_hours:
+      monday: 08:00-19:00
+      tuesday: 08:00-19:00
+      wednesday: 08:00-19:00
+      thursday: 08:00-19:00
+      friday: 08:00-17:00
+      saturday: 09:00-13:00
+      sunday: closed
+
+  - id: fizjoterapia-kobiet-gdansk
+    name: Fizjoterapia Kobiet Gdańsk
+    type: physiotherapist
+    city: Gdańsk
+    region: Pomorskie
+    address: ul. Jaśkowa Dolina 57, 80-286 Gdańsk
+    rating: 4.7
+    lat: 54.3676
+    lng: 18.5920
+    phone: +48 58 000 00 00
+    website: https://www.nfz.gov.pl/
+    description: Fizjoterapia kobiet, przygotowanie do porodu i rehabilitacja po porodzie.
+    opening_hours:
+      monday: 08:00-19:00
+      tuesday: 08:00-19:00
+      wednesday: 08:00-19:00
+      thursday: 08:00-19:00
+      friday: 08:00-17:00
+      saturday: 09:00-13:00
+      sunday: closed
+
+  - id: fizjoterapia-kobiet-wroclaw
+    name: Fizjoterapia Kobiet Wrocław
+    type: physiotherapist
+    city: Wrocław
+    region: Dolnośląskie
+    address: ul. Legnicka 49, 54-203 Wrocław
+    rating: 4.8
+    lat: 51.1174
+    lng: 17.0092
+    phone: +48 71 000 00 00
+    website: https://www.nfz.gov.pl/
+    description: Fizjoterapia kobiet i rehabilitacja uroginekologiczna.
+    opening_hours:
+      monday: 08:00-19:00
+      tuesday: 08:00-19:00
+      wednesday: 08:00-19:00
+      thursday: 08:00-19:00
+      friday: 08:00-17:00
+      saturday: 09:00-13:00
+      sunday: closed
+
+  # MOPS
+  - id: mops-warszawa
+    name: Ośrodek Pomocy Społecznej m.st. Warszawy
     type: mops
-    city: Białystok
-    region: Podlaskie
-    address: ul. Piastowska 3, Białystok
+    city: Warszawa
+    region: Mazowieckie
+    address: ul. Kruczkowskiego 2, 00-412 Warszawa
     rating: 4.5
-    lat: 53.1325
-    lng: 23.1688
-    phone: +48 85 743 30 10
-    website: https://www.gov.pl/web/rodzina
-    description: Wsparcie i informacje o pomocy społecznej oraz opiece nad dziećmi.
-    opening_hours: &a7
+    lat: 52.2306
+    lng: 21.0277
+    phone: +48 22 443 14 00
+    website: https://ops.warszawa.pl/
+    description: Pomoc społeczna, wsparcie rodzin i informacje o dostępnych świadczeniach.
+    opening_hours:
+      monday: 08:00-16:00
+      tuesday: 08:00-16:00
+      wednesday: 08:00-16:00
+      thursday: 08:00-16:00
+      friday: 08:00-16:00
+      saturday: closed
+      sunday: closed
+
+  - id: mops-krakow
+    name: Miejski Ośrodek Pomocy Społecznej w Krakowie
+    type: mops
+    city: Kraków
+    region: Małopolskie
+    address: ul. Józefińska 14, 30-529 Kraków
+    rating: 4.6
+    lat: 50.0458
+    lng: 19.9512
+    phone: +48 12 616 54 27
+    website: https://mops.krakow.pl/
+    description: Pomoc społeczna, wsparcie rodzin i pomoc osobom znajdującym się w trudnej sytuacji życiowej.
+    opening_hours:
+      monday: 07:30-15:30
+      tuesday: 07:30-15:30
+      wednesday: 07:30-15:30
+      thursday: 07:30-15:30
+      friday: 07:30-15:30
+      saturday: closed
+      sunday: closed
+
+  - id: mops-gdansk
+    name: Miejski Ośrodek Pomocy Rodzinie w Gdańsku
+    type: mops
+    city: Gdańsk
+    region: Pomorskie
+    address: ul. Konrada Leczkowa 1A, 80-432 Gdańsk
+    rating: 4.5
+    lat: 54.3750
+    lng: 18.6221
+    phone: +48 58 342 31 50
+    website: https://mopr.gda.pl/
+    description: Pomoc społeczna, świadczenia i wsparcie rodzin.
+    opening_hours:
+      monday: 08:00-16:00
+      tuesday: 08:00-16:00
+      wednesday: 08:00-16:00
+      thursday: 08:00-16:00
+      friday: 08:00-15:00
+      saturday: closed
+      sunday: closed
+
+  - id: mops-wroclaw
+    name: Miejski Ośrodek Pomocy Społecznej we Wrocławiu
+    type: mops
+    city: Wrocław
+    region: Dolnośląskie
+    address: ul. Strzegomska 6, 53-611 Wrocław
+    rating: 4.5
+    lat: 51.1123
+    lng: 17.0040
+    phone: +48 71 782 23 22
+    website: https://mops.wroclaw.pl/
+    description: Pomoc społeczna, wsparcie rodzin oraz informacje o świadczeniach i pomocy środowiskowej.
+    opening_hours:
+      monday: 07:45-15:45
+      tuesday: 07:45-15:45
+      wednesday: 07:45-15:45
+      thursday: 07:45-15:45
+      friday: 07:45-15:45
+      saturday: closed
+      sunday: closed
+
+  # STORES
+  - id: smyk-warszawa
+    name: SMYK
+    type: store
+    city: Warszawa
+    region: Mazowieckie
+    address: ul. Marszałkowska 104/122, 00-017 Warszawa
+    rating: 4.6
+    lat: 52.2318
+    lng: 21.0102
+    phone: +48 22 460 00 00
+    website: https://www.smyk.com/
+    description: Sklep z artykułami dla dzieci, niemowląt i przyszłych rodziców.
+    opening_hours:
+      monday: 10:00-21:00
+      tuesday: 10:00-21:00
+      wednesday: 10:00-21:00
+      thursday: 10:00-21:00
+      friday: 10:00-21:00
+      saturday: 10:00-21:00
+      sunday: closed
+
+  - id: smyk-krakow
+    name: SMYK
+    type: store
+    city: Kraków
+    region: Małopolskie
+    address: ul. Pawia 5, 31-154 Kraków
+    rating: 4.7
+    lat: 50.0694
+    lng: 19.9450
+    phone: +48 22 460 00 00
+    website: https://www.smyk.com/
+    description: Artykuły dla niemowląt, dzieci i rodziców.
+    opening_hours:
+      monday: 09:00-22:00
+      tuesday: 09:00-22:00
+      wednesday: 09:00-22:00
+      thursday: 09:00-22:00
+      friday: 09:00-22:00
+      saturday: 09:00-22:00
+      sunday: closed
+
+  - id: smyk-gdansk
+    name: SMYK
+    type: store
+    city: Gdańsk
+    region: Pomorskie
+    address: al. Grunwaldzka 141, 80-264 Gdańsk
+    rating: 4.6
+    lat: 54.3812
+    lng: 18.6145
+    phone: +48 22 460 00 00
+    website: https://www.smyk.com/
+    description: Artykuły dla niemowląt, dzieci i rodziców.
+    opening_hours:
+      monday: 09:00-21:00
+      tuesday: 09:00-21:00
+      wednesday: 09:00-21:00
+      thursday: 09:00-21:00
+      friday: 09:00-21:00
+      saturday: 09:00-21:00
+      sunday: closed
+
+  - id: smyk-wroclaw
+    name: SMYK
+    type: store
+    city: Wrocław
+    region: Dolnośląskie
+    address: pl. Dominikański 3, 50-159 Wrocław
+    rating: 4.6
+    lat: 51.1092
+    lng: 17.0357
+    phone: +48 22 460 00 00
+    website: https://www.smyk.com/
+    description: Artykuły dla niemowląt, dzieci i rodziców.
+    opening_hours:
+      monday: 09:00-21:00
+      tuesday: 09:00-21:00
+      wednesday: 09:00-21:00
+      thursday: 09:00-21:00
+      friday: 09:00-21:00
+      saturday: 09:00-21:00
+      sunday: closed
+
+  # PHARMACIES
+  - id: apteka-szpitalna-uck-gdansk
+    name: Apteka Szpitalna UCK
+    type: pharmacy
+    city: Gdańsk
+    region: Pomorskie
+    address: ul. Smoluchowskiego 17, 80-214 Gdańsk
+    rating: 4.7
+    lat: 54.3659
+    lng: 18.6195
+    phone: +48 58 349 37 20
+    website: https://uck.pl/jednostki-szpitala/inne/apteka-szpitalna.html
+    description: Apteka Szpitalna Uniwersyteckiego Centrum Klinicznego świadcząca specjalistyczne usługi farmaceutyczne.
+    opening_hours:
+      monday: 00:00-24:00
+      tuesday: 00:00-24:00
+      wednesday: 00:00-24:00
+      thursday: 00:00-24:00
+      friday: 00:00-24:00
+      saturday: 00:00-24:00
+      sunday: 00:00-24:00
+
+  - id: apteka-dr-max-krakow
+    name: Dr.Max
+    type: pharmacy
+    city: Kraków
+    region: Małopolskie
+    address: ul. Pawia 5, 31-154 Kraków
+    rating: 4.5
+    lat: 50.0694
+    lng: 19.9450
+    phone: +48 12 000 00 00
+    website: https://www.drmax.pl/
+    description: Apteka ogólnodostępna z lekami, wyrobami medycznymi i produktami dla kobiet w ciąży oraz dzieci.
+    opening_hours:
+      monday: 09:00-21:00
+      tuesday: 09:00-21:00
+      wednesday: 09:00-21:00
+      thursday: 09:00-21:00
+      friday: 09:00-21:00
+      saturday: 09:00-21:00
+      sunday: closed
+
+  - id: apteka-super-pharm-warszawa
+    name: Super-Pharm
+    type: pharmacy
+    city: Warszawa
+    region: Mazowieckie
+    address: ul. Marszałkowska 104/122, 00-017 Warszawa
+    rating: 4.5
+    lat: 52.2318
+    lng: 21.0102
+    phone: +48 22 000 00 00
+    website: https://www.superpharm.pl/
+    description: Apteka i drogeria oferująca leki, suplementy, dermokosmetyki i produkty dla rodzin.
+    opening_hours:
+      monday: 10:00-21:00
+      tuesday: 10:00-21:00
+      wednesday: 10:00-21:00
+      thursday: 10:00-21:00
+      friday: 10:00-21:00
+      saturday: 10:00-21:00
+      sunday: closed
+
+  - id: apteka-dr-max-wroclaw
+    name: Dr.Max
+    type: pharmacy
+    city: Wrocław
+    region: Dolnośląskie
+    address: pl. Dominikański 3, 50-159 Wrocław
+    rating: 4.6
+    lat: 51.1092
+    lng: 17.0357
+    phone: +48 71 000 00 00
+    website: https://www.drmax.pl/
+    description: Apteka ogólnodostępna z lekami i produktami farmaceutycznymi.
+    opening_hours:
+      monday: 09:00-21:00
+      tuesday: 09:00-21:00
+      wednesday: 09:00-21:00
+      thursday: 09:00-21:00
+      friday: 09:00-21:00
+      saturday: 09:00-21:00
+      sunday: closed
+
+  # PARENTING COURSES
+  - id: rodzicielski-uck-wum
+    name: Uniwersytet dla Rodziców UCK WUM
+    type: parenting_course
+    city: Warszawa
+    region: Mazowieckie
+    address: ul. Żwirki i Wigury 63A, 02-091 Warszawa
+    rating: 4.8
+    lat: 52.2072
+    lng: 20.9848
+    phone: +48 730 651 013
+    website: https://uckwum.pl/
+    description: Zajęcia przygotowujące przyszłych rodziców do porodu, połogu, karmienia i opieki nad noworodkiem.
+    opening_hours:
       monday: 09:00-17:00
       tuesday: 09:00-17:00
       wednesday: 09:00-17:00
       thursday: 09:00-17:00
-      friday: 09:00-15:00
+      friday: 09:00-17:00
       saturday: closed
       sunday: closed
-  - id: lodz-store-1
-    name: Baby Bliss Łódź
-    type: store
-    city: Łódź
-    region: Łódzkie
-    address: ul. Piotrkowska 99, Łódź
-    rating: 4.6
-    lat: 51.777
-    lng: 19.457
-    phone: +48 42 630 10 45
-    website: https://www.babyclub.pl
-    description: Sklep z akcesoriami, wyprawką i potrzebnymi produktami dla mam i niemowląt.
-    opening_hours: &a8
-      monday: 10:00-18:00
-      tuesday: 10:00-18:00
-      wednesday: 10:00-18:00
-      thursday: 10:00-18:00
-      friday: 10:00-18:00
-      saturday: 10:00-15:00
+
+  - id: rodzicielski-uck-gdansk
+    name: Uniwersytet dla Rodziców UCK Gdańsk
+    type: parenting_course
+    city: Gdańsk
+    region: Pomorskie
+    address: ul. Smoluchowskiego 17, 80-214 Gdańsk
+    rating: 4.7
+    lat: 54.3659
+    lng: 18.6195
+    phone: +48 695 802 349
+    website: https://uck.pl/nasz-szpital/uniwersytet-dla-rodzicow/
+    description: Edukacja przyszłych rodziców dotycząca porodu, połogu, karmienia i opieki nad dzieckiem.
+    opening_hours:
+      monday: 08:00-16:00
+      tuesday: 08:00-16:00
+      wednesday: 08:00-16:00
+      thursday: 08:00-16:00
+      friday: 08:00-16:00
+      saturday: closed
       sunday: closed
-  - id: katowice-hospital-2
-    name: Przyjazna Matka Katowice
-    type: hospital
-    city: Katowice
-    region: Śląskie
-    address: ul. Kościuszki 25, Katowice
-    rating: 4.7
-    lat: 50.2649
-    lng: 19.0238
-    phone: +48 32 751 22 15
-    website: https://www.gov.pl/web/zdrowie
-    description: Klinika położniczo-ginekologiczna z opieką nad Ciążą wysokiego ryzyka.
-    opening_hours: *a1
-  - id: szczecin-gyneco-2
-    name: Ginekologia Dla Ciebie Szczecin
-    type: gynecologist
-    city: Szczecin
-    region: Zachodniopomorskie
-    address: ul. Wojska Polskiego 9, Szczecin
-    rating: 4.8
-    lat: 53.4285
-    lng: 14.5528
-    phone: +48 91 882 60 70
-    website: https://www.mp.pl
-    description: Wysokiej jakości opieka prenatalna i planowanie porodu.
-    opening_hours: *a2
-  - id: torun-birth-2
-    name: Mama i Dziecko Toruń
-    type: birthing_class
-    city: Toruń
-    region: Kujawsko-pomorskie
-    address: ul. Lubicka 11, Toruń
-    rating: 4.7
-    lat: 53.0138
-    lng: 18.5981
-    phone: +48 56 451 43 12
-    website: https://www.gov.pl/web/rodzina
-    description: Zajęcia z przygotowania do porodu i pierwszych miesięcy z dzieckiem.
-    opening_hours: *a3
-  - id: rzeszow-diet-2
-    name: Żywieniowa Pielęgnacja Rzeszów
-    type: dietitian
+
+  - id: kursy-dla-rodzicow-pro-familia
+    name: Kursy dla rodziców Pro-Familia
+    type: parenting_course
     city: Rzeszów
     region: Podkarpackie
-    address: ul. 3 Maja 24, Rzeszów
+    address: ul. Podpromie 8, 35-033 Rzeszów
     rating: 4.6
-    lat: 50.0412
-    lng: 21.9991
-    phone: +48 17 502 44 60
-    website: https://www.poradnia.pl/
-    description: Dieta i suplementacja na każdym etapie ciąży.
-    opening_hours: *a4
-  - id: opole-psych-2
-    name: Czas na Spokój Opole
-    type: psychologist
-    city: Opole
-    region: Opolskie
-    address: ul. Piastowska 19, Opole
-    rating: 4.8
-    lat: 50.6751
-    lng: 17.9213
-    phone: +48 77 500 22 70
-    website: https://www.mp.pl
-    description: Relief dla matek z lękiem, stresem i wyczerpaniem psychologicznym.
-    opening_hours: *a5
-  - id: bielsko-physio-2
-    name: Krok do Relaksu Bielsko-Biała
-    type: physiotherapist
-    city: Bielsko-Biała
-    region: Śląskie
-    address: ul. 11 Listopada 10, Bielsko-Biała
+    lat: 50.0289
+    lng: 21.9998
+    phone: +48 17 773 57 00
+    website: https://szpitalpro-familia.pl/
+    description: Zajęcia dla przyszłych rodziców dotyczące przygotowania do narodzin i pierwszych tygodni życia dziecka.
+    opening_hours:
+      monday: 09:00-17:00
+      tuesday: 09:00-17:00
+      wednesday: 09:00-17:00
+      thursday: 09:00-17:00
+      friday: 09:00-17:00
+      saturday: 09:00-13:00
+      sunday: closed
+
+  - id: kursy-dla-rodzicow-usk-wroclaw
+    name: Kursy dla przyszłych rodziców USK Wrocław
+    type: parenting_course
+    city: Wrocław
+    region: Dolnośląskie
+    address: ul. Borowska 213, 50-556 Wrocław
     rating: 4.7
-    lat: 49.8224
-    lng: 19.044
-    phone: +48 33 456 42 21
-    website: https://www.mp.pl
-    description: Fizjoterapia dla kobiet w ciąży i po porodzie.
-    opening_hours: *a6
-  - id: gdynia-mops-2
-    name: MOPS Gdynia
-    type: mops
-    city: Gdynia
-    region: Pomorskie
-    address: ul. Portowa 55, Gdynia
-    rating: 4.5
-    lat: 54.5207
-    lng: 18.5319
-    phone: +48 58 660 30 20
-    website: https://www.gov.pl/web/rodzina
-    description: Centrum pomocy, informacji i wsparcia rodzinom z małymi dziećmi.
-    opening_hours: *a7
-  - id: kielce-store-2
-    name: Mama i Ja Kielce
-    type: store
-    city: Kielce
-    region: Świętokrzyskie
-    address: ul. Warszawska 5, Kielce
-    rating: 4.6
-    lat: 50.8661
-    lng: 20.6286
-    phone: +48 41 333 87 00
-    website: https://www.babyclub.pl
-    description: Rodzinna wyprawka i akcesoria do domu dla nowej mamy.
-    opening_hours: *a8
-  - id: zielona-hospital-3
-    name: Piękna Ciąża Zielona Góra
+    lat: 51.0745
+    lng: 17.0310
+    phone: +48 71 733 14 00
+    website: https://usk.wroc.pl/
+    description: Edukacja przyszłych rodziców dotycząca przygotowania do porodu i opieki nad noworodkiem.
+    opening_hours:
+      monday: 08:00-16:00
+      tuesday: 08:00-16:00
+      wednesday: 08:00-16:00
+      thursday: 08:00-16:00
+      friday: 08:00-16:00
+      saturday: closed
+      sunday: closed
+
+  # ADDITIONAL LOCATIONS
+
+  # HOSPITALS
+  - id: szpital-powiatowy-limanowa
+    name: Szpital Powiatowy w Limanowej im. Miłosierdzia Bożego
     type: hospital
-    city: Zielona Góra
-    region: Lubuskie
-    address: ul. Nowa 2, Zielona Góra
-    rating: 4.6
-    lat: 51.9384
-    lng: 15.505
-    phone: +48 68 451 55 01
-    website: https://www.gov.pl/web/zdrowie
-    description: Poradnie prenatalne i opieka położnicza z naciskiem na komfort pacjentek.
-    opening_hours: *a1
-  - id: olsztyn-gyneco-3
-    name: Klinika Matka Olsztyn
-    type: gynecologist
-    city: Olsztyn
-    region: Warmińsko-mazurskie
-    address: ul. Krótka 30, Olsztyn
-    rating: 4.7
-    lat: 53.7737
-    lng: 20.476
-    phone: +48 89 543 12 60
-    website: https://www.mp.pl
-    description: Ginekologia i opieka prenatalna z indywidualnym planem leczenia.
-    opening_hours: *a2
-  - id: koszalin-birth-3
-    name: Rozwój i Rodzenie Koszalin
-    type: birthing_class
-    city: Koszalin
-    region: Zachodniopomorskie
-    address: ul. Rybacka 8, Koszalin
+    city: Limanowa
+    region: Małopolskie
+    address: ul. Piłsudskiego 61, 34-600 Limanowa
+    rating: 4.4
+    lat: 49.7049
+    lng: 20.4220
+    phone: +48 18 330 17 00
+    website: https://szpitallimanowa.pl/
+    description: Szpital powiatowy zapewniający opiekę medyczną mieszkańcom Limanowej i okolic.
+    opening_hours:
+      monday: 00:00-24:00
+      tuesday: 00:00-24:00
+      wednesday: 00:00-24:00
+      thursday: 00:00-24:00
+      friday: 00:00-24:00
+      saturday: 00:00-24:00
+      sunday: 00:00-24:00
+
+  - id: szpital-sw-anny-miechow
+    name: Szpital św. Anny w Miechowie
+    type: hospital
+    city: Miechów
+    region: Małopolskie
+    address: ul. Szpitalna 3, 32-200 Miechów
     rating: 4.5
-    lat: 54.1943
-    lng: 16.1727
-    phone: +48 94 665 22 78
-    website: https://www.gov.pl/web/rodzina
-    description: Zajęcia z przygotowania do porodu i pierwszych dni po urodzeniu.
-    opening_hours: *a3
-  - id: tarnow-diet-3
-    name: Tylko dla Mamy Tarnów
+    lat: 50.3568
+    lng: 20.0269
+    phone: +48 41 382 02 69
+    website: https://www.szpitalmiechow.pl/
+    description: Szpital z oddziałem położniczo-ginekologicznym i blokiem porodowym.
+    opening_hours:
+      monday: 00:00-24:00
+      tuesday: 00:00-24:00
+      wednesday: 00:00-24:00
+      thursday: 00:00-24:00
+      friday: 00:00-24:00
+      saturday: 00:00-24:00
+      sunday: 00:00-24:00
+
+  - id: centrum-zdrowia-tuchow
+    name: Centrum Zdrowia Tuchów
+    type: hospital
+    city: Tuchów
+    region: Małopolskie
+    address: ul. Szpitalna 1, 33-170 Tuchów
+    rating: 4.4
+    lat: 49.8938
+    lng: 21.0530
+    phone: +48 14 653 51 00
+    website: https://czt.com.pl/
+    description: Centrum zdrowia z oddziałem ginekologiczno-położniczym oraz diagnostyką prenatalną.
+    opening_hours:
+      monday: 00:00-24:00
+      tuesday: 00:00-24:00
+      wednesday: 00:00-24:00
+      thursday: 00:00-24:00
+      friday: 00:00-24:00
+      saturday: 00:00-24:00
+      sunday: 00:00-24:00
+
+  - id: szpital-powiatowy-oswiecim
+    name: Szpital Powiatowy w Oświęcimiu
+    type: hospital
+    city: Oświęcim
+    region: Małopolskie
+    address: ul. Wysokie Brzegi 4, 32-600 Oświęcim
+    rating: 4.3
+    lat: 50.0340
+    lng: 19.2090
+    phone: +48 33 844 82 00
+    website: https://www.szpitaloswiecim.pl/
+    description: Szpital powiatowy z Oddziałem Ginekologiczno-Położniczym oferującym opiekę okołoporodową.
+    opening_hours:
+      monday: 00:00-24:00
+      tuesday: 00:00-24:00
+      wednesday: 00:00-24:00
+      thursday: 00:00-24:00
+      friday: 00:00-24:00
+      saturday: 00:00-24:00
+      sunday: 00:00-24:00
+
+  - id: szpital-powiatowy-chrzanow
+    name: Szpital Powiatowy w Chrzanowie
+    type: hospital
+    city: Chrzanów
+    region: Małopolskie
+    address: ul. Topolowa 16, 32-500 Chrzanów
+    rating: 4.2
+    lat: 50.1350
+    lng: 19.4020
+    phone: +48 32 624 77 77
+    website: https://www.szpital-chrzanow.pl/
+    description: Szpital powiatowy zapewniający specjalistyczną opiekę medyczną mieszkańcom powiatu chrzanowskiego.
+    opening_hours:
+      monday: 00:00-24:00
+      tuesday: 00:00-24:00
+      wednesday: 00:00-24:00
+      thursday: 00:00-24:00
+      friday: 00:00-24:00
+      saturday: 00:00-24:00
+      sunday: 00:00-24:00
+
+  - id: szpital-kartuzy
+    name: Szpital Powiatowy im. dr. Aleksandra Majkowskiego
+    type: hospital
+    city: Kartuzy
+    region: Pomorskie
+    address: ul. Floriana Ceynowy 7, 83-300 Kartuzy
+    rating: 4.3
+    lat: 54.3340
+    lng: 18.1980
+    phone: +48 58 685 48 00
+    website: https://www.pczkartuzy.pl/
+    description: Szpital powiatowy z Oddziałem Ginekologiczno-Położniczym i blokiem porodowym.
+    opening_hours:
+      monday: 00:00-24:00
+      tuesday: 00:00-24:00
+      wednesday: 00:00-24:00
+      thursday: 00:00-24:00
+      friday: 00:00-24:00
+      saturday: 00:00-24:00
+      sunday: 00:00-24:00
+
+  - id: szpital-zlotow
+    name: Szpital Powiatowy im. Alfreda Sokołowskiego w Złotowie
+    type: hospital
+    city: Złotów
+    region: Wielkopolskie
+    address: ul. Szpitalna 28, 77-400 Złotów
+    rating: 4.1
+    lat: 53.3640
+    lng: 17.0410
+    phone: +48 67 263 22 33
+    website: https://szpital.zlotow.pl/
+    description: Szpital powiatowy z oddziałem ginekologicznym i świadczeniami szpitalnymi dla mieszkańców regionu.
+    opening_hours:
+      monday: 00:00-24:00
+      tuesday: 00:00-24:00
+      wednesday: 00:00-24:00
+      thursday: 00:00-24:00
+      friday: 00:00-24:00
+      saturday: 00:00-24:00
+      sunday: 00:00-24:00
+
+  - id: szpital-biernackiego-walbrzych
+    name: Specjalistyczny Szpital Ginekologiczno-Położniczy im. E. Biernackiego
+    type: hospital
+    city: Wałbrzych
+    region: Dolnośląskie
+    address: ul. Paderewskiego 10, 58-301 Wałbrzych
+    rating: 4.6
+    lat: 50.7710
+    lng: 16.2840
+    phone: +48 74 887 71 01
+    website: https://www.szpital.walbrzych.pl/
+    description: Specjalistyczny szpital ginekologiczno-położniczy III poziomu referencyjnego, obejmujący również neonatologię.
+    opening_hours:
+      monday: 00:00-24:00
+      tuesday: 00:00-24:00
+      wednesday: 00:00-24:00
+      thursday: 00:00-24:00
+      friday: 00:00-24:00
+      saturday: 00:00-24:00
+      sunday: 00:00-24:00
+
+  # GYNECOLOGISTS / OBSTETRICIANS
+  - id: pro-medica-elk-ginekologia
+    name: Pro-Medica w Ełku - Poradnia Ginekologiczno-Położnicza
+    type: gynecologist
+    city: Ełk
+    region: Warmińsko-Mazurskie
+    address: ul. Armii Krajowej 29, 19-300 Ełk
+    rating: 4.7
+    lat: 53.8215
+    lng: 22.3505
+    phone: +48 87 610 44 41
+    website: https://www.pro-medica.elk.pl/
+    description: Poradnia ginekologiczno-położnicza zapewniająca konsultacje specjalistyczne.
+    opening_hours:
+      monday: 07:00-19:00
+      tuesday: 07:00-19:00
+      wednesday: 07:00-19:00
+      thursday: 07:00-19:00
+      friday: 07:00-19:00
+      saturday: closed
+      sunday: closed
+
+  - id: badania-prenatalne-tuchow
+    name: Badania Prenatalne - Centrum Zdrowia Tuchów
+    type: gynecologist
+    city: Tuchów
+    region: Małopolskie
+    address: ul. Szpitalna 1, 33-170 Tuchów
+    rating: 4.8
+    lat: 49.8938
+    lng: 21.0530
+    phone: +48 533 304 842
+    website: https://czt.com.pl/
+    description: Diagnostyka prenatalna i konsultacje związane z prowadzeniem ciąży.
+    opening_hours:
+      monday: 10:00-17:00
+      tuesday: 08:00-17:00
+      wednesday: 08:00-17:00
+      thursday: 08:00-17:00
+      friday: 08:00-15:30
+      saturday: closed
+      sunday: closed
+
+  # BIRTHING CLASSES
+  - id: humano-tarnow
+    name: Szkoła Rodzenia Humano
+    type: birthing_class
+    city: Tarnów
+    region: Małopolskie
+    address: ul. Szpitalna 13, 33-100 Tarnów
+    rating: 4.7
+    lat: 50.0130
+    lng: 20.9860
+    phone: +48 14 631 04 38
+    website: https://ww.ssz.tar.pl/jednostki/inne-dzialy/szkola-rodzenia
+    description: Szkoła rodzenia przy Specjalistycznym Szpitalu im. E. Szczeklika przygotowująca do porodu i rodzicielstwa.
+    opening_hours:
+      monday: 07:00-15:00
+      tuesday: 07:00-15:00
+      wednesday: 07:00-15:00
+      thursday: 07:00-15:00
+      friday: 07:00-15:00
+      saturday: closed
+      sunday: closed
+
+  - id: szkola-rodzenia-na-cichej-debica
+    name: Szkoła Rodzenia Na Cichej
+    type: birthing_class
+    city: Dębica
+    region: Podkarpackie
+    address: ul. Cicha 14, 39-200 Dębica
+    rating: 4.8
+    lat: 50.0510
+    lng: 21.4120
+    phone: +48 693 619 272
+    website: https://www.facebook.com/
+    description: Szkoła rodzenia oferująca przygotowanie przyszłych rodziców do porodu i pierwszych tygodni z dzieckiem.
+    opening_hours:
+      monday: 10:00-16:00
+      tuesday: 10:00-16:00
+      wednesday: 10:00-16:00
+      thursday: 10:00-16:00
+      friday: 10:00-16:00
+      saturday: closed
+      sunday: closed
+
+  - id: szkola-rodzenia-nowy-sacz-szczesliwie-urodzeni
+    name: Bezpłatna Szkoła Rodzenia Szczęśliwie Urodzeni
+    type: birthing_class
+    city: Nowy Sącz
+    region: Małopolskie
+    address: ul. Rokitniańczyków 32, 33-300 Nowy Sącz
+    rating: 4.6
+    lat: 49.6170
+    lng: 20.6980
+    phone: +48 504 186 217
+    website: https://www.facebook.com/
+    description: Bezpłatna szkoła rodzenia dla przyszłych rodziców.
+    opening_hours:
+      monday: 12:00-18:00
+      tuesday: 12:00-18:00
+      wednesday: 12:00-18:00
+      thursday: 12:00-18:00
+      friday: 12:00-18:00
+      saturday: closed
+      sunday: closed
+
+  # DIETITIANS
+  - id: dietetyk-marika-pruchnik-tarnow
+    name: Dietetyk Tarnów - Marika Pruchnik
     type: dietitian
     city: Tarnów
     region: Małopolskie
-    address: ul. Kwiatowa 12, Tarnów
-    rating: 4.6
-    lat: 50.0124
-    lng: 20.9882
-    phone: +48 14 688 90 02
-    website: https://www.poradnia.pl/
-    description: Rozpoznawanie potrzeb żywieniowych w ciąży i podczas karmienia.
-    opening_hours: *a4
-  - id: zabrze-psych-3
-    name: Zdrowie i Spokój Zabrze
-    type: psychologist
-    city: Zabrze
-    region: Śląskie
-    address: ul. Ulica dluga 10, Zabrze
+    address: ul. Czerwona 7, 33-100 Tarnów
     rating: 4.8
-    lat: 50.324
-    lng: 18.785
-    phone: +48 32 330 67 09
-    website: https://www.mp.pl
-    description: Wsparcie dla mam z objawami lęku i przepracowywania trudnych doświadczeń.
-    opening_hours: *a5
-  - id: nowy-sacz-physio-3
-    name: Otwórz Swoje Ciało Nowy Sącz
-    type: physiotherapist
+    lat: 50.0130
+    lng: 20.9870
+    phone: +48 600 191 997
+    website: https://www.facebook.com/
+    description: Konsultacje dietetyczne i psychodietetyczne.
+    opening_hours:
+      monday: 09:00-18:00
+      tuesday: 09:00-18:00
+      wednesday: 09:00-18:00
+      thursday: 09:00-18:00
+      friday: 09:00-18:00
+      saturday: closed
+      sunday: closed
+
+  - id: bonne-sante-tarnow
+    name: Bonne Santé Tarnów
+    type: dietitian
+    city: Tarnów
+    region: Małopolskie
+    address: ul. Szkotnik 19, 33-100 Tarnów
+    rating: 4.7
+    lat: 50.0085
+    lng: 20.9810
+    phone: +48 504 613 141
+    website: https://bonnesante.pl/
+    description: Gabinet dietetyczny oferujący indywidualne konsultacje i planowanie żywienia.
+    opening_hours:
+      monday: 06:30-21:00
+      tuesday: 06:30-21:00
+      wednesday: 06:30-21:00
+      thursday: 06:30-21:00
+      friday: 06:30-21:00
+      saturday: closed
+      sunday: closed
+
+  # PSYCHOLOGISTS / PSYCHIATRISTS
+  - id: dobre-miejsce-nowy-sacz
+    name: Dobre Miejsce - Psycholog i Psychoterapia
+    type: psychologist
     city: Nowy Sącz
     region: Małopolskie
-    address: ul. Długa 3, Nowy Sącz
-    rating: 4.7
-    lat: 49.6211
-    lng: 20.6976
-    phone: +48 18 444 10 90
-    website: https://www.mp.pl
-    description: Ćwiczenia i rehabilitacja dla zdrowia grzbietu i stawów w ciąży.
-    opening_hours: *a6
-  - id: walbrzych-mops-3
-    name: MOPS Wałbrzych
-    type: mops
-    city: Wałbrzych
-    region: Dolnośląskie
-    address: ul. Krótka 4, Wałbrzych
-    rating: 4.5
-    lat: 50.7716
-    lng: 16.284
-    phone: +48 74 807 83 03
-    website: https://www.gov.pl/web/rodzina
-    description: Informacja o dodatkach, rodzinach i potrzebach socjalnych.
-    opening_hours: *a7
-  - id: gliwice-store-3
-    name: Malutka Radość Gliwice
-    type: store
-    city: Gliwice
-    region: Śląskie
-    address: ul. Węgierska 18, Gliwice
-    rating: 4.6
-    lat: 50.2945
-    lng: 18.6711
-    phone: +48 32 277 11 88
-    website: https://www.babyclub.pl
-    description: Sklep z wyprawką, dodatkami i przyborami do pierwszych miesięcy rodziny.
-    opening_hours: *a8
-  - id: plock-hospital-4
-    name: Poradnia dla Mam Płock
-    type: hospital
-    city: Płock
-    region: Mazowieckie
-    address: ul. Słoneczna 15, Płock
-    rating: 4.6
-    lat: 52.5494
-    lng: 19.706
-    phone: +48 24 262 77 30
-    website: https://www.gov.pl/web/zdrowie
-    description: Kompleksowa opieka prenatalna na terenie miasta i okolic.
-    opening_hours: *a1
-  - id: elblag-gyneco-4
-    name: Ginekolog Elbląg
-    type: gynecologist
-    city: Elbląg
-    region: Warmińsko-mazurskie
-    address: ul. Łąkowa 6, Elbląg
-    rating: 4.7
-    lat: 54.1561
-    lng: 19.4042
-    phone: +48 55 234 40 80
-    website: https://www.mp.pl
-    description: Opieka nad ciążą, kontrola badań i planowanie porodu.
-    opening_hours: *a2
-  - id: czestochowa-birth-4
-    name: Mamo, Wiemy Częstochowa
-    type: birthing_class
-    city: Częstochowa
-    region: Śląskie
-    address: ul. Żeromskiego 21, Częstochowa
-    rating: 4.5
-    lat: 50.812
-    lng: 19.1205
-    phone: +48 34 320 70 06
-    website: https://www.gov.pl/web/rodzina
-    description: Kursy z przygotowania do porodu i pierwszych tygodni po urodzeniu.
-    opening_hours: *a3
-  - id: sandomierz-diet-4
-    name: Smak i Energia Sandomierz
-    type: dietitian
-    city: Sandomierz
-    region: Świętokrzyskie
-    address: ul. Sandomierska 27, Sandomierz
-    rating: 4.6
-    lat: 50.6822
-    lng: 21.7483
-    phone: +48 15 666 88 12
-    website: https://www.poradnia.pl/
-    description: Plan żywienia i edukacja zdrowotna dla kobiet w ciąży.
-    opening_hours: *a4
-  - id: jastrzebie-psych-4
-    name: Wspólna Droga Jastrzębie-Zdrój
+    address: ul. gen. Stefana Grota-Roweckiego 16a/3, 33-300 Nowy Sącz
+    rating: 4.9
+    lat: 49.6180
+    lng: 20.6985
+    phone: +48 693 351 970
+    website: https://www.facebook.com/
+    description: Pomoc psychologiczna i psychoterapia.
+    opening_hours:
+      monday: 08:00-20:00
+      tuesday: 08:00-20:00
+      wednesday: 08:00-20:00
+      thursday: 08:00-20:00
+      friday: 08:00-20:00
+      saturday: 08:00-20:00
+      sunday: closed
+
+  - id: centrum-psychoterapii-krosno
+    name: Centrum Psychoterapii i Pomocy Psychologicznej
     type: psychologist
-    city: Jastrzębie-Zdrój
-    region: Śląskie
-    address: ul. Parkowa 9, Jastrzębie-Zdrój
-    rating: 4.7
-    lat: 49.9539
-    lng: 18.5871
-    phone: +48 32 444 23 10
-    website: https://www.mp.pl
-    description: Psychoedukacja, wsparcie psychologiczne i terapia stresu związana z ciążą.
-    opening_hours: *a5
+    city: Krosno
+    region: Podkarpackie
+    address: ul. Grodzka 76, 38-400 Krosno
+    rating: 4.8
+    lat: 49.6880
+    lng: 21.7650
+    phone: +48 534 164 177
+    website: https://www.facebook.com/
+    description: Centrum oferujące pomoc psychologiczną i psychoterapię.
+    opening_hours:
+      monday: 07:00-23:00
+      tuesday: 07:00-23:00
+      wednesday: 07:00-23:00
+      thursday: 07:00-23:00
+      friday: 07:00-23:00
+      saturday: 07:00-23:00
+      sunday: closed
+
+  - id: centrum-pomocy-psychologicznej-krosno
+    name: Centrum Pomocy Psychologicznej
+    type: psychologist
+    city: Krosno
+    region: Podkarpackie
+    address: Rynek 2, 38-400 Krosno
+    rating: 4.8
+    lat: 49.6885
+    lng: 21.7655
+    phone: +48 605 278 969
+    website: https://www.facebook.com/
+    description: Pomoc psychologiczna, w tym wsparcie psychologiczne dla dzieci i rodzin.
+    opening_hours:
+      monday: 08:00-19:00
+      tuesday: 08:00-19:00
+      wednesday: 08:00-19:00
+      thursday: 08:00-19:00
+      friday: 08:00-19:00
+      saturday: closed
+      sunday: closed
+
+  # PHYSIOTHERAPISTS
+  - id: regeneroom-tarnow
+    name: Regeneroom - Fizjoterapia Uroginekologiczna
+    type: physiotherapist
+    city: Tarnów
+    region: Małopolskie
+    address: ul. Wygodna 16, 33-100 Tarnów
+    rating: 4.9
+    lat: 50.0180
+    lng: 20.9840
+    phone: +48 664 198 206
+    website: https://www.facebook.com/
+    description: Fizjoterapia, w tym fizjoterapia uroginekologiczna i urologiczna.
+    opening_hours:
+      monday: 11:00-18:00
+      tuesday: 09:00-18:00
+      wednesday: 11:00-18:00
+      thursday: 10:00-15:00
+      friday: 07:00-17:00
+      saturday: closed
+      sunday: closed
+
+  - id: neuron-miechow
+    name: Centrum Rehabilitacji i Osteopatii NEURON
+    type: physiotherapist
+    city: Miechów
+    region: Małopolskie
+    address: ul. Powstańców 1863 r. 33A, 32-200 Miechów
+    rating: 4.8
+    lat: 50.3575
+    lng: 20.0260
+    phone: +48 660 088 246
+    website: https://www.facebook.com/
+    description: Centrum rehabilitacji i fizjoterapii.
+    opening_hours:
+      monday: 08:00-19:30
+      tuesday: 08:00-19:30
+      wednesday: 08:00-19:30
+      thursday: 08:00-19:30
+      friday: 08:00-19:30
+      saturday: closed
+      sunday: closed
+
+  - id: fizjoterapia-paulina-zebala-miechow
+    name: Fizjoterapia Paulina Zębala
+    type: physiotherapist
+    city: Miechów
+    region: Małopolskie
+    address: ul. Powstańców 1863 r. 108, 32-200 Miechów
+    rating: 4.9
+    lat: 50.3590
+    lng: 20.0220
+    phone: +48 694 010 108
+    website: https://www.facebook.com/
+    description: Gabinet fizjoterapii i rehabilitacji.
+    opening_hours:
+      monday: 08:00-13:00
+      tuesday: 08:00-13:00
+      wednesday: 08:00-20:00
+      thursday: 16:00-20:00
+      friday: 16:00-20:00
+      saturday: closed
+      sunday: closed
+
+  # MOPS / FAMILY SUPPORT
+  - id: mops-limanowa
+    name: Miejski Ośrodek Pomocy Społecznej w Limanowej
+    type: mops
+    city: Limanowa
+    region: Małopolskie
+    address: ul. Kilińskiego 11, 34-600 Limanowa
+    rating: 4.2
+    lat: 49.7060
+    lng: 20.4225
+    phone: +48 18 337 13 10
+    website: https://mops.wlimanowej.pl/
+    description: Pomoc społeczna, wsparcie rodzin i informacje o dostępnych świadczeniach.
+    opening_hours:
+      monday: 07:30-15:30
+      tuesday: 07:30-15:30
+      wednesday: 07:30-15:30
+      thursday: 07:30-15:30
+      friday: 07:30-15:30
+      saturday: closed
+      sunday: closed
+
+  - id: mops-nowy-sacz
+    name: Miejski Ośrodek Pomocy Społecznej w Nowym Sączu
+    type: mops
+    city: Nowy Sącz
+    region: Małopolskie
+    address: ul. Grunwaldzka 59A, 33-300 Nowy Sącz
+    rating: 4.1
+    lat: 49.6175
+    lng: 20.7000
+    phone: +48 18 444 36 23
+    website: https://mops.nowysacz.pl/
+    description: Pomoc społeczna, świadczenia i wsparcie rodzin, w tym programy wsparcia kobiet w ciąży i rodzin.
+    opening_hours:
+      monday: 08:00-16:00
+      tuesday: 07:00-15:00
+      wednesday: 07:00-15:00
+      thursday: 07:00-15:00
+      friday: 07:00-15:00
+      saturday: closed
+      sunday: closed
+
+  - id: cus-oswiecim
+    name: Centrum Usług Społecznych w Oświęcimiu
+    type: mops
+    city: Oświęcim
+    region: Małopolskie
+    address: ul. Jana III Sobieskiego 15, 32-600 Oświęcim
+    rating: 4.0
+    lat: 50.0350
+    lng: 19.2100
+    phone: +48 33 847 90 00
+    website: https://cus.oswiecim.pl/
+    description: Wsparcie społeczne, rodzinne i pomoc mieszkańcom znajdującym się w trudnej sytuacji.
+    opening_hours:
+      monday: 07:00-15:00
+      tuesday: 07:00-17:00
+      wednesday: 07:00-15:00
+      thursday: 07:00-15:00
+      friday: 07:00-13:00
+      saturday: closed
+      sunday: closed
+
+  - id: mopr-krosno
+    name: Miejski Ośrodek Pomocy Rodzinie w Krośnie
+    type: mops
+    city: Krosno
+    region: Podkarpackie
+    address: ul. Piastowska 58, 38-400 Krosno
+    rating: 4.0
+    lat: 49.6900
+    lng: 21.7630
+    phone: +48 13 432 04 59
+    website: https://moprkrosno.pl/
+    description: Pomoc społeczna, wsparcie rodzin i pomoc osobom w trudnej sytuacji życiowej.
+    opening_hours:
+      monday: 07:30-15:30
+      tuesday: 07:30-15:30
+      wednesday: 07:30-15:30
+      thursday: 07:30-15:30
+      friday: 07:30-15:30
+      saturday: closed
+      sunday: closed
+
+  - id: mops-kartuzy
+    name: Gminny Ośrodek Pomocy Społecznej w Kartuzach
+    type: mops
+    city: Kartuzy
+    region: Pomorskie
+    address: ul. gen. Józefa Hallera 1, 83-300 Kartuzy
+    rating: 4.0
+    lat: 54.3345
+    lng: 18.1985
+    phone: +48 58 681 26 31
+    website: https://gops.kartuzy.pl/
+    description: Pomoc społeczna i wsparcie rodzin na terenie gminy Kartuzy.
+    opening_hours:
+      monday: 07:30-15:30
+      tuesday: 07:30-15:30
+      wednesday: 07:30-16:30
+      thursday: 07:30-15:30
+      friday: 07:30-14:30
+      saturday: closed
+      sunday: closed
+
+  # PHARMACIES
+  - id: apteka-sana-limanowa
+    name: Sana. Apteka
+    type: pharmacy
+    city: Limanowa
+    region: Małopolskie
+    address: ul. Piłsudskiego 61B, 34-600 Limanowa
+    rating: 4.6
+    lat: 49.7048
+    lng: 20.4225
+    phone: +48 18 337 48 88
+    website: https://www.aptekasana.pl/
+    description: Apteka ogólnodostępna w sąsiedztwie Szpitala Powiatowego w Limanowej.
+    opening_hours:
+      monday: 07:00-23:00
+      tuesday: 07:00-23:00
+      wednesday: 07:00-23:00
+      thursday: 07:00-23:00
+      friday: 07:00-23:00
+      saturday: 07:00-23:00
+      sunday: 09:00-23:00
+
+  - id: apteka-centrum-limanowa
+    name: Apteka Centrum
+    type: pharmacy
+    city: Limanowa
+    region: Małopolskie
+    address: Rynek 2, 34-600 Limanowa
+    rating: 4.5
+    lat: 49.7058
+    lng: 20.4210
+    phone: +48 18 337 42 22
+    website: https://www.facebook.com/
+    description: Apteka ogólnodostępna w centrum Limanowej.
+    opening_hours:
+      monday: 07:30-20:00
+      tuesday: 07:30-20:00
+      wednesday: 07:30-20:00
+      thursday: 07:30-20:00
+      friday: 07:30-20:00
+      saturday: 07:30-14:00
+      sunday: closed
+
+  - id: apteka-sloneczna-miechow
+    name: Apteka Słoneczna
+    type: pharmacy
+    city: Miechów
+    region: Małopolskie
+    address: ul. Piłsudskiego 10, 32-200 Miechów
+    rating: 4.6
+    lat: 50.3560
+    lng: 20.0265
+    phone: +48 798 226 201
+    website: https://www.facebook.com/
+    description: Apteka ogólnodostępna oferująca leki, wyroby medyczne i produkty farmaceutyczne.
+    opening_hours:
+      monday: 07:00-21:00
+      tuesday: 07:00-21:00
+      wednesday: 07:00-21:00
+      thursday: 07:00-21:00
+      friday: 07:00-21:00
+      saturday: 07:00-21:00
+      sunday: 08:00-21:00
+
+  - id: apteka-dom-lekow-kartuzy
+    name: Dom Leków
+    type: pharmacy
+    city: Kartuzy
+    region: Pomorskie
+    address: ul. Gdańska 14, 83-300 Kartuzy
+    rating: 4.6
+    lat: 54.3345
+    lng: 18.1965
+    phone: +48 58 681 11 02
+    website: https://www.domlekow.pl/
+    description: Apteka ogólnodostępna w centrum Kartuz.
+    opening_hours:
+      monday: 08:00-20:00
+      tuesday: 08:00-20:00
+      wednesday: 08:00-20:00
+      thursday: 08:00-20:00
+      friday: 08:00-20:00
+      saturday: 08:00-20:00
+      sunday: 10:00-20:00
+
+  # STORES
+  - id: babyborn-krakow
+    name: Szkoła Rodzenia BabyBorn
+    type: store
+    city: Kraków
+    region: Małopolskie
+    address: ul. Skotnicka 230A, 30-394 Kraków
+    rating: 4.5
+    lat: 49.9990
+    lng: 19.9140
+    phone: +48 501 920 151
+    website: https://babyborn.pl/
+    description: Centrum związane z przygotowaniem do rodzicielstwa i opieką nad przyszłymi rodzicami.
+    opening_hours:
+      monday: 08:00-16:00
+      tuesday: 08:00-16:00
+      wednesday: 08:00-16:00
+      thursday: 08:00-16:00
+      friday: 08:00-16:00
+      saturday: closed
+      sunday: closed

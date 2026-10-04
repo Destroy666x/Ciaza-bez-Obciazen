@@ -8,17 +8,19 @@ import { useLocale } from '@/lib/client-i18n';
 import { getStoredFavoriteLocationIds, setStoredFavoriteLocationIds } from '@/lib/favorites';
 
 const categoryColors: Record<string, string> = {
-  hospital: '#f59e0b',
+  hospital: '#F00',
+  pharmacy: '#DDD',
   gynecologist: '#8b5cf6',
   birthing_class: '#10b981',
+  parenting_course: '#14b8a6',
   dietitian: '#f97316',
   psychologist: '#ec4899',
-  physiotherapist: '#14b8a6',
+  physiotherapist: '#00008b',
   mops: '#3b82f6',
-  store: '#eab308',
+  store: '#7e7e7e',
 };
 
-const categoryOrder = ['hospital', 'gynecologist', 'birthing_class', 'dietitian', 'psychologist', 'physiotherapist', 'mops', 'store'];
+const categoryOrder = ['hospital', 'pharmacy', 'gynecologist', 'birthing_class', 'parenting_course', 'dietitian', 'psychologist', 'physiotherapist', 'mops', 'store'];
 const DEFAULT_CENTER = { lat: 52.237, lng: 19.017 };
 const weekdayOrder = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday'] as const;
 const polandBounds = L.latLngBounds(L.latLng(49.0, 14.0), L.latLng(54.9, 24.2));
@@ -262,8 +264,10 @@ export function ServiceMap({ locations }: { locations: ServiceLocation[] }) {
   const categoryLabels = useMemo<Record<string, string>>(
     () => ({
       hospital: t.map.categories.hospital,
+      pharmacy: t.map.categories.pharmacy,
       gynecologist: t.map.categories.gynecologist,
       birthing_class: t.map.categories.birthing_class,
+      parenting_course: t.map.categories.parenting_course,
       dietitian: t.map.categories.dietitian,
       psychologist: t.map.categories.psychologist,
       physiotherapist: t.map.categories.physiotherapist,
@@ -376,13 +380,25 @@ export function ServiceMap({ locations }: { locations: ServiceLocation[] }) {
     void resolveLocationName(nextLocation.lat, nextLocation.lng);
   }, [resolveLocationName]);
 
-  const sortedLocations = useMemo(
-    () =>
-      [...locations].sort(
-        (left, right) => getDistanceKm(center, left) - getDistanceKm(center, right)
-      ),
-    [center, locations]
-  );
+  const sortedLocations = useMemo(() => {
+    if (!userLocation) {
+      return locations;
+    }
+
+    return [...locations].sort((a, b) => {
+      const distanceA = getDistanceKm(userLocation, {
+        lat: a.lat,
+        lng: a.lng,
+      });
+
+      const distanceB = getDistanceKm(userLocation, {
+        lat: b.lat,
+        lng: b.lng,
+      });
+
+      return distanceA - distanceB;
+    });
+  }, [locations, userLocation]);
 
   const visibleLocations = useMemo(() => {
     const withinRadius = radiusEnabled && userLocation
@@ -602,7 +618,7 @@ export function ServiceMap({ locations }: { locations: ServiceLocation[] }) {
           </div>
 
           {categoryOrder.map((type) => {
-            const categoryItems = locations.filter((place) => place.type === type);
+            const categoryItems = sortedLocations.filter((place) => place.type === type);
             const isOpen = openType === type;
             const label = categoryLabels[type] ?? type;
 
