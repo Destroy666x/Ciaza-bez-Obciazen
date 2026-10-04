@@ -74,7 +74,7 @@ export const translations = {
       primaryCta: 'Open knowledge base',
       secondaryCta: 'Find local help',
       week: 'Pregnancy week',
-      mapCount: 'Maps',
+      mapCount: 'Places',
       articleCount: 'Articles',
       cards: {
         knowledge: 'Knowledge base',
@@ -251,7 +251,7 @@ export const translations = {
       primaryCta: 'Otwórz centrum wiedzy',
       secondaryCta: 'Znajdź pomoc w okolicy',
       week: 'Tydzień ciąży',
-      mapCount: 'Mapa',
+      mapCount: 'Lokalizacje',
       articleCount: 'Artykuły',
       cards: {
         knowledge: 'Centrum wiedzy',
