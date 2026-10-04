@@ -1510,3 +1510,633 @@ locations:
       friday: 08:00-16:00
       saturday: closed
       sunday: closed
+
+  - id: mission-health-zielona-gora
+    name: Mission Health Fizjoterapia
+    type: physiotherapist
+    city: Zielona Góra
+    region: lubuskie
+    address: Generała Jarosława Dąbrowskiego 41B/pok. 02 i 14, 65-021 Zielona Góra
+    rating: 4.8
+    lat: 51.9394
+    lng: 15.5050
+    phone: +48 605 652 992
+    website: https://mhfizjoterapia.pl/
+    description: Gabinet fizjoterapii.
+    opening_hours:
+      monday: 14:15-21:00
+      tuesday: 14:15-21:00
+      wednesday: 10:00-16:00
+      thursday: 14:15-21:00
+      friday: 14:15-21:00
+      saturday: 10:00-16:00
+      sunday: closed
+
+  - id: czeszejko-sochacka-legnica
+    name: Gabinet położniczo-ginekologiczny Małgorzata Czeszejko-Sochacka
+    type: gynecologist
+    city: Legnica
+    region: dolnośląskie
+    address: Andrzeja Struga 32, 59-200 Legnica
+    rating: 4.0
+    lat: 51.2080
+    lng: 16.1619
+    phone:
+    website:
+    description: Gabinet położniczo-ginekologiczny.
+    opening_hours:
+      monday: 09:00-20:00
+      tuesday: 09:00-20:00
+      wednesday: 09:00-20:00
+      thursday: 09:00-20:00
+      friday: 09:00-20:00
+      saturday: closed
+      sunday: closed
+
+  - id: orto-fiz-sieradz
+    name: ORTO-FIZJO
+    type: physiotherapist
+    city: Sieradz
+    region: łódzkie
+    address: 1 Maja 120, 98-200 Sieradz
+    rating: 4.9
+    lat: 51.5796
+    lng: 18.7151
+    phone: +48 798 957 548
+    website:
+    description: Klinika fizjoterapii.
+    opening_hours:
+      monday: 08:00-20:00
+      tuesday: 08:00-20:00
+      wednesday: 08:00-20:00
+      thursday: 08:00-20:00
+      friday: 08:00-20:00
+      saturday: 09:00-13:00
+      sunday: closed
+
+  - id: wojtynek-torun
+    name: Gabinet Ginekologiczny Piotr Wojtynek
+    type: gynecologist
+    city: Toruń
+    region: kujawsko-pomorskie
+    address: Bydgoska 35, 87-100 Toruń
+    rating: 4.8
+    lat: 53.0124
+    lng: 18.5895
+    phone: +48 609 922 223
+    website: https://wojtynek.pl/
+    description: Gabinet ginekologiczny i pracownia KTG.
+    opening_hours:
+      monday: 09:00-17:00
+      tuesday: 09:00-17:00
+      wednesday: 09:00-17:00
+      thursday: 09:00-17:00
+      friday: 09:00-17:00
+      saturday: closed
+      sunday: closed
+
+  - id: fizjomore-lublin
+    name: FizjoMore
+    type: physiotherapist
+    city: Lublin
+    region: lubelskie
+    address: Kawaleryjska 10/1, 20-552 Lublin
+    rating: 4.9
+    lat: 51.2225
+    lng: 22.5135
+    phone: +48 690 403 304
+    website: https://fizjomore.pl/
+    description: Fizjoterapia, rehabilitacja oraz fizjoterapia uroginekologiczna.
+    opening_hours:
+      monday: 09:00-20:00
+      tuesday: 09:00-20:00
+      wednesday: 09:00-20:00
+      thursday: 09:00-20:00
+      friday: 09:00-20:00
+      saturday: closed
+      sunday: closed
+
+  - id: caremedico-gniezno
+    name: Centrum Medyczne CareMedico
+    type: dietitian
+    city: Gniezno
+    region: wielkopolskie
+    address: Elizy Orzeszkowej 34, 62-200 Gniezno
+    rating: 4.7
+    lat: 52.5350
+    lng: 17.6020
+    phone: +48 61 424 28 75
+    website: https://caremedico.gniezno.pl/
+    description: Centrum medyczne oferujące konsultacje dietetyczne.
+    opening_hours:
+      monday: 08:00-18:00
+      tuesday: 08:00-18:00
+      wednesday: 08:00-18:00
+      thursday: 08:00-18:00
+      friday: 08:00-18:00
+      saturday: closed
+      sunday: closed
+
+  - id: fizjomed-radom
+    name: Centrum Medyczne Fizjo Medica
+    type: physiotherapist
+    city: Radom
+    region: mazowieckie
+    address: Warszawska 7, 26-600 Radom
+    rating: 4.8
+    lat: 51.4027
+    lng: 21.1471
+    phone:
+    website: https://www.fizjomedica.radom.pl/
+    description: Centrum fizjoterapii i rehabilitacji, w tym rehabilitacja kobiet w ciąży i uroginekologia.
+    opening_hours:
+      monday: 07:00-18:00
+      tuesday: 07:00-18:00
+      wednesday: 07:00-18:00
+      thursday: 07:00-18:00
+      friday: 07:00-18:00
+      saturday: 09:00-14:00
+      sunday: closed
+
+  - id: pectus-wagrowiec
+    name: Fizjoterapia, osteopatia i akupunktura Pectus
+    type: physiotherapist
+    city: Wągrowiec
+    region: wielkopolskie
+    address: Sowia 12, 62-100 Wągrowiec
+    rating: 4.9
+    lat: 52.8080
+    lng: 17.1995
+    phone: +48 886 283 915
+    website:
+    description: Gabinet fizjoterapii, osteopatii i akupunktury.
+    opening_hours:
+      monday: 07:00-18:00
+      tuesday: 07:00-18:00
+      wednesday: 07:00-18:00
+      thursday: 07:00-18:00
+      friday: 07:00-13:00
+      saturday: closed
+      sunday: closed
+
+  - id: centrum-psychologii-optima-lomza
+    name: Centrum Psychologii OPTIMA
+    type: psychologist
+    city: Łomża
+    region: podlaskie
+    address: Zjazd 21, 18-400 Łomża
+    rating: 4.7
+    lat: 53.1781
+    lng: 22.0594
+    phone: +48 660 596 690
+    website: https://optima.lomza.pl/
+    description: Gabinet psychologiczny i pracownia psychologiczna.
+    opening_hours:
+      monday: 08:00-21:00
+      tuesday: 08:00-21:00
+      wednesday: 08:00-21:00
+      thursday: 08:00-21:00
+      friday: 08:00-21:00
+      saturday: 08:00-16:00
+      sunday: closed
+
+  - id: studio-ruchu-suwalki
+    name: Studio Ruchu
+    type: physiotherapist
+    city: Suwałki
+    region: podlaskie
+    address: Bydgoska 33, 16-400 Suwałki
+    rating: 4.8
+    lat: 54.1027
+    lng: 22.9323
+    phone: +48 530 282 612
+    website: https://studioruchu.suwalki.pl/
+    description: Fizjoterapia, kinezyterapia i terapia manualna.
+    opening_hours:
+      monday: 07:00-22:00
+      tuesday: 07:00-22:00
+      wednesday: 07:00-22:00
+      thursday: 07:00-22:00
+      friday: 07:00-22:00
+      saturday: 08:00-20:00
+      sunday: 08:00-20:00
+
+  - id: fizjosport-gliwice
+    name: Fizjosport
+    type: physiotherapist
+    city: Gliwice
+    region: śląskie
+    address: Sobieskiego 10/2, 44-100 Gliwice
+    rating: 4.9
+    lat: 50.2955
+    lng: 18.6650
+    phone: +48 606 316 161
+    website: https://fizjosport.pl/
+    description: Centrum fizjoterapii i rehabilitacji.
+    opening_hours:
+      monday: 07:00-21:00
+      tuesday: 07:00-21:00
+      wednesday: 07:00-21:00
+      thursday: 07:00-21:00
+      friday: 07:00-17:00
+      saturday: 09:00-14:00
+      sunday: closed
+
+  - id: rehab-dzialdowo
+    name: Centrum Rehabilitacji Oraz Korekcji Wad Stóp i Postawy - RehaFalk
+    type: physiotherapist
+    city: Działdowo
+    region: warmińsko-mazurskie
+    address: Kopernika 14, 13-200 Działdowo
+    rating: 5.0
+    lat: 53.2390
+    lng: 20.1700
+    phone: +48 798 939 118
+    website:
+    description: Centrum rehabilitacji i fizjoterapii.
+    opening_hours:
+      monday: 08:00-18:00
+      tuesday: 08:00-18:00
+      wednesday: 08:00-18:00
+      thursday: 08:00-18:00
+      friday: 08:00-18:00
+      saturday: 09:00-13:00
+      sunday: closed
+
+  - id: mhrehab-sosnowiec
+    name: MH Rehab
+    type: physiotherapist
+    city: Sosnowiec
+    region: śląskie
+    address: Armii Krajowej 76, 41-200 Sosnowiec
+    rating: 4.9
+    lat: 50.2860
+    lng: 19.1300
+    phone: +48 666 669 953
+    website: https://mhrehab.pl/
+    description: Fizjoterapia i osteopatia, także wizyty domowe.
+    opening_hours:
+      monday: 16:00-20:00
+      tuesday: 12:00-20:00
+      wednesday: 12:00-20:00
+      thursday: 12:00-20:00
+      friday: 08:00-12:00
+      saturday: closed
+      sunday: closed
+
+  - id: fizjomotion-opole
+    name: FizjoMotion
+    type: physiotherapist
+    city: Opole
+    region: opolskie
+    address: Katowicka 50, 45-061 Opole
+    rating: 4.9
+    lat: 50.6721
+    lng: 17.9261
+    phone: +48 534 347 547
+    website: https://fizjomotion.pl/
+    description: Centrum fizjoterapii i rehabilitacji.
+    opening_hours:
+      monday: 07:00-17:00
+      tuesday: 07:00-17:00
+      wednesday: 07:00-17:00
+      thursday: 07:00-17:00
+      friday: 07:00-17:00
+      saturday: 07:00-15:00
+      sunday: closed
+
+  - id: dotyk-natury-hajnowka
+    name: Dotyk Natury
+    type: physiotherapist
+    city: Hajnówka
+    region: podlaskie
+    address: 3 Maja 50, 17-200 Hajnówka
+    rating: 4.9
+    lat: 52.7433
+    lng: 23.5812
+    phone: +48 505 496 266
+    website: https://dotyknatury.com.pl/
+    description: Centrum fizjoterapii, terapii manualnych i masaży leczniczych.
+    opening_hours:
+      monday: 13:00-21:00
+      tuesday: 13:00-21:00
+      wednesday: 13:00-21:00
+      thursday: 13:00-21:00
+      friday: 13:00-21:00
+      saturday: 09:00-17:00
+      sunday: closed
+
+  - id: fizjoterapia-hana-krasnystaw
+    name: Gabinet Fizjoterapii HANA Paweł Dutkowski
+    type: physiotherapist
+    city: Krasnystaw
+    region: lubelskie
+    address: Poniatowskiego 33 A, 22-300 Krasnystaw
+    rating: 5.0
+    lat: 50.9840
+    lng: 23.1730
+    phone: +48 696 438 421
+    website:
+    description: Gabinet fizjoterapii i rehabilitacji.
+    opening_hours:
+      monday: 08:00-16:00
+      tuesday: 08:00-16:00
+      wednesday: 08:00-16:00
+      thursday: 08:00-16:00
+      friday: 08:00-16:00
+      saturday: 09:00-13:00
+      sunday: closed
+
+  - id: szpital-gorzow
+    name: Wielospecjalistyczny Szpital Wojewódzki w Gorzowie Wielkopolskim
+    type: hospital
+    city: Gorzów Wielkopolski
+    region: lubuskie
+    address: Jana Dekerta 1, 66-400 Gorzów Wielkopolski
+    rating: 4.4
+    lat: 52.7368
+    lng: 15.2288
+    phone: +48 95 782 72 00
+    website: https://szpital.gorzow.pl/
+    description: Wielospecjalistyczny szpital z oddziałem ginekologiczno-położniczym i neonatologią.
+    opening_hours:
+      monday: 00:00-23:59
+      tuesday: 00:00-23:59
+      wednesday: 00:00-23:59
+      thursday: 00:00-23:59
+      friday: 00:00-23:59
+      saturday: 00:00-23:59
+      sunday: 00:00-23:59
+
+  - id: szpital-konin
+    name: Wojewódzki Szpital Zespolony im. dr. Romana Ostrzyckiego
+    type: hospital
+    city: Konin
+    region: wielkopolskie
+    address: Szpitalna 45, 62-504 Konin
+    rating: 4.3
+    lat: 52.1951
+    lng: 18.2392
+    phone: +48 63 240 40 00
+    website: https://szpital-konin.pl/
+    description: Szpital z oddziałem ginekologiczno-położniczym, w tym opieką nad ciążą patologiczną.
+    opening_hours:
+      monday: 00:00-23:59
+      tuesday: 00:00-23:59
+      wednesday: 00:00-23:59
+      thursday: 00:00-23:59
+      friday: 00:00-23:59
+      saturday: 00:00-23:59
+      sunday: 00:00-23:59
+
+  - id: ginekolog-mlawa
+    name: dr n. med. Michał Świniarski - Gabinet Ginekologiczny
+    type: gynecologist
+    city: Mława
+    region: mazowieckie
+    address: Zygmunta Krasińskiego 3/83, 06-500 Mława
+    rating: 4.8
+    lat: 53.1125
+    lng: 20.3833
+    phone: +48 573 103 119
+    website:
+    description: Gabinet ginekologiczno-położniczy.
+    opening_hours:
+      monday: 09:00-17:00
+      tuesday: 09:00-17:00
+      wednesday: 09:00-17:00
+      thursday: 09:00-17:00
+      friday: 09:00-17:00
+      saturday: 09:00-13:00
+      sunday: closed
+
+  - id: szpital-poznan
+    name: Szpital Wojewódzki w Poznaniu
+    type: hospital
+    city: Poznań
+    region: wielkopolskie
+    address: Juraszów 7/19, 60-479 Poznań
+    rating: 4.2
+    lat: 52.4300
+    lng: 16.9050
+    phone: +48 61 821 22 88
+    website: https://lutycka.pl/
+    description: Szpital wojewódzki z oddziałem położniczo-ginekologicznym.
+    opening_hours:
+      monday: 00:00-23:59
+      tuesday: 00:00-23:59
+      wednesday: 00:00-23:59
+      thursday: 00:00-23:59
+      friday: 00:00-23:59
+      saturday: 00:00-23:59
+      sunday: 00:00-23:59
+
+  - id: szpital-zamosc
+    name: Samodzielny Publiczny Wojewódzki Szpital im. Papieża Jana Pawła II
+    type: hospital
+    city: Zamość
+    region: lubelskie
+    address: Jana Pawła II 10, 22-400 Zamość
+    rating: 4.3
+    lat: 50.7150
+    lng: 23.2520
+    phone:
+    website:
+    description: Wojewódzki szpital specjalistyczny.
+    opening_hours:
+      monday: 00:00-23:59
+      tuesday: 00:00-23:59
+      wednesday: 00:00-23:59
+      thursday: 00:00-23:59
+      friday: 00:00-23:59
+      saturday: 00:00-23:59
+      sunday: 00:00-23:59
+
+  - id: apteka-pod-lwem-bialystok
+    name: Apteka Pod Lwem
+    type: pharmacy
+    city: Białystok
+    region: podlaskie
+    address: Łąkowa 3, 15-017 Białystok
+    rating: 4.4
+    lat: 53.1380
+    lng: 23.1590
+    phone:
+    website:
+    description: Apteka ogólnodostępna.
+    opening_hours:
+      monday: 08:00-20:00
+      tuesday: 08:00-20:00
+      wednesday: 08:00-20:00
+      thursday: 08:00-20:00
+      friday: 08:00-20:00
+      saturday: 08:00-14:00
+      sunday: closed
+
+  - id: psycholog-chelm
+    name: Maś Dominika. Pracownia psychologiczna. Badania kierowców
+    type: psychologist
+    city: Chełm
+    region: lubelskie
+    address: Lwowska 51, 22-100 Chełm
+    rating: 5.0
+    lat: 51.1430
+    lng: 23.4710
+    phone: +48 509 111 198
+    website:
+    description: Pracownia psychologiczna i badania kierowców.
+    opening_hours:
+      monday: 08:00-18:00
+      tuesday: 08:00-18:00
+      wednesday: 08:00-18:00
+      thursday: 08:00-18:00
+      friday: 08:00-18:00
+      saturday: 09:00-13:00
+      sunday: closed
+
+  - id: apteka-vita-parczew
+    name: Vita Apteka Mitczuk mgr farm
+    type: pharmacy
+    city: Parczew
+    region: lubelskie
+    address: Wolności 9, 21-200 Parczew
+    rating: 4.9
+    lat: 51.6400
+    lng: 22.9000
+    phone: +48 83 354 32 91
+    website:
+    description: Apteka ogólnodostępna.
+    opening_hours:
+      monday: 07:30-21:00
+      tuesday: 07:30-21:00
+      wednesday: 07:30-21:00
+      thursday: 07:30-21:00
+      friday: 07:30-21:00
+      saturday: 07:30-21:00
+      sunday: closed
+
+  - id: fizjo-log-sokolow-podlaski
+    name: FIZJO-LOG Rehabilitacja. Fizjoterapeuta Waszczak Piotr
+    type: physiotherapist
+    city: Sokołów Podlaski
+    region: mazowieckie
+    address: Fabryczna 1, 08-300 Sokołów Podlaski
+    rating: 5.0
+    lat: 52.4060
+    lng: 22.2480
+    phone: +48 663 756 525
+    website:
+    description: Gabinet fizjoterapii i rehabilitacji.
+    opening_hours:
+      monday: 16:00-20:30
+      tuesday: 16:00-20:30
+      wednesday: 16:00-20:30
+      thursday: 16:00-20:30
+      friday: 16:00-20:30
+      saturday: 09:00-13:00
+      sunday: closed
+
+  - id: apteka-corax-czestochowa
+    name: Apteka Corax
+    type: pharmacy
+    city: Częstochowa
+    region: śląskie
+    address: Okólna 113A, 42-200 Częstochowa
+    rating: 4.3
+    lat: 50.8170
+    lng: 19.1180
+    phone:
+    website:
+    description: Apteka ogólnodostępna.
+    opening_hours:
+      monday: 07:00-22:00
+      tuesday: 07:00-22:00
+      wednesday: 07:00-22:00
+      thursday: 07:00-22:00
+      friday: 07:00-22:00
+      saturday: 07:00-22:00
+      sunday: closed
+
+  - id: apteka-gorna-kielce
+    name: Apteka Nad Zalewem
+    type: pharmacy
+    city: Kielce
+    region: świętokrzyskie
+    address: Klonowa 67 lok. LU 4, 25-553 Kielce
+    rating: 4.4
+    lat: 50.8830
+    lng: 20.6320
+    phone:
+    website:
+    description: Apteka ogólnodostępna.
+    opening_hours:
+      monday: 08:00-20:00
+      tuesday: 08:00-20:00
+      wednesday: 08:00-20:00
+      thursday: 08:00-20:00
+      friday: 08:00-20:00
+      saturday: 08:00-15:00
+      sunday: closed
+
+  - id: apteka-siedlce-cosmedica
+    name: Apteka Cosmedica
+    type: pharmacy
+    city: Siedlce
+    region: mazowieckie
+    address: Młynarska 26A, 08-110 Siedlce
+    rating: 4.4
+    lat: 52.1680
+    lng: 22.2900
+    phone:
+    website:
+    description: Apteka ogólnodostępna.
+    opening_hours:
+      monday: 08:00-20:00
+      tuesday: 08:00-20:00
+      wednesday: 08:00-20:00
+      thursday: 08:00-20:00
+      friday: 08:00-20:00
+      saturday: 08:00-15:00
+      sunday: closed
+
+  - id: apteka-rypin
+    name: DOZ Apteka Dbam o Zdrowie i Punkt Szczepień
+    type: pharmacy
+    city: Rypin
+    region: kujawsko-pomorskie
+    address: Warszawska 14, 87-500 Rypin
+    rating: 5.0
+    lat: 53.0660
+    lng: 19.4090
+    phone: +48 800 110 110
+    website:
+    description: Apteka ogólnodostępna i punkt szczepień.
+    opening_hours:
+      monday: 08:00-20:00
+      tuesday: 08:00-20:00
+      wednesday: 08:00-20:00
+      thursday: 08:00-20:00
+      friday: 08:00-20:00
+      saturday: 08:00-20:00
+      sunday: 09:00-20:00
+
+  - id: apteka-gemini-grajewo
+    name: Apteka Gemini
+    type: pharmacy
+    city: Grajewo
+    region: podlaskie
+    address: Wojska Polskiego 50, 19-200 Grajewo
+    rating: 4.6
+    lat: 53.6470
+    lng: 22.4550
+    phone: +48 798 120 073
+    website:
+    description: Apteka ogólnodostępna.
+    opening_hours:
+      monday: 08:00-20:00
+      tuesday: 08:00-20:00
+      wednesday: 08:00-20:00
+      thursday: 08:00-20:00
+      friday: 08:00-20:00
+      saturday: 09:00-18:00
+      sunday: 09:00-15:00
