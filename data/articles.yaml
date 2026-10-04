@@ -251,6 +251,646 @@ articles:
         - "Rozważ różne scenariusze: opiekę dziadków, żłobek, nianię, część etatu czy elastyczny grafika."
         - "Pomocne jest ustalenie rezerw i priorytetów, zanim minie okres urlopu macierzyńskiego."
 
+  - slug: zdrowie/polog/regeneracja-po-porodzie
+    category: zdrowie/polog
+    title:
+      en: Postpartum recovery and the first weeks after birth
+      pl: Połóg i regeneracja w pierwszych tygodniach po porodzie
+    summary:
+      en: What happens during postpartum recovery, which symptoms are expected, and when to seek medical advice.
+      pl: Co dzieje się w połogu, które objawy są typowe i kiedy należy skonsultować się z lekarzem.
+    tags:
+      en: [postpartum, recovery, health]
+      pl: [połóg, regeneracja, zdrowie]
+    links:
+      - label:
+          en: Postpartum care information
+          pl: Informacje o opiece w połogu
+        url: https://www.gov.pl/web/zdrowie
+      - label:
+          en: Postpartum recovery guidance
+          pl: Poradnik dotyczący połogu
+        url: https://www.mp.pl/
+    content:
+      en:
+        - "The first weeks after birth are a period of recovery for both the body and mind. Tiredness, bleeding, breast tenderness, and emotional changes can occur during this time."
+        - "Rest, adequate food and fluids, gentle movement when medically appropriate, and practical help from other people can make recovery easier."
+        - "Postpartum bleeding normally changes over time, but very heavy bleeding, severe abdominal pain, fever, fainting, or rapidly worsening symptoms require medical assessment."
+        - "A postpartum check-up is an opportunity to discuss healing, contraception, pelvic floor symptoms, breastfeeding, mood, and any concerns after delivery."
+      pl:
+        - "Pierwsze tygodnie po porodzie to czas regeneracji organizmu i psychiki. W tym okresie mogą występować zmęczenie, krwawienie, tkliwość piersi oraz zmiany emocjonalne."
+        - "Odpoczynek, odpowiednie nawodnienie i odżywianie, łagodny ruch, gdy jest medycznie wskazany, oraz praktyczna pomoc innych osób mogą ułatwić powrót do sił."
+        - "Krwawienie po porodzie zwykle stopniowo się zmienia, ale bardzo obfite krwawienie, silny ból brzucha, gorączka, omdlenie lub szybko nasilające się objawy wymagają konsultacji medycznej."
+        - "Wizyta kontrolna po porodzie pozwala omówić gojenie, antykoncepcję, objawy związane z dnem miednicy, karmienie piersią, samopoczucie i inne niepokojące kwestie."
+
+  - slug: zdrowie/etapy-ciazy/szczepienia-w-ciazy
+    category: zdrowie/etapy-ciazy
+    title:
+      en: Vaccinations during pregnancy
+      pl: Szczepienia w ciąży
+    summary:
+      en: Why selected vaccinations may be recommended during pregnancy and how to discuss them with your clinician.
+      pl: Dlaczego niektóre szczepienia mogą być zalecane w ciąży i jak omówić je z lekarzem.
+    tags:
+      en: [vaccination, pregnancy, prevention]
+      pl: [szczepienia, ciąża, profilaktyka]
+    links:
+      - label:
+          en: Vaccination information
+          pl: Informacje o szczepieniach
+        url: https://www.gov.pl/web/szczepimysie
+      - label:
+          en: Vaccination recommendations
+          pl: Zalecenia dotyczące szczepień
+        url: https://szczepienia.pzh.gov.pl/
+    content:
+      en:
+        - "Some vaccinations are recommended during pregnancy because they can protect the pregnant person and, in some cases, provide the newborn with temporary protection through antibodies."
+        - "The appropriate timing depends on the vaccine, pregnancy stage, individual health, and current recommendations."
+        - "Tell your doctor or midwife which vaccinations you have already received and whether you have any medical conditions or previous vaccine reactions."
+        - "Do not start or postpone vaccination based only on information found online. Discuss the appropriate schedule with a healthcare professional."
+      pl:
+        - "Niektóre szczepienia są zalecane w ciąży, ponieważ mogą chronić ciężarną, a w określonych przypadkach także zapewnić noworodkowi czasową ochronę dzięki przekazanym przeciwciałom."
+        - "Odpowiedni termin szczepienia zależy od rodzaju szczepionki, etapu ciąży, stanu zdrowia i aktualnych zaleceń."
+        - "Warto poinformować lekarza lub położną o wykonanych wcześniej szczepieniach, chorobach przewlekłych i ewentualnych reakcjach na wcześniejsze szczepionki."
+        - "Nie należy samodzielnie odkładać ani rozpoczynać szczepień wyłącznie na podstawie informacji znalezionych w internecie. Harmonogram najlepiej ustalić z personelem medycznym."
+
+  - slug: zdrowie/polog/karmienie-piersia
+    category: zdrowie/polog
+    title:
+      en: Breastfeeding basics and getting support
+      pl: Podstawy karmienia piersią i kiedy szukać wsparcia
+    summary:
+      en: Practical information about the first days of breastfeeding, feeding difficulties, and professional support.
+      pl: Praktyczne informacje o pierwszych dniach karmienia piersią, trudnościach i dostępnej pomocy.
+    tags:
+      en: [breastfeeding, newborn, support]
+      pl: [karmienie piersią, noworodek, wsparcie]
+    links:
+      - label:
+          en: Breastfeeding and infant feeding information
+          pl: Informacje o karmieniu piersią i żywieniu niemowląt
+        url: https://www.gov.pl/web/gis
+      - label:
+          en: Breastfeeding guidance
+          pl: Porady dotyczące karmienia piersią
+        url: https://www.mp.pl/
+    content:
+      en:
+        - "The first days of breastfeeding can require practice for both parent and baby. Feeding frequency and patterns can vary considerably between newborns."
+        - "A midwife, lactation consultant, or other qualified professional can help with positioning, latch, painful feeding, or concerns about whether the baby is feeding effectively."
+        - "Persistent severe nipple pain, breast redness with fever, or concerns about the baby's hydration or feeding should be discussed with a healthcare professional."
+        - "If breastfeeding is not possible or does not work as planned, feeding support should focus on the health and wellbeing of both parent and baby rather than on guilt."
+      pl:
+        - "Pierwsze dni karmienia piersią mogą wymagać nauki zarówno od rodzica, jak i od dziecka. Częstotliwość karmień i ich przebieg mogą znacznie się różnić u poszczególnych noworodków."
+        - "Położna, doradca laktacyjny lub inny wykwalifikowany specjalista może pomóc w prawidłowym przystawianiu, pozycji, bolesnym karmieniu i ocenie skuteczności karmienia."
+        - "Utrzymujący się silny ból brodawek, zaczerwienienie piersi z gorączką lub obawy dotyczące nawodnienia i karmienia dziecka należy skonsultować z personelem medycznym."
+        - "Jeżeli karmienie piersią nie jest możliwe albo nie przebiega zgodnie z planem, najważniejsze jest zdrowie i dobrostan rodzica oraz dziecka, a nie poczucie winy."
+
+  - slug: zdrowie/polog/badania-noworodka
+    category: zdrowie/polog
+    title:
+      en: Newborn screening and health checks
+      pl: Badania przesiewowe i kontrole zdrowia noworodka
+    summary:
+      en: What newborn screening is designed to detect and why early checks are important.
+      pl: Co wykrywają badania przesiewowe noworodków i dlaczego wczesna kontrola ma znaczenie.
+    tags:
+      en: [newborn, screening, prevention]
+      pl: [noworodek, badania, profilaktyka]
+    links:
+      - label:
+          en: Newborn screening programme
+          pl: Program badań przesiewowych noworodków
+        url: https://www.gov.pl/web/zdrowie
+      - label:
+          en: Child health information
+          pl: Informacje dotyczące zdrowia dziecka
+        url: https://www.mp.pl/
+    content:
+      en:
+        - "Newborn screening helps identify selected conditions before symptoms become obvious. Early detection can allow treatment or monitoring to begin sooner."
+        - "After birth, newborns also receive routine assessments of their general condition, feeding, development, and selected physical functions."
+        - "Parents should keep records of screening results and scheduled follow-up appointments and ask what to do if a result requires additional testing."
+        - "A screening result that requires follow-up does not automatically mean that a child has a disease. Further testing is often needed to clarify the result."
+      pl:
+        - "Badania przesiewowe noworodków pomagają wykryć wybrane choroby, zanim pojawią się wyraźne objawy. Wczesne rozpoznanie może umożliwić szybsze rozpoczęcie leczenia lub obserwacji."
+        - "Po porodzie noworodek przechodzi również rutynową ocenę ogólnego stanu zdrowia, karmienia, rozwoju i wybranych funkcji organizmu."
+        - "Warto przechowywać wyniki badań oraz terminy kontroli i zapytać personel, co należy zrobić, jeśli wynik wymaga dalszej diagnostyki."
+        - "Wynik przesiewowy wymagający kontroli nie oznacza automatycznie choroby. Często potrzebne są dodatkowe badania, aby właściwie go zinterpretować."
+
+  - slug: prawo/prawa-rodzicow/prawa-ojca-po-urodzeniu-dziecka
+    category: prawo/prawa-rodzicow
+    title:
+      en: A father's rights and leave after the birth of a child
+      pl: Prawa ojca i urlopy po urodzeniu dziecka
+    summary:
+      en: An overview of leave options available to fathers and how they fit into family leave arrangements.
+      pl: Przegląd urlopów i uprawnień ojca oraz ich miejsca w organizacji opieki nad dzieckiem.
+    tags:
+      en: [father, parental rights, leave]
+      pl: [ojciec, prawa rodzicielskie, urlop]
+    links:
+      - label:
+          en: Parental leave information
+          pl: Informacje o urlopach rodzicielskich
+        url: https://www.gov.pl/web/rodzina
+      - label:
+          en: Labour law information
+          pl: Informacje z zakresu prawa pracy
+        url: https://www.gov.pl/web/rodzina
+    content:
+      en:
+        - "Fathers who are employees may have several forms of leave and time off connected with the birth and care of a child."
+        - "The exact entitlement depends on the current employment rules, the family's situation, and which parent uses particular parts of leave."
+        - "Some rights have specific deadlines or require an application to the employer, so it is worth checking the rules before the planned leave begins."
+        - "When parents share care, it is useful to compare the available leave options with household income, childcare needs, and the planned return to work."
+      pl:
+        - "Ojciec zatrudniony na podstawie umowy o pracę może korzystać z różnych form urlopu i zwolnień związanych z narodzinami oraz opieką nad dzieckiem."
+        - "Zakres uprawnień zależy od aktualnych przepisów, sytuacji rodziny oraz tego, z których części urlopu korzystają poszczególni rodzice."
+        - "Niektóre uprawnienia mają określone terminy lub wymagają złożenia wniosku u pracodawcy, dlatego warto sprawdzić zasady przed planowanym urlopem."
+        - "Przy dzieleniu opieki warto porównać dostępne rozwiązania z dochodami rodziny, potrzebami dziecka i planowanym powrotem do pracy."
+
+  - slug: prawo/urlopy/urlop-rodzicielski
+    category: prawo/urlopy
+    title:
+      en: How parental leave works
+      pl: Jak działa urlop rodzicielski
+    summary:
+      en: How parents can plan parental leave and what to check before submitting an application.
+      pl: Jak zaplanować urlop rodzicielski i co sprawdzić przed złożeniem wniosku.
+    tags:
+      en: [parental leave, employment, rights]
+      pl: [urlop rodzicielski, praca, prawa]
+    links:
+      - label:
+          en: Official parental leave information
+          pl: Oficjalne informacje o urlopie rodzicielskim
+        url: https://www.gov.pl/web/rodzina
+      - label:
+          en: Employee rights information
+          pl: Informacje o prawach pracownika
+        url: https://www.gov.pl/web/rodzina
+    content:
+      en:
+        - "Parental leave is intended to allow parents to care for a child after the period associated with maternity leave."
+        - "Parents can plan how to divide available leave between them, subject to the current statutory rules and individual eligibility."
+        - "Before submitting an application, check the required deadlines, the period requested, and the documents required by your employer."
+        - "Because employment and benefit rules can change, current official information should be checked before making a financial or employment decision."
+      pl:
+        - "Urlop rodzicielski służy opiece nad dzieckiem po okresie związanym z urlopem macierzyńskim."
+        - "Rodzice mogą planować podział dostępnego urlopu między siebie, z uwzględnieniem aktualnych przepisów i indywidualnego prawa do świadczeń."
+        - "Przed złożeniem wniosku warto sprawdzić wymagane terminy, okres urlopu oraz dokumenty, których wymaga pracodawca."
+        - "Ponieważ przepisy dotyczące zatrudnienia i świadczeń mogą się zmieniać, przed podjęciem decyzji finansowej lub zawodowej należy sprawdzić aktualne informacje."
+
+  - slug: prawo/urlopy/urlop-wychowawczy
+    category: prawo/urlopy
+    title:
+      en: Childcare leave and taking a longer break from work
+      pl: Urlop wychowawczy i dłuższa przerwa w pracy na opiekę nad dzieckiem
+    summary:
+      en: When childcare leave can be useful and what parents should consider before taking it.
+      pl: Kiedy urlop wychowawczy może być rozwiązaniem i co warto rozważyć przed jego rozpoczęciem.
+    tags:
+      en: [childcare leave, work, parenting]
+      pl: [urlop wychowawczy, praca, rodzicielstwo]
+    links:
+      - label:
+          en: Childcare leave information
+          pl: Informacje o urlopie wychowawczym
+        url: https://www.gov.pl/web/rodzina
+      - label:
+          en: Employment rights
+          pl: Prawa pracownika
+        url: https://www.gov.pl/web/rodzina
+    content:
+      en:
+        - "Childcare leave can provide a longer period away from work for direct care of a child when the statutory conditions are met."
+        - "Before taking leave, consider household income, health insurance, childcare arrangements, pension implications, and the planned date of returning to work."
+        - "The application should be prepared according to the current rules and submitted within the required timeframe."
+        - "If the financial impact is significant, compare childcare leave with part-time work or other flexible arrangements before making the decision."
+      pl:
+        - "Urlop wychowawczy może umożliwić dłuższą przerwę w pracy w celu osobistej opieki nad dzieckiem, jeśli spełnione są ustawowe warunki."
+        - "Przed rozpoczęciem urlopu warto uwzględnić dochody gospodarstwa domowego, ubezpieczenie, organizację opieki, wpływ na przyszłe świadczenia oraz planowany powrót do pracy."
+        - "Wniosek należy przygotować zgodnie z aktualnymi przepisami i złożyć w wymaganym terminie."
+        - "Jeżeli przerwa w pracy znacząco zmieni sytuację finansową rodziny, warto porównać ją z pracą na część etatu lub innymi elastycznymi rozwiązaniami."
+
+  - slug: prawo/ochrona-zatrudnienia/ochrona-przed-zwolnieniem
+    category: prawo/ochrona-zatrudnienia
+    title:
+      en: Protection against dismissal during pregnancy and parental leave
+      pl: Ochrona przed zwolnieniem w ciąży i podczas urlopów rodzicielskich
+    summary:
+      en: What employment protection generally means and why individual circumstances matter.
+      pl: Na czym zasadniczo polega ochrona zatrudnienia i dlaczego znaczenie mają szczegóły konkretnej sytuacji.
+    tags:
+      en: [employment protection, pregnancy, dismissal]
+      pl: [ochrona zatrudnienia, ciąża, zwolnienie]
+    links:
+      - label:
+          en: Official labour law information
+          pl: Oficjalne informacje z zakresu prawa pracy
+        url: https://www.gov.pl/web/rodzina
+      - label:
+          en: Labour law resources
+          pl: Materiały dotyczące prawa pracy
+        url: https://isap.sejm.gov.pl/
+    content:
+      en:
+        - "Pregnancy and certain forms of parental leave provide employees with specific employment protections, but the scope of protection depends on the type of contract and the circumstances."
+        - "There are statutory exceptions, so a general internet rule should not be treated as a complete assessment of an individual case."
+        - "If an employer proposes termination, a change of contract, or another major employment decision, keep copies of documents and check the legal basis."
+        - "When the situation is disputed, an employment law adviser, trade union, or appropriate public institution can help explain the available options."
+      pl:
+        - "Ciąża oraz niektóre formy urlopów związanych z rodzicielstwem zapewniają pracownikowi określoną ochronę zatrudnienia, ale jej zakres zależy między innymi od rodzaju umowy i sytuacji pracownika."
+        - "Przepisy przewidują wyjątki, dlatego ogólnej informacji znalezionej w internecie nie należy traktować jako pełnej oceny konkretnego przypadku."
+        - "Jeżeli pracodawca proponuje rozwiązanie umowy, zmianę jej warunków lub inne istotne działanie, warto zachować dokumenty i sprawdzić podstawę prawną."
+        - "W przypadku sporu pomocne może być skonsultowanie sytuacji z doradcą prawa pracy, związkiem zawodowym albo właściwą instytucją publiczną."
+
+  - slug: finanse/benefity-dla-rodzin/becikowe
+    category: finanse/benefity-dla-rodzin
+    title:
+      en: Baby bonus and one-time birth-related benefits
+      pl: Becikowe i jednorazowe świadczenia związane z urodzeniem dziecka
+    summary:
+      en: What to check before applying for a one-time birth benefit and which conditions may apply.
+      pl: Co sprawdzić przed złożeniem wniosku o jednorazowe świadczenie z tytułu urodzenia dziecka.
+    tags:
+      en: [baby bonus, benefits, finances]
+      pl: [becikowe, świadczenia, finanse]
+    links:
+      - label:
+          en: Official family benefits information
+          pl: Oficjalne informacje o świadczeniach rodzinnych
+        url: https://www.gov.pl/web/rodzina
+      - label:
+          en: Family benefits information
+          pl: Informacje o świadczeniach rodzinnych
+        url: https://www.zus.pl/
+    content:
+      en:
+        - "The one-time birth benefit commonly known as the baby bonus is subject to statutory conditions, which can include income criteria and health-care requirements."
+        - "Before applying, check the current income threshold, the deadline for submitting the application, and the documents required by the relevant authority."
+        - "Some birth-related support is separate from the baby bonus, so families should check whether other benefits may apply to their situation."
+        - "Keep confirmation of the submitted application and any documents proving eligibility."
+      pl:
+        - "Jednorazowe świadczenie z tytułu urodzenia dziecka, powszechnie nazywane becikowym, jest uzależnione od warunków określonych w przepisach, w tym od kryteriów dochodowych i wymogów dotyczących opieki medycznej."
+        - "Przed złożeniem wniosku należy sprawdzić aktualny próg dochodowy, termin złożenia dokumentów oraz wymagania właściwego urzędu."
+        - "Niektóre formy pomocy związane z narodzinami dziecka są niezależne od becikowego, dlatego warto sprawdzić pełny katalog dostępnych świadczeń."
+        - "Warto zachować potwierdzenie złożenia wniosku oraz dokumenty potwierdzające spełnienie warunków."
+
+  - slug: finanse/benefity-dla-rodzin/zasilek-macierzynski
+    category: finanse/benefity-dla-rodzin
+    title:
+      en: Maternity benefit and planning household income
+      pl: Zasiłek macierzyński i planowanie budżetu rodziny
+    summary:
+      en: How maternity-related benefits affect household finances and what to check before leave.
+      pl: Jak świadczenia związane z rodzicielstwem wpływają na budżet i co sprawdzić przed urlopem.
+    tags:
+      en: [maternity benefit, income, budgeting]
+      pl: [zasiłek macierzyński, dochód, budżet]
+    links:
+      - label:
+          en: Maternity benefit information
+          pl: Informacje o zasiłku macierzyńskim
+        url: https://www.zus.pl/
+      - label:
+          en: Family support information
+          pl: Informacje o wsparciu rodziny
+        url: https://www.gov.pl/web/rodzina
+    content:
+      en:
+        - "A new baby can significantly change household finances, especially when one parent temporarily stops working or reduces working hours."
+        - "Before leave begins, check how the benefit is calculated in your situation, when payments are expected, and which documents must be submitted."
+        - "It can be useful to create a simple budget covering housing, food, medical expenses, childcare, transport, and one-off baby purchases."
+        - "Benefit calculations can depend on employment status and individual circumstances, so current official information should be checked before planning major expenses."
+      pl:
+        - "Narodziny dziecka mogą znacząco zmienić budżet gospodarstwa domowego, szczególnie gdy jeden z rodziców czasowo przestaje pracować lub ogranicza wymiar pracy."
+        - "Przed rozpoczęciem urlopu warto sprawdzić sposób wyliczania świadczenia, przewidywany termin wypłat oraz dokumenty wymagane w danej sytuacji."
+        - "Pomocne jest przygotowanie prostego budżetu obejmującego mieszkanie, żywność, wydatki medyczne, opiekę nad dzieckiem, transport i jednorazowe zakupy."
+        - "Sposób obliczania świadczeń może zależeć od rodzaju zatrudnienia i indywidualnej sytuacji, dlatego przed planowaniem większych wydatków warto sprawdzić aktualne informacje."
+
+  - slug: finanse/budzet-rodziny/koszt-wyprawki
+    category: finanse/budzet-rodziny
+    title:
+      en: How to plan a realistic baby budget
+      pl: Jak zaplanować realistyczny budżet na wyprawkę dla dziecka
+    summary:
+      en: A practical way to divide baby expenses into essential purchases, recurring costs, and optional extras.
+      pl: Praktyczny sposób podziału wydatków na niezbędną wyprawkę, koszty stałe i rzeczy dodatkowe.
+    tags:
+      en: [baby budget, expenses, planning]
+      pl: [budżet dziecka, wydatki, planowanie]
+    links:
+      - label:
+          en: Family support information
+          pl: Informacje o wsparciu rodzin
+        url: https://www.gov.pl/web/rodzina
+      - label:
+          en: Consumer information
+          pl: Informacje dla konsumentów
+        url: https://uokik.gov.pl/
+    content:
+      en:
+        - "A baby does not need every product marketed to new parents. Start with a short list of items required for sleep, feeding, clothing, hygiene, transport, and basic healthcare."
+        - "Separate one-time purchases from recurring expenses such as nappies, formula if used, medicines, and childcare."
+        - "Second-hand clothes, borrowed equipment, and carefully chosen used items can reduce costs, provided that safety is not compromised."
+        - "Keep a reserve for unexpected expenses rather than spending the entire budget before the baby arrives."
+      pl:
+        - "Dziecko nie potrzebuje wszystkich produktów reklamowanych przyszłym rodzicom. Warto zacząć od krótkiej listy rzeczy potrzebnych do snu, karmienia, ubierania, higieny, transportu i podstawowej opieki."
+        - "Dobrze oddzielić zakupy jednorazowe od stałych wydatków, takich jak pieluchy, mleko modyfikowane, jeśli jest stosowane, leki czy opieka nad dzieckiem."
+        - "Używane ubrania, pożyczony sprzęt i rozsądnie wybrane rzeczy z drugiej ręki mogą obniżyć koszty, o ile nie wpływa to na bezpieczeństwo."
+        - "Warto pozostawić część budżetu jako rezerwę na nieprzewidziane wydatki zamiast wydawać wszystko przed narodzinami."
+
+  - slug: finanse/budzet-rodziny/oplacenie-opieki-nad-dzieckiem
+    category: finanse/budzet-rodziny
+    title:
+      en: How to compare childcare costs
+      pl: Jak porównać koszty opieki nad dzieckiem
+    summary:
+      en: How to compare nursery, childminder, nanny, and family childcare options using the real monthly cost.
+      pl: Jak porównać żłobek, opiekuna, nianię i pomoc rodziny pod kątem rzeczywistych kosztów miesięcznych.
+    tags:
+      en: [childcare, costs, family budget]
+      pl: [opieka nad dzieckiem, koszty, budżet rodziny]
+    links:
+      - label:
+          en: Childcare information
+          pl: Informacje o opiece nad dziećmi
+        url: https://www.gov.pl/web/rodzina
+      - label:
+          en: Family support information
+          pl: Informacje o wsparciu rodziny
+        url: https://www.gov.pl/web/rodzina
+    content:
+      en:
+        - "The cheapest option on paper is not always the cheapest in practice. Compare fees together with transport, meals, working hours, holidays, and possible additional charges."
+        - "When comparing a nursery with a nanny or family care, calculate the monthly cost for the same number of hours."
+        - "Consider how each arrangement affects the parents' ability to work, commute, and respond to illness or unexpected schedule changes."
+        - "Local subsidies and childcare programmes can change the final cost, so check current rules in your municipality."
+      pl:
+        - "Najtańsza opcja na papierze nie zawsze okazuje się najtańsza w praktyce. Warto uwzględnić opłaty, transport, wyżywienie, godziny opieki, dni wolne i dodatkowe koszty."
+        - "Porównując żłobek, nianię i opiekę rodziny, najlepiej przeliczyć koszt dla podobnej liczby godzin miesięcznie."
+        - "Trzeba również uwzględnić wpływ wybranej formy opieki na możliwość pracy rodziców, dojazdy oraz reagowanie na choroby dziecka i nagłe zmiany."
+        - "Lokalne dopłaty i programy wsparcia mogą zmieniać końcowy koszt, dlatego warto sprawdzić aktualne zasady obowiązujące w gminie."
+
+  - slug: praca/elastyczna-praca/elastyczny-czas-pracy-po-urodzeniu
+    category: praca/elastyczna-praca
+    title:
+      en: Flexible working arrangements after having a baby
+      pl: Elastyczna organizacja pracy po urodzeniu dziecka
+    summary:
+      en: How flexible schedules, part-time work, and remote work can help parents manage childcare and employment.
+      pl: Jak elastyczny czas pracy, część etatu i praca zdalna mogą ułatwić połączenie opieki z pracą.
+    tags:
+      en: [flexible work, parenting, employment]
+      pl: [elastyczna praca, rodzicielstwo, zatrudnienie]
+    links:
+      - label:
+          en: Flexible work information
+          pl: Informacje o elastycznej organizacji pracy
+        url: https://www.gov.pl/web/rodzina
+      - label:
+          en: Employee rights
+          pl: Prawa pracownika
+        url: https://www.gov.pl/web/rodzina
+    content:
+      en:
+        - "After returning to work, parents may benefit from arrangements such as adjusted working hours, part-time employment, or remote work where available."
+        - "Before making a request, identify the hours when childcare is actually available and the periods when another adult can provide backup."
+        - "A workable schedule should account for commuting, feeding, appointments, illness, and the possibility that childcare arrangements may occasionally fail."
+        - "Discuss practical details with the employer early enough to avoid building a schedule that works only on paper."
+      pl:
+        - "Po powrocie do pracy rodzic może korzystać z rozwiązań takich jak zmiana rozkładu czasu pracy, część etatu lub praca zdalna, jeśli są dostępne w danej sytuacji."
+        - "Przed złożeniem wniosku warto określić godziny rzeczywiście dostępnej opieki oraz momenty, w których można liczyć na pomoc drugiej osoby."
+        - "Dobry harmonogram powinien uwzględniać dojazdy, karmienie, wizyty, choroby dziecka oraz sytuacje, w których zaplanowana opieka nagle odpada."
+        - "Szczegóły najlepiej omówić z pracodawcą odpowiednio wcześnie, aby plan nie działał wyłącznie na papierze."
+
+  - slug: praca/plan-powrotu-do-pracy/organizacja-opieki-po-powrocie
+    category: praca/plan-powrotu-do-pracy
+    title:
+      en: Organising childcare before returning to work
+      pl: Organizacja opieki nad dzieckiem przed powrotem do pracy
+    summary:
+      en: A practical checklist for arranging childcare, backup plans, and daily routines before returning to employment.
+      pl: Praktyczna lista rzeczy do ustalenia przed powrotem do pracy, w tym opieka awaryjna i codzienny harmonogram.
+    tags:
+      en: [childcare, return to work, planning]
+      pl: [opieka, powrót do pracy, organizacja]
+    links:
+      - label:
+          en: Childcare information
+          pl: Informacje dotyczące opieki nad dziećmi
+        url: https://www.gov.pl/web/rodzina
+      - label:
+          en: Family support
+          pl: Wsparcie dla rodzin
+        url: https://www.gov.pl/web/rodzina
+    content:
+      en:
+        - "Before returning to work, write down who is responsible for childcare on each weekday and what happens when the planned caregiver is unavailable."
+        - "A backup plan is particularly important for illness, nursery closures, appointments, and unexpected work commitments."
+        - "It helps to practise the morning routine before the actual return to work so that transport, meals, clothing, and drop-off times are realistic."
+        - "Parents should also agree who handles urgent calls from the nursery or doctor instead of assuming that one person will always be available."
+      pl:
+        - "Przed powrotem do pracy warto rozpisać, kto odpowiada za opiekę nad dzieckiem w poszczególne dni oraz co dzieje się w przypadku niedostępności głównego opiekuna."
+        - "Plan awaryjny jest szczególnie ważny przy chorobie dziecka, zamknięciu placówki, wizytach lekarskich i nagłych obowiązkach zawodowych."
+        - "Dobrym rozwiązaniem jest przećwiczenie porannego harmonogramu jeszcze przed powrotem do pracy, aby sprawdzić realny czas na transport, posiłki, ubieranie i dotarcie do placówki."
+        - "Rodzice powinni również ustalić, kto reaguje na pilny telefon ze żłobka, przedszkola lub gabinetu lekarskiego, zamiast zakładać, że zawsze będzie to ta sama osoba."
+
+  - slug: praca/elastyczna-praca/powrot-do-pracy-a-karmienie
+    category: praca/elastyczna-praca
+    title:
+      en: Returning to work while breastfeeding
+      pl: Powrót do pracy podczas karmienia piersią
+    summary:
+      en: Practical ways to combine employment with breastfeeding or expressing milk after returning to work.
+      pl: Praktyczne sposoby łączenia pracy z karmieniem piersią lub odciąganiem pokarmu po powrocie do pracy.
+    tags:
+      en: [breastfeeding, work, parenting]
+      pl: [karmienie piersią, praca, rodzicielstwo]
+    links:
+      - label:
+          en: Breastfeeding information
+          pl: Informacje o karmieniu piersią
+        url: https://www.gov.pl/web/gis
+      - label:
+          en: Employee rights information
+          pl: Informacje o prawach pracownika
+        url: https://www.gov.pl/web/rodzina
+    content:
+      en:
+        - "Returning to work does not automatically mean that breastfeeding has to stop. Families can choose a feeding arrangement that fits the baby's needs and the parent's working conditions."
+        - "Some parents feed before and after work and express milk during the day, while others use a combination of breast milk and other feeding methods."
+        - "If expressing milk at work, plan where it can be done, how milk will be stored, and how the schedule fits around meetings or other duties."
+        - "Employment rules can provide specific rights connected with breastfeeding, so check the current regulations that apply to your situation."
+      pl:
+        - "Powrót do pracy nie oznacza automatycznie konieczności zakończenia karmienia piersią. Rodzina może wybrać sposób karmienia dopasowany do potrzeb dziecka i warunków pracy."
+        - "Niektórzy rodzice karmią przed i po pracy oraz odciągają pokarm w ciągu dnia, inni łączą mleko matki z innymi metodami żywienia."
+        - "Jeżeli pokarm jest odciągany w pracy, warto wcześniej ustalić miejsce, sposób przechowywania oraz harmonogram, który można pogodzić z obowiązkami."
+        - "Przepisy prawa pracy przewidują określone uprawnienia związane z karmieniem piersią, dlatego warto sprawdzić aktualne zasady dotyczące konkretnej sytuacji."
+
+  - slug: praca/plan-powrotu-do-pracy/powrot-do-pracy-po-urlopie
+    category: praca/plan-powrotu-do-pracy
+    title:
+      en: Preparing for the first weeks back at work
+      pl: Jak przygotować się do pierwszych tygodni pracy po urlopie
+    summary:
+      en: How to make the transition back to employment more manageable and avoid an overloaded first month.
+      pl: Jak zaplanować powrót do pracy, aby pierwsze tygodnie nie zamieniły się w organizacyjny maraton.
+    tags:
+      en: [return to work, planning, wellbeing]
+      pl: [powrót do pracy, planowanie, dobrostan]
+    links:
+      - label:
+          en: Employment and family information
+          pl: Informacje dotyczące pracy i rodziny
+        url: https://www.gov.pl/web/rodzina
+      - label:
+          en: Labour law information
+          pl: Informacje z zakresu prawa pracy
+        url: https://www.gov.pl/web/rodzina
+    content:
+      en:
+        - "The first weeks back at work can be demanding because parents are adapting to a new routine at the same time as they resume professional responsibilities."
+        - "It helps to reduce unnecessary commitments, prepare meals and clothes in advance, and agree on who handles recurring household tasks."
+        - "Expect occasional disruptions. A child may become ill, childcare may change, or a work deadline may move unexpectedly."
+        - "A sustainable return is more useful than trying to reproduce the exact workload and lifestyle from before the baby was born."
+      pl:
+        - "Pierwsze tygodnie po powrocie do pracy mogą być wymagające, ponieważ rodzic jednocześnie wraca do obowiązków zawodowych i uczy się nowej organizacji dnia."
+        - "Pomaga ograniczenie zbędnych zobowiązań, wcześniejsze przygotowywanie posiłków i ubrań oraz jasny podział powtarzalnych obowiązków domowych."
+        - "Warto założyć, że czasem coś się rozsypie. Dziecko może zachorować, opieka może się zmienić, a termin zawodowy może nagle zostać przesunięty."
+        - "Lepszym celem jest stabilny powrót do pracy niż próba odtworzenia dokładnie takiego samego trybu życia i obciążenia jak przed narodzinami dziecka."
+
+  - slug: faq/kiedy-do-lekarza-w-ciazy
+    category: faq
+    title:
+      en: When should I contact a doctor during pregnancy?
+      pl: Kiedy w ciąży trzeba skontaktować się z lekarzem?
+    summary:
+      en: A practical overview of symptoms that should prompt medical advice or urgent assessment.
+      pl: Praktyczne zestawienie objawów, przy których warto skontaktować się z lekarzem lub pilnie szukać pomocy.
+    tags:
+      en: [faq, pregnancy, warning signs]
+      pl: [faq, ciąża, objawy alarmowe]
+    links:
+      - label:
+          en: Pregnancy health information
+          pl: Informacje o zdrowiu w ciąży
+        url: https://www.gov.pl/web/zdrowie
+      - label:
+          en: Medical guidance
+          pl: Porady medyczne
+        url: https://www.mp.pl/
+    content:
+      en:
+        - "Some pregnancy symptoms are common, but sudden or severe changes should not be ignored."
+        - "Urgent medical assessment may be needed in situations such as heavy bleeding, severe abdominal pain, loss of consciousness, severe shortness of breath, or other rapidly worsening symptoms."
+        - "Later in pregnancy, a significant change in the baby's usual movements should be discussed promptly with the maternity team."
+        - "If you are unsure whether a symptom is serious, contacting a healthcare professional is safer than trying to diagnose the situation yourself."
+      pl:
+        - "Niektóre objawy ciąży są częste, ale nagłe lub silne zmiany nie powinny być ignorowane."
+        - "Pilnej oceny medycznej mogą wymagać między innymi obfite krwawienie, silny ból brzucha, utrata przytomności, znaczna duszność lub inne szybko nasilające się objawy."
+        - "W późniejszej ciąży wyraźna zmiana zwyczajowej aktywności ruchowej dziecka powinna zostać szybko omówiona z personelem prowadzącym ciążę."
+        - "Jeżeli nie masz pewności, czy objaw jest poważny, bezpieczniej skontaktować się z personelem medycznym niż próbować samodzielnie ustalać rozpoznanie."
+
+  - slug: faq/co-zabrac-do-szpitala
+    category: faq
+    title:
+      en: What should I pack for the maternity hospital?
+      pl: Co zabrać do szpitala na poród?
+    summary:
+      en: A practical packing checklist for documents, clothing, hygiene items, and newborn essentials.
+      pl: Praktyczna lista dokumentów, ubrań, środków higienicznych i rzeczy potrzebnych dla noworodka.
+    tags:
+      en: [faq, hospital, birth bag]
+      pl: [faq, szpital, torba porodowa]
+    links:
+      - label:
+          en: Maternity care information
+          pl: Informacje dotyczące opieki okołoporodowej
+        url: https://www.gov.pl/web/zdrowie
+      - label:
+          en: Pregnancy and birth guidance
+          pl: Porady dotyczące ciąży i porodu
+        url: https://www.mp.pl/
+    content:
+      en:
+        - "A practical hospital bag usually includes identification and medical documents, comfortable clothing, hygiene products, chargers, and items needed after birth."
+        - "For the baby, the exact list depends on the maternity ward. Typical items can include clothes, nappies, and other basic newborn supplies."
+        - "Check the hospital's own list before packing because some wards provide certain items while others expect parents to bring them."
+        - "Packing the bag several weeks before the expected due date can reduce stress if labour starts earlier than planned."
+      pl:
+        - "Praktyczna torba do szpitala zwykle zawiera dokument tożsamości i dokumentację medyczną, wygodne ubrania, środki higieniczne, ładowarkę oraz rzeczy potrzebne po porodzie."
+        - "W przypadku dziecka dokładna lista zależy od konkretnego oddziału. Zwykle potrzebne są ubranka, pieluchy i podstawowe akcesoria dla noworodka."
+        - "Przed spakowaniem torby warto sprawdzić listę przygotowaną przez szpital, ponieważ część oddziałów zapewnia niektóre rzeczy, a inne wymagają ich przyniesienia."
+        - "Spakowanie torby kilka tygodni przed przewidywanym terminem porodu może ograniczyć stres, jeśli poród rozpocznie się wcześniej."
+
+  - slug: faq/jak-wybrac-polozna
+    category: faq
+    title:
+      en: How to choose a midwife and prepare for maternity care
+      pl: Jak wybrać położną i przygotować się do opieki okołoporodowej
+    summary:
+      en: What to consider when choosing maternity care and what questions are worth asking beforehand.
+      pl: Co wziąć pod uwagę przy wyborze opieki położnej i jakie pytania warto zadać wcześniej.
+    tags:
+      en: [faq, midwife, maternity care]
+      pl: [faq, położna, opieka okołoporodowa]
+    links:
+      - label:
+          en: Maternity care information
+          pl: Informacje o opiece okołoporodowej
+        url: https://www.gov.pl/web/zdrowie
+      - label:
+          en: Patient information
+          pl: Informacje dla pacjentów
+        url: https://pacjent.gov.pl/
+    content:
+      en:
+        - "When choosing a midwife or maternity care provider, consider communication style, availability, location, and the type of support offered."
+        - "Ask how appointments are organised, how to contact the midwife when questions arise, and what support is available before and after birth."
+        - "It is useful to discuss birth preparation, breastfeeding, postpartum recovery, newborn care, and situations that require contacting a doctor."
+        - "The best arrangement is one in which you understand who to contact and what to do when a new question or problem appears."
+      pl:
+        - "Przy wyborze położnej lub osoby zapewniającej opiekę okołoporodową warto uwzględnić sposób komunikacji, dostępność, lokalizację oraz zakres oferowanego wsparcia."
+        - "Dobrze wcześniej zapytać, jak wyglądają wizyty, w jaki sposób można skontaktować się z położną w razie pytań oraz jakie wsparcie jest dostępne przed i po porodzie."
+        - "Warto omówić przygotowanie do porodu, karmienie piersią, regenerację po porodzie, opiekę nad noworodkiem oraz sytuacje wymagające kontaktu z lekarzem."
+        - "Najważniejsze jest jasne ustalenie, z kim można się skontaktować i co zrobić, gdy pojawi się nowe pytanie lub problem."
+
+  - slug: faq/jak-liczyc-tydzien-ciazy
+    category: faq
+    title:
+      en: How pregnancy weeks and the due date are calculated
+      pl: Jak oblicza się tydzień ciąży i termin porodu
+    summary:
+      en: Why pregnancy dating can be confusing and how clinicians establish an estimated due date.
+      pl: Dlaczego liczenie tygodni ciąży bywa mylące i jak ustala się przewidywany termin porodu.
+    tags:
+      en: [faq, pregnancy dating, due date]
+      pl: [faq, wiek ciąży, termin porodu]
+    links:
+      - label:
+          en: Pregnancy information
+          pl: Informacje o ciąży
+        url: https://pacjent.gov.pl/
+      - label:
+          en: Pregnancy care guidance
+          pl: Porady dotyczące prowadzenia ciąży
+        url: https://www.gov.pl/web/zdrowie
+    content:
+      en:
+        - "Pregnancy is conventionally dated from the first day of the last menstrual period, which means that the calculated pregnancy age does not begin on the day of conception."
+        - "The estimated due date is an approximation rather than a guaranteed delivery date. Only a small proportion of births occur exactly on the calculated date."
+        - "An ultrasound examination can help assess pregnancy dating, particularly when the menstrual history is uncertain or the dates do not match the clinical picture."
+        - "Use the pregnancy week provided by your healthcare team when interpreting test schedules and recommendations."
+      pl:
+        - "Wiek ciąży standardowo liczy się od pierwszego dnia ostatniej miesiączki, dlatego początek wyliczanego wieku ciąży nie przypada na dzień zapłodnienia."
+        - "Przewidywany termin porodu jest orientacyjną datą, a nie gwarantowanym dniem porodu. Tylko niewielka część dzieci rodzi się dokładnie w wyznaczonym terminie."
+        - "Badanie ultrasonograficzne może pomóc w ocenie wieku ciąży, szczególnie gdy data ostatniej miesiączki jest niepewna lub nie pasuje do obrazu klinicznego."
+        - "Przy planowaniu badań i wizyt najlepiej posługiwać się wiekiem ciąży ustalonym przez osobę prowadzącą ciążę."
+
   - slug: faq
     category: faq
     title:

@@ -31,6 +31,17 @@ categories:
     kind:
       en: Health
       pl: Zdrowie
+  - slug: zdrowie/etapy-ciazy
+    parent: zdrowie
+    title:
+      en: Pregnancy stages
+      pl: Etapy ciąży
+    description:
+      en: What to expect during each stage of pregnancy, from the first weeks to birth.
+      pl: Co dzieje się na poszczególnych etapach ciąży, od pierwszych tygodni do porodu.
+    kind:
+      en: Health
+      pl: Zdrowie
   - slug: zdrowie/porod
     parent: zdrowie
     title:
@@ -39,6 +50,17 @@ categories:
     description:
       en: Birth preparation, labor expectations, and key questions before delivery.
       pl: Przygotowanie do porodu, oczekiwania i najważniejsze pytania przed porodem.
+    kind:
+      en: Health
+      pl: Zdrowie
+  - slug: zdrowie/polog
+    parent: zdrowie
+    title:
+      en: Postpartum recovery
+      pl: Połóg
+    description:
+      en: Recovery after childbirth, postpartum symptoms, physical changes, and emotional wellbeing.
+      pl: Regeneracja po porodzie, objawy połogu, zmiany fizyczne i zdrowie psychiczne po porodzie.
     kind:
       en: Health
       pl: Zdrowie
@@ -63,28 +85,30 @@ categories:
     kind:
       en: Law
       pl: Prawo
-  - slug: prawo/ulga-800-plus
+  - slug: prawo/prawa-rodzicow
     parent: prawo
     title:
-      en: Family rights
-      pl: Prawo do świadczeń
+      en: Parents' rights
+      pl: Prawa rodziców
     description:
-      en: Benefits, allowances, and support available to families during pregnancy and early parenthood.
-      pl: Świadczenia i wsparcie dla rodzin w okresie ciąży i wczesnego rodzicielstwa.
+      en: Rights and entitlements of parents related to childbirth, childcare, and employment.
+      pl: Prawa i uprawnienia rodziców związane z narodzinami dziecka, opieką i zatrudnieniem.
     kind:
       en: Law
       pl: Prawo
-  - slug: prawo/zwolnienie-od-pracy
+
+  - slug: prawo/ochrona-zatrudnienia
     parent: prawo
     title:
-      en: Work and leave
-      pl: Urlopy i praca
+      en: Employment protection
+      pl: Ochrona zatrudnienia
     description:
-      en: Pregnancy leave, employee rights, and options for balancing work and care.
-      pl: Urlopy, prawa pracownicze i planowanie pracy w okresie ciąży.
+      en: Employment protection and workplace rules during pregnancy and parenthood.
+      pl: Ochrona zatrudnienia i zasady dotyczące pracy w okresie ciąży i rodzicielstwa.
     kind:
       en: Law
       pl: Prawo
+
   - slug: finanse
     title:
       en: Finances
@@ -106,6 +130,19 @@ categories:
     kind:
       en: Finances
       pl: Finanse
+
+  - slug: finanse/budzet-rodziny
+    parent: finanse
+    title:
+      en: Family budget
+      pl: Budżet rodziny
+    description:
+      en: Planning household expenses, childcare costs, and the financial impact of having a baby.
+      pl: Planowanie wydatków rodziny, kosztów opieki i wpływu narodzin dziecka na budżet.
+    kind:
+      en: Finances
+      pl: Finanse
+
   - slug: praca
     title:
       en: Work
@@ -127,6 +164,31 @@ categories:
     kind:
       en: Work
       pl: Praca
+
+  - slug: praca/urlopy
+    parent: prawo
+    title:
+      en: Leaves
+      pl: Urlopy
+    description:
+      en: Pregnancy leave, employee rights, and options for balancing work and care.
+      pl: Urlopy, prawa pracownicze i planowanie pracy w okresie ciąży.
+    kind:
+      en: Work
+      pl: Praca
+
+  - slug: praca/elastyczna-praca
+    parent: praca
+    title:
+      en: Flexible work
+      pl: Elastyczna praca
+    description:
+      en: Flexible schedules, breastfeeding at work, childcare arrangements, and adapting employment to family life.
+      pl: Elastyczny czas pracy, karmienie podczas pracy, organizacja opieki i łączenie pracy z życiem rodzinnym.
+    kind:
+      en: Work
+      pl: Praca
+
   - slug: faq
     title:
       en: FAQ

@@ -43,18 +43,6 @@ export default async function KnowledgeCategoryPage({ params }: { params: Promis
         </div>
       </section>
 
-      {childCategories.length > 0 && (
-        <section className="grid gap-4 md:grid-cols-2">
-          {childCategories.map((childCategory) => (
-            <Link key={childCategory.slug} href={`/knowledge-base/${childCategory.slug}`} className="card mobile-card block rounded-[1.5rem] p-4 transition hover:-translate-y-0.5">
-              <div className="text-xs uppercase tracking-[0.16em] text-[var(--muted)]">{childCategory.kind}</div>
-              <h2 className="mt-2 text-xl font-bold text-[var(--brand-strong)]">{childCategory.title}</h2>
-              <p className="mt-2 text-sm text-[var(--muted)]">{childCategory.description}</p>
-            </Link>
-          ))}
-        </section>
-      )}
-
       <section className="card mobile-card rounded-[2rem] p-5 md:p-6">
         <div className="flex items-center justify-between gap-3">
           <div>
@@ -67,6 +55,18 @@ export default async function KnowledgeCategoryPage({ params }: { params: Promis
           </Link>
         </div>
       </section>
+
+      {childCategories.length > 0 && (
+        <section className="grid gap-4 md:grid-cols-2">
+          {childCategories.map((childCategory) => (
+            <Link key={childCategory.slug} href={`/knowledge-base/${childCategory.slug}`} className="card mobile-card block rounded-[1.5rem] p-4 transition hover:-translate-y-0.5">
+              <div className="text-xs uppercase tracking-[0.16em] text-[var(--muted)]">{childCategory.kind}</div>
+              <h2 className="mt-2 text-xl font-bold text-[var(--brand-strong)]">{childCategory.title}</h2>
+              <p className="mt-2 text-sm text-[var(--muted)]">{childCategory.description}</p>
+            </Link>
+          ))}
+        </section>
+      )}
 
       <section className="grid gap-4">
         {articles.length > 0 ? (
