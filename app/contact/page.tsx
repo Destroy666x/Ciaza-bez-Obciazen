@@ -40,10 +40,10 @@ export default function ContactPage() {
         <div className="card mobile-card rounded-[1.6rem] p-5">
           <h2 className="text-xl font-black text-[var(--brand-strong)]">{t.contact.urgent}</h2>
           <ul className="mt-4 space-y-3 text-sm text-[var(--muted)]">
+            <li>{t.contact.emergency}: <strong className="text-[var(--brand-strong)]"><a href={`tel:${t.contact.emergencyValue}`}>{t.contact.emergencyValue}</a></strong></li>
             <li>{t.contact.hotline}: <strong className="text-[var(--brand-strong)]"><a href={`tel:${t.contact.hotlineValue}`}>{t.contact.hotlineValue}</a></strong></li>
             <li>{t.contact.psychologist}: <strong className="text-[var(--brand-strong)]"><a href={`tel:${t.contact.psychologistValue}`}>{t.contact.psychologistValue}</a></strong></li>
             <li>{t.contact.social}: <strong className="text-[var(--brand-strong)]"><a href={`tel:${t.contact.socialValue}`}>{t.contact.socialValue}</a></strong></li>
-            <li>{t.contact.emergency}: <strong className="text-[var(--brand-strong)]"><a href={`tel:${t.contact.emergencyValue}`}>{t.contact.emergencyValue}</a></strong></li>
           </ul>
         </div>
 
