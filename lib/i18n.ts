@@ -155,7 +155,7 @@ export const translations = {
       hotlineValue: '116 123',
       psychologist: 'Dwie Kreski Association',
       psychologistValue: '+48 533 112 121',
-      social: 'SOS Jestem w Ciąży',
+      social: 'SOS Jestem w Ciąży foundation',
       socialValue: '+48 780 117 735',
       emergency: 'Danger or immediate risk - emergency number',
       emergencyValue: '112',

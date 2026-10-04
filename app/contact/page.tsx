@@ -40,10 +40,10 @@ export default function ContactPage() {
         <div className="card mobile-card rounded-[1.6rem] p-5">
           <h2 className="text-xl font-black text-[var(--brand-strong)]">{t.contact.urgent}</h2>
           <ul className="mt-4 space-y-3 text-sm text-[var(--muted)]">
-            <li>{t.contact.hotline}: <strong className="text-[var(--brand-strong)]">{t.contact.hotlineValue}</strong></li>
-            <li>{t.contact.psychologist}: <strong className="text-[var(--brand-strong)]">{t.contact.psychologistValue}</strong></li>
-            <li>{t.contact.social}: <strong className="text-[var(--brand-strong)]">{t.contact.socialValue}</strong></li>
-            <li>{t.contact.emergency}: <strong className="text-[var(--brand-strong)]">{t.contact.emergencyValue}</strong></li>
+            <li>{t.contact.hotline}: <strong className="text-[var(--brand-strong)]"><a href={`tel:${t.contact.hotlineValue}`}>{t.contact.hotlineValue}</a></strong></li>
+            <li>{t.contact.psychologist}: <strong className="text-[var(--brand-strong)]"><a href={`tel:${t.contact.psychologistValue}`}>{t.contact.psychologistValue}</a></strong></li>
+            <li>{t.contact.social}: <strong className="text-[var(--brand-strong)]"><a href={`tel:${t.contact.socialValue}`}>{t.contact.socialValue}</a></strong></li>
+            <li>{t.contact.emergency}: <strong className="text-[var(--brand-strong)]"><a href={`tel:${t.contact.emergencyValue}`}>{t.contact.emergencyValue}</a></strong></li>
           </ul>
         </div>
 
@@ -51,7 +51,7 @@ export default function ContactPage() {
           <h2 className="text-xl font-black text-[var(--brand-strong)]">{t.contact.talk}</h2>
           <p className="mt-3 text-sm text-[var(--muted)]">{t.contact.talkBody}</p>
           <div className="mt-4 rounded-2xl bg-[var(--panel-soft)] p-4 text-sm text-[var(--muted)]">
-            <strong className="text-[var(--brand-strong)]">{t.contact.writeToUs}:</strong> {t.contact.emailValue}
+            <strong className="text-[var(--brand-strong)]">{t.contact.writeToUs}:</strong> <a href={`mailto:${t.contact.emailValue}`}>{t.contact.emailValue}</a>
           </div>
         </div>
       </section>
