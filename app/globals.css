@@ -14,7 +14,7 @@
   --brand-strong: #3a2b64;
   --line: rgba(58, 43, 100, 0.12);
   --accent: #f9d8de;
-  --sage: #dfeee0;
+  --sage: #8A9A5B;
   --butter: #f7d773;
 }
 
@@ -39,7 +39,7 @@ body[data-theme='dark'] {
   --brand-strong: #f8d7df;
   --line: rgba(255, 255, 255, 0.1);
   --accent: #472b49;
-  --sage: #274638;
+  --sage: #cbe6cd;
   --butter: #7b5b14;
   background: linear-gradient(180deg, #17151d 0%, #201d2a 100%);
 }
@@ -131,6 +131,13 @@ body[data-theme='dark'] .nav-pill {
   border-radius: 1rem;
 }
 
+.leaflet-container a {
+  color: var(--brand-strong);
+}
+
+.leaflet-container a.text-white {
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
 .service-map-marker {
   background: transparent;
   border: 0;

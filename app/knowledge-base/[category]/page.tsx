@@ -18,6 +18,10 @@ export default async function KnowledgeCategoryPage({ params }: { params: Promis
     notFound();
   }
 
+  const categoryMap = new Map(
+    getCategories(locale).map((entry) => [entry.slug, entry])
+  );
+
   const childCategories = getCategories(locale).filter((entry) => entry.parent === category.slug);
   const articles = getArticles(locale).filter((article) => article.category === category.slug || article.category.startsWith(`${category.slug}/`));
 
@@ -74,7 +78,7 @@ export default async function KnowledgeCategoryPage({ params }: { params: Promis
             <Link key={article.slug} href={`/knowledge-base/${article.slug}`} className="card mobile-card block rounded-[1.5rem] p-5 transition hover:-translate-y-0.5">
               <div className="flex flex-col gap-3 md:flex-row md:items-start md:justify-between">
                 <div>
-                  <div className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--muted)]">{category.title}</div>
+                  <div className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--muted)]">{categoryMap.get(article.category)?.title ?? category.title}</div>
                   <h2 className="mt-2 text-2xl font-bold text-[var(--brand-strong)]">{article.title}</h2>
                   <p className="mt-2 max-w-3xl text-sm text-[var(--muted)]">{article.summary}</p>
                 </div>

@@ -251,6 +251,70 @@ articles:
         - "Rozważ różne scenariusze: opiekę dziadków, żłobek, nianię, część etatu czy elastyczny grafika."
         - "Pomocne jest ustalenie rezerw i priorytetów, zanim minie okres urlopu macierzyńskiego."
 
+  - slug: zdrowie/etapy-ciazy/ciaza-pod-koniec-terminu
+    category: zdrowie/etapy-ciazy
+    title:
+      en: Late-term pregnancy
+      pl: Ciąża późna
+    summary:
+      en: What happens in the final weeks of pregnancy, how the body prepares for birth, and what to expect near the due date.
+      pl: Co dzieje się w ostatnich tygodniach ciąży, jak organizm przygotowuje się do porodu i czego spodziewać się w okolicy terminu porodu.
+    tags:
+      en: [late-term pregnancy, pregnancy, due date]
+      pl: [późna ciąża, ciąża, termin porodu]
+    links:
+      - label:
+          en: Pregnancy care information
+          pl: Informacje o opiece nad ciężarną
+        url: https://www.gov.pl/web/zdrowie
+      - label:
+          en: Pregnancy and birth guidance
+          pl: Porady dotyczące ciąży i porodu
+        url: https://www.mp.pl/
+    content:
+      en:
+        - "Late-term pregnancy refers to the final weeks of pregnancy as the due date approaches. The baby continues to grow and mature, while the body gradually prepares for labour."
+        - "During this period, you may notice increasing pressure in the pelvis, more frequent urination, changes in vaginal discharge, or irregular contractions known as Braxton Hicks contractions."
+        - "The estimated due date is only an estimate. Labour may begin before or after that date, so regular prenatal monitoring remains important."
+        - "Contact your maternity team promptly if you notice heavy bleeding, severe pain, leaking fluid, regular painful contractions, or a significant change in your baby's usual movements."
+      pl:
+        - "Późna ciąża obejmuje ostatnie tygodnie ciąży, gdy zbliża się przewidywany termin porodu. Dziecko nadal rośnie i dojrzewa, a organizm stopniowo przygotowuje się do porodu."
+        - "W tym okresie możesz odczuwać większy ucisk w miednicy, częściej oddawać mocz, zauważyć zmiany wydzieliny z dróg rodnych lub nieregularne skurcze, nazywane skurczami Braxtona-Hicksa."
+        - "Przewidywany termin porodu jest jedynie orientacyjny. Poród może rozpocząć się przed nim lub po nim, dlatego ważne pozostają regularne kontrole ciąży."
+        - "Skontaktuj się niezwłocznie z personelem prowadzącym ciążę, jeśli pojawi się obfite krwawienie, silny ból, odpływanie płynu, regularne bolesne skurcze lub wyraźna zmiana zwyczajowej aktywności ruchowej dziecka."
+
+  - slug: zdrowie/etapy-ciazy/ciaza-przenoszona
+    category: zdrowie/etapy-ciazy
+    title:
+      en: Postterm pregnancy
+      pl: Ciąża przenoszona
+    summary:
+      en: What postterm pregnancy means, how pregnancy is monitored after the due date, and when induction of labour may be considered.
+      pl: Co oznacza ciąża przenoszona, jak monitoruje się ciążę po terminie i kiedy można rozważyć wywołanie porodu.
+    tags:
+      en: [postterm pregnancy, pregnancy, induction]
+      pl: [ciąża przenoszona, ciąża, indukcja porodu]
+    links:
+      - label:
+          en: Pregnancy and birth information
+          pl: Informacje o ciąży i porodzie
+        url: https://www.gov.pl/web/zdrowie
+      - label:
+          en: Medical guidance on pregnancy
+          pl: Informacje medyczne dotyczące ciąży
+        url: https://www.mp.pl/
+    content:
+      en:
+        - "Postterm pregnancy means that the pregnancy continues beyond the expected due date. Passing the due date alone does not necessarily mean that something is wrong, because the due date is an estimate."
+        - "After the due date, your doctor or midwife may recommend more frequent monitoring of your health and the baby's wellbeing. Depending on the situation, this can include monitoring the baby's heart rate and assessing the amount of amniotic fluid."
+        - "If the pregnancy continues for longer, your healthcare team may discuss induction of labour. The decision depends on factors such as gestational age, test results, the health of the pregnant person and baby, and current medical recommendations."
+        - "A significant reduction in the baby's usual movements, bleeding, leaking fluid, severe pain, or other concerning symptoms require prompt contact with the maternity team."
+      pl:
+        - "Ciąża przenoszona oznacza, że ciąża trwa dłużej niż przewidywany termin porodu. Samo przekroczenie terminu nie musi oznaczać problemu, ponieważ termin porodu jest datą orientacyjną."
+        - "Po terminie lekarz lub położna mogą zalecić częstsze monitorowanie stanu zdrowia ciężarnej i dobrostanu dziecka. W zależności od sytuacji może obejmować ono między innymi monitorowanie czynności serca dziecka i ocenę ilości płynu owodniowego."
+        - "Jeżeli ciąża trwa dłużej, personel medyczny może omówić możliwość indukcji porodu. Decyzja zależy między innymi od wieku ciążowego, wyników badań, stanu zdrowia ciężarnej i dziecka oraz aktualnych zaleceń medycznych."
+        - "Wyraźne zmniejszenie zwyczajowej aktywności ruchowej dziecka, krwawienie, odpływanie płynu, silny ból lub inne niepokojące objawy wymagają szybkiego kontaktu z personelem prowadzącym ciążę."
+
   - slug: zdrowie/polog/regeneracja-po-porodzie
     category: zdrowie/polog
     title:

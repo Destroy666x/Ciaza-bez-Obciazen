@@ -23,7 +23,7 @@ function getStoredPregnancyWeek(): number {
   }
 
   const storedWeek = Number(window.localStorage.getItem(PREGNANCY_WEEK_STORAGE_KEY) ?? '20');
-  return Number.isFinite(storedWeek) ? Math.min(40, Math.max(1, storedWeek)) : 20;
+  return Number.isFinite(storedWeek) ? Math.min(45, Math.max(1, storedWeek)) : 20;
 }
 
 function getStoredHomeLocation(): StoredLocation | null {
@@ -230,7 +230,7 @@ export default function SettingsPage() {
           <input
             type="range"
             min={1}
-            max={40}
+            max={45}
             value={week}
             onChange={(event) => setWeek(Number(event.target.value))}
             className="w-full accent-[var(--brand)]"

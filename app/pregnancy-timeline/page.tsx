@@ -12,7 +12,7 @@ function getStoredPregnancyWeek(): number {
   }
 
   const storedWeek = Number(window.localStorage.getItem(PREGNANCY_WEEK_STORAGE_KEY) ?? '20');
-  return Number.isFinite(storedWeek) ? Math.min(40, Math.max(1, storedWeek)) : 20;
+  return Number.isFinite(storedWeek) ? Math.min(45, Math.max(1, storedWeek)) : 20;
 }
 
 const milestones = [
@@ -23,6 +23,9 @@ const milestones = [
   { week: 32, title: 'Mental support and simple planning', summary: 'Reduce stress, plan support and organise the day-to-day routine.', article: 'zdrowie/zdrowie-psychiczne' },
   { week: 36, title: 'Birth is approaching', summary: 'Finish important appointments and prepare a practical support plan.', article: 'prawo/zwolnienie-od-pracy' },
   { week: 40, title: 'Due date and early postpartum days', summary: 'Support, care plan and preparation for the next life stage.', article: 'praca/plan-powrotu-do-pracy' },
+  { week: 41, title: 'Late-term pregnancy', summary: 'What to expect after the due date, how pregnancy is monitored and how to prepare for birth.', article: 'zdrowie/etapy-ciazy/ciaza-pod-koniec-terminu' },
+  { week: 42, title: 'Postterm pregnancy', summary: 'How postterm pregnancy is monitored, when induction may be considered and what warning signs to watch for.', article: 'zdrowie/etapy-ciazy/ciaza-przenoszona' },
+  { week: 45, title: 'Postpartum recovery', summary: 'Recovery after birth, caring for your body and adjusting to life with a newborn.', article: 'zdrowie/polog/regeneracja-po-porodzie' },
 ];
 
 export default function TimelinePage() {
@@ -33,7 +36,7 @@ export default function TimelinePage() {
     window.localStorage.setItem(PREGNANCY_WEEK_STORAGE_KEY, String(week));
   }, [week]);
 
-  const progress = Math.min(100, (week / 40) * 100);
+  const progress = Math.min(100, (week / 45) * 100);
   const activeMilestone = milestones.filter((milestone) => milestone.week <= week).at(-1) ?? milestones[0];
 
   return (
@@ -61,7 +64,7 @@ export default function TimelinePage() {
           <input
             type="range"
             min={1}
-            max={40}
+            max={45}
             value={week}
             onChange={(event) => setWeek(Number(event.target.value))}
             className="w-full accent-[var(--brand)]"
@@ -70,35 +73,51 @@ export default function TimelinePage() {
           <div className="mt-3 flex justify-between text-[11px] font-medium text-[var(--muted)]">
             <span>1</span>
             <span>20</span>
-            <span>40</span>
+            <span>45</span>
           </div>
         </div>
 
         <div className="mt-6">
-          <div className="relative">
+          <div className="relative h-12">
             <div className="absolute left-0 right-0 top-5 h-1 rounded-full bg-[var(--line)]" />
-            <div className="absolute left-0 top-5 h-1 rounded-full bg-[var(--sage)]" style={{ width: `${progress}%` }} />
-            <div className="relative flex items-start justify-between gap-2">
-              {milestones.map((milestone) => {
-                const isPast = milestone.week <= week;
-                const isCurrent = milestone.week === week;
 
-                return (
-                  <div key={milestone.week} className="flex w-1/7 min-w-0 flex-col items-center text-center">
-                    <div
-                      className={`mt-2 h-5 w-5 rounded-full border-4 ${
-                        isPast
-                          ? 'border-[var(--sage)] bg-[var(--sage)]'
-                          : isCurrent
-                            ? 'border-[var(--brand)] bg-[var(--brand)]'
+            <div
+              className="absolute left-0 top-5 h-1 rounded-full bg-[var(--sage)]"
+              style={{ width: `${progress}%` }}
+            />
+
+            {milestones.map((milestone) => {
+              const isPast = milestone.week <= week;
+              const isCurrent = milestone.week === week;
+              const isPost40 = milestone.week > 40;
+              const position = milestone.week / 45 * 100;
+
+              return (
+                <div
+                  key={milestone.week}
+                  className="absolute top-0 -translate-x-1/2 text-center"
+                  style={{ left: `${position}%` }}
+                >
+                  <div
+                    className={`mx-auto mt-2 h-5 w-5 rounded-full border-4 ${
+                      isCurrent
+                        ? 'border-[var(--brand)] bg-[var(--brand)]'
+                        : isPast
+                          ? isPost40
+                            ? 'border-[var(--butter)] bg-[var(--butter)]'
+                            : 'border-[var(--sage)] bg-[var(--sage)]'
+                          : isPost40
+                            ? 'border-[var(--butter)] bg-[var(--panel)]'
                             : 'border-[var(--line)] bg-[var(--panel)]'
-                      }`}
-                    />
-                    <div className="mt-3 text-[10px] font-black text-[var(--brand-strong)]">{milestone.week}</div>
+                    }`}
+                  />
+
+                  <div className="mt-3 text-[10px] font-black text-[var(--brand-strong)]">
+                    {milestone.week}
                   </div>
-                );
-              })}
-            </div>
+                </div>
+              );
+            })}
           </div>
         </div>
       </section>
